@@ -1,0 +1,441 @@
+#board
+{
+  height: 1024px;
+  width: 1024px;
+  background-color: red;
+  #top_row
+  {
+    height: 152px;
+    width: 1024px;
+    .left.corner
+    {
+      width: 152px;
+      height: 152px;
+      background-color: yellow;
+      float: left;
+    }
+    .horiz_locations
+    {
+      width: 720px;
+      height: 152px;
+      background-color: blue;
+      float: left;
+      img
+      {
+        width: 78px;
+        margin-left: 1px;
+      }
+      .color
+      {
+        width: 80px;
+        height: 30px;
+      }
+      #parthenon
+      {
+        height: 152px;
+        width: 80px;
+        background-color:red;
+        float: left;
+      }
+      .chance
+      {
+        height: 152px;
+        width: 80px;
+        background-color:yellow;
+        float: left;
+      }
+      #montgomery
+      {
+        height: 152px;
+        width: 80px;
+        background-color:pink;
+        float: left;
+      }
+      #centennial
+      {
+        height: 152px;
+        width: 80px;
+        background-color:green;
+        float: left;
+      }
+      .university
+      {
+        height: 152px;
+        width: 80px;
+        background-color:orange;
+        float: left;
+      }
+      #hall_of_fame
+      {
+        height: 152px;
+        width: 80px;
+        background-color:purple;
+        float: left;
+      }
+      #music_city_center
+      {
+        height: 152px;
+        width: 80px;
+        background-color:blue;
+        float: left;
+      }
+      .utility
+      {
+        height: 152px;
+        width: 80px;
+        background-color:black;
+        float: left;
+      }
+      #shelby
+      {
+        height: 152px;
+        width: 80px;
+        background-color:white;
+        float: left;
+      }
+
+    }
+    .right.corner
+    {
+      width: 152px;
+      height: 152px;
+      background-color: green;
+      float: left;
+    }
+  }
+  #middle_row
+  {
+    .left.vert_locations
+    {
+      width: 152px;
+      height: 720px;
+      background-color: orange;
+      float: left;
+      p
+      {
+        width: 18px;
+        height: 80px;
+        float: left;
+      }
+      img
+      {
+        height: 78px;
+        margin-top: 1px;
+      }
+      .color
+      {
+        width: 30px;
+        height: 80px;
+      }
+      #rca
+      {
+        height: 80px;
+        width: 152px;
+        background-color:red;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #wpln
+      {
+        height: 80px;
+        width: 152px;
+        background-color:yellow;
+        p
+        {
+          margin: 0;
+        }
+      }
+      .community_chest
+      {
+        height: 80px;
+        width: 152px;
+        background-color:pink;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #belmont
+      {
+        height: 80px;
+        width: 152px;
+        background-color:green;
+        p
+        {
+          margin: 0;
+        }
+      }
+      .university
+      {
+        height: 80px;
+        width: 152px;
+        background-color:orange;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #donut
+      {
+        height: 80px;
+        width: 152px;
+        background-color:purple;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #smoke
+      {
+        height: 80px;
+        width: 152px;
+        background-color:blue;
+        p
+        {
+          margin: 0;
+        }
+      }
+      .utility
+      {
+        height: 80px;
+        width: 152px;
+        background-color:black;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #bluebird
+      {
+        height: 80px;
+        width: 152px;
+        background-color:white;
+        p
+        {
+          margin: 0;
+        }
+      }
+    }
+    #centre
+    {
+      width: 720px;
+      height: 720px;
+      background-color: purple;
+      float: left;
+    }
+    .right.vert_locations
+    {
+      width: 152px;
+      height: 720px;
+      background-color: black;
+      float: left;
+      .color
+      {
+        width: 30px;
+        height: 80px;
+        float: left;
+      }
+      img
+      {
+        height: 78px;
+        margin-top: 1px;
+        float: left;
+      }
+      p
+      {
+        width: 18px;
+        height: 80px;
+        float: left;
+      }
+      #union
+      {
+        height: 80px;
+        width: 152px;
+        background-color:red;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #frist
+      {
+        height: 80px;
+        width: 152px;
+        background-color:yellow;
+        p
+        {
+          margin: 0;
+        }
+      }
+      .community_chest
+      {
+        height: 80px;
+        width: 152px;
+        background-color:pink;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #ryman
+      {
+        height: 80px;
+        width: 152px;
+        background-color:green;
+        p
+        {
+          margin: 0;
+        }
+      }
+      .university
+      {
+        height: 80px;
+        width: 152px;
+        background-color:orange;
+        p
+        {
+          margin: 0;
+        }
+      }
+      .chance
+      {
+        height: 80px;
+        width: 152px;
+        background-color:purple;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #hermitage
+      {
+        height: 80px;
+        width: 152px;
+        background-color:blue;
+        p
+        {
+          margin: 0;
+        }
+      }
+      .tax
+      {
+        height: 80px;
+        width: 152px;
+        background-color:black;
+        p
+        {
+          margin: 0;
+        }
+      }
+      #plantation
+      {
+        height: 80px;
+        width: 152px;
+        background-color:white;
+        p
+        {
+          margin: 0;
+        }
+      }
+    }
+  }
+  #bottom_row
+  {
+    .left.corner
+    {
+      width: 152px;
+      height: 152px;
+      background-color: #222222;
+      float: left;
+    }
+    .horiz_locations
+    {
+      width: 720px;
+      height: 152px;
+      background-color: #888888;
+      float: left;
+      img
+      {
+        width: 78px;
+        margin-left: 1px;
+      }
+      .color
+      {
+        width: 80px;
+        height: 30px;
+      }
+      #mere_bulles
+      {
+        height: 152px;
+        width: 80px;
+        background-color:red;
+        float: left;
+      }
+      #percy_warner
+      {
+        height: 152px;
+        width: 80px;
+        background-color:yellow;
+        float: left;
+      }
+      .chance
+      {
+        height: 152px;
+        width: 80px;
+        background-color:pink;
+        float: left;
+      }
+      #radnor
+      {
+        height: 152px;
+        width: 80px;
+        background-color:green;
+        float: left;
+      }
+      .university
+      {
+        height: 152px;
+        width: 80px;
+        background-color:orange;
+        float: left;
+      }
+      .tax
+      {
+        height: 152px;
+        width: 80px;
+        background-color:purple;
+        float: left;
+      }
+      #zoo
+      {
+        height: 152px;
+        width: 80px;
+        background-color:blue;
+        float: left;
+      }
+      .community_chest
+      {
+        height: 152px;
+        width: 80px;
+        background-color:black;
+        float: left;
+      }
+      #bobbys
+      {
+        height: 152px;
+        width: 80px;
+        background-color:white;
+        float: left;
+      }
+    }
+    .right.corner
+    {
+      width: 152px;
+      height: 152px;
+      background-color: #cccccc;
+      float: left;
+    }
+  }
+}
