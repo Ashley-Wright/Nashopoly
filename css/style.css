@@ -30,6 +30,8 @@
         width: 80px;
         background-color: red;
         float: left; }
+        #board #top_row .horiz_locations #parthenon .color {
+          background-color: #00a89d; }
       #board #top_row .horiz_locations .chance {
         height: 152px;
         width: 80px;
@@ -40,11 +42,15 @@
         width: 80px;
         background-color: pink;
         float: left; }
+        #board #top_row .horiz_locations #montgomery .color {
+          background-color: #00a89d; }
       #board #top_row .horiz_locations #centennial {
         height: 152px;
         width: 80px;
         background-color: green;
         float: left; }
+        #board #top_row .horiz_locations #centennial .color {
+          background-color: #00a89d; }
       #board #top_row .horiz_locations .university {
         height: 152px;
         width: 80px;
@@ -55,11 +61,15 @@
         width: 80px;
         background-color: purple;
         float: left; }
+        #board #top_row .horiz_locations #hall_of_fame .color {
+          background-color: #efbe52; }
       #board #top_row .horiz_locations #music_city_center {
         height: 152px;
         width: 80px;
         background-color: blue;
         float: left; }
+        #board #top_row .horiz_locations #music_city_center .color {
+          background-color: #efbe52; }
       #board #top_row .horiz_locations .utility {
         height: 152px;
         width: 80px;
@@ -70,6 +80,8 @@
         width: 80px;
         background-color: white;
         float: left; }
+        #board #top_row .horiz_locations #shelby .color {
+          background-color: #efbe52; }
     #board #top_row .right.corner {
       width: 152px;
       height: 152px;
@@ -86,10 +98,12 @@
       float: left; }
     #board #middle_row .left.vert_locations img {
       height: 78px;
-      margin-top: 1px; }
+      margin-top: 1px;
+      float: left; }
     #board #middle_row .left.vert_locations .color {
       width: 30px;
-      height: 80px; }
+      height: 80px;
+      float: left; }
     #board #middle_row .left.vert_locations #rca {
       height: 80px;
       width: 152px;
@@ -144,11 +158,13 @@
       background-color: white; }
       #board #middle_row .left.vert_locations #bluebird p {
         margin: 0; }
-  #board #middle_row #centre {
+  #board #middle_row #center {
     width: 720px;
     height: 720px;
-    background-color: purple;
     float: left; }
+    #board #middle_row #center img {
+      width: 720px;
+      height: 720px; }
   #board #middle_row .right.vert_locations {
     width: 152px;
     height: 720px;
