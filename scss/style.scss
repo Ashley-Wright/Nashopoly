@@ -2,9 +2,16 @@
 @import 'fonts';
 @import 'header';
 @import 'footer';
-@import 'home;
+@import 'home';
 @import 'board';
 @import 'pieces';
 @import 'cards';
 @import 'faq';
 @import 'contact';
+
+#main
+{
+  width: 1024px;
+  margin: auto;
+}
+
