@@ -2,12 +2,6 @@
 @import 'fonts';
 @import 'header';
 @import 'footer';
-@import 'home';
-@import 'board';
-@import 'pieces';
-@import 'cards';
-@import 'faq';
-@import 'contact';
 
 #main
 {
@@ -15,3 +9,9 @@
   margin: auto;
 }
 
+@import 'home';
+@import 'board';
+@import 'pieces';
+@import 'cards';
+@import 'faq';
+@import 'contact';

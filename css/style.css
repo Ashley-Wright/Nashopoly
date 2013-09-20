@@ -1,3 +1,11 @@
 #main {
   width: 1024px;
   margin: auto; }
+
+#cards {
+  width: 100%; }
+  #cards .card {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: red; }

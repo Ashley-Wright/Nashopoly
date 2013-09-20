@@ -1,0 +1,18 @@
+
+$card_width: 200px;
+$card_height: 100px;
+
+#cards
+{
+  width: 100%;
+  // background-color: blue;
+
+  .card
+  {
+    width: $card_width;
+    height: $card_height;
+    position: absolute;
+    background-color: red;
+  }
+
+}
