@@ -1,0 +1,9 @@
+
+@mixin card_fn($top, $left, $transform)
+{
+  top: $top;
+  left: $left;
+  transform: $transform;
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+}
