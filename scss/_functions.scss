@@ -1,11 +1,14 @@
 
-@mixin card_fn($top, $left, $transform)
+@mixin card_fn($top, $left, $transform, $transition)
 {
   top: $top;
   left: $left;
   transform: $transform;
   -webkit-transform: $transform;
   -moz-transform: $transform;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
 }
 
 @mixin card_hover_fn($transform1, $transform2, $z-index, $border, $box-shadow)

@@ -1,7 +1,8 @@
 
 $card_width: 200px;
-$card_height: 100px;
-$cchest_header_fsize: 19px;
+$card_height: 110px;
+$cchest_header_fsize: 18px;
+$cchest_p_fsize: 9px;
 
 #cards
 {
@@ -24,44 +25,32 @@ $cchest_header_fsize: 19px;
 
         &:nth-of-type(1)
         {
-          @include card_fn(70px, 60px, rotate(-5deg));
-          -webkit-transition: all 0.2s ease-in-out;
-          -moz-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
-          // -webkit-transition: transform 5s, width 5s, height 5s;
-          // -moz-transition: transform 5s, width 5s, height 5s;
-          // transition: transform 5s, width 5s, height 5s;
+          @include card_fn(70px, 60px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(2)
         {
-          @include card_fn(80px, 320px, rotate(3deg));
+          @include card_fn(80px, 320px, rotate(3deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(3)
         {
-          @include card_fn(70px, 600px, rotate(-2deg));
+          @include card_fn(70px, 600px, rotate(-2deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(4)
         {
-          @include card_fn(220px, 70px, rotate(2deg));
+          @include card_fn(220px, 70px, rotate(2deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(5)
         {
-          @include card_fn(200px, 450px, rotate(-1deg));
+          @include card_fn(200px, 450px, rotate(-1deg), all 0.3s ease-in-out);
         }
 
         &:hover
           {
-            // @include card_hover_fn(rotate(0deg), 300px, 150px, 1, 2px solid #333333, 3px 3px 5px #333333);
-            @include card_hover_fn(rotate(0deg), scale(1.5), 1, 2px solid #333333, 3px 3px 5px #333333);
-            // -webkit-transform: rotate(0deg);
-            // transform: rotate(0deg);
-            // -webkit-transform: scale(1.5);
-            // transform: scale(1.5);
-
+            @include card_hover_fn(rotate(0deg), scale(2), 1, 2px solid #333333, 3px 3px 5px #333333);
           }
 
         h3
@@ -75,6 +64,8 @@ $cchest_header_fsize: 19px;
         {
           padding: 0 10px;
           margin: 0;
+          font-size: $cchest_p_fsize;
+          font-family: Patua+One;
         }
     }
   }

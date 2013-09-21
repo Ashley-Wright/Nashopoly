@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Damion);
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
 #main {
   width: 1024px;
   margin: auto; }
@@ -307,7 +308,6 @@
     height: 152px;
     background-color: #cccccc;
     float: left; }
-
     #board #bottom_row .right.corner img {
       height: 152px;
       width: 152px; }
@@ -320,7 +320,7 @@
     position: relative; }
     #cards #cchest .card {
       width: 200px;
-      height: 100px;
+      height: 110px;
       position: absolute;
       background-color: #ffb03d;
       border: 1px solid #222222;
@@ -331,40 +331,52 @@
         transform: rotate(-5deg);
         -webkit-transform: rotate(-5deg);
         -moz-transform: rotate(-5deg);
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out; }
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(2) {
         top: 80px;
         left: 320px;
         transform: rotate(3deg);
         -webkit-transform: rotate(3deg);
-        -moz-transform: rotate(3deg); }
+        -moz-transform: rotate(3deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(3) {
         top: 70px;
         left: 600px;
         transform: rotate(-2deg);
         -webkit-transform: rotate(-2deg);
-        -moz-transform: rotate(-2deg); }
+        -moz-transform: rotate(-2deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(4) {
         top: 220px;
         left: 70px;
         transform: rotate(2deg);
         -webkit-transform: rotate(2deg);
-        -moz-transform: rotate(2deg); }
+        -moz-transform: rotate(2deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(5) {
         top: 200px;
         left: 450px;
         transform: rotate(-1deg);
         -webkit-transform: rotate(-1deg);
-        -moz-transform: rotate(-1deg); }
+        -moz-transform: rotate(-1deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
       #cards #cchest .card:hover {
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         transform: rotate(0deg);
-        -webkit-transform: scale(1.5);
-        -moz-transform: scale(1.5);
-        transform: scale(1.5);
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        transform: scale(2);
         z-index: 1;
         border: 2px solid #333333;
         -webkit-box-shadow: 3px 3px 5px #333333;
@@ -373,7 +385,9 @@
       #cards #cchest .card h3 {
         padding: 7px 10px 0 10px;
         margin: 0;
-        font-size: 19px; }
+        font-size: 18px; }
       #cards #cchest .card p {
         padding: 0 10px;
-        margin: 0; }
+        margin: 0;
+        font-size: 9px;
+        font-family: PatuaOne; }
