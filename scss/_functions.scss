@@ -7,3 +7,18 @@
   -webkit-transform: $transform;
   -moz-transform: $transform;
 }
+
+@mixin card_hover_fn($transform1, $transform2, $z-index, $border, $box-shadow)
+{
+  -webkit-transform: $transform1;
+  -moz-transform: $transform1;
+  transform: $transform1;
+  -webkit-transform: $transform2;
+  -moz-transform: $transform2;
+  transform: $transform2;
+  z-index: $z-index;
+  border: $border;
+  -webkit-box-shadow: $box-shadow;
+  -moz-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+}
