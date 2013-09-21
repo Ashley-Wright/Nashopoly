@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Damion);
 @import url(http://fonts.googleapis.com/css?family=Patua+One);
+@import url(http://fonts.googleapis.com/css?family=Parisienne);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
 #main {
   width: 1024px;
   margin: auto; }
@@ -318,16 +320,23 @@
   height: 1024px; }
   #cards #cchest {
     position: relative; }
+    #cards #cchest h1 {
+      text-align: right;
+      width: 940px;
+      position: absolute;
+      top: 12px;
+      font-family: "Damion";
+      font-size: 42px; }
     #cards #cchest .card {
-      width: 200px;
-      height: 110px;
+      width: 160px;
+      height: 85px;
       position: absolute;
       background-color: #ffb03d;
       border: 1px solid #222222;
       font-family: "Damion"; }
       #cards #cchest .card:nth-of-type(1) {
-        top: 70px;
-        left: 60px;
+        top: 100px;
+        left: 470px;
         transform: rotate(-5deg);
         -webkit-transform: rotate(-5deg);
         -moz-transform: rotate(-5deg);
@@ -335,38 +344,38 @@
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(2) {
-        top: 80px;
-        left: 320px;
-        transform: rotate(3deg);
-        -webkit-transform: rotate(3deg);
-        -moz-transform: rotate(3deg);
+        top: 150px;
+        left: 620px;
+        transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(3) {
-        top: 70px;
-        left: 600px;
-        transform: rotate(-2deg);
-        -webkit-transform: rotate(-2deg);
-        -moz-transform: rotate(-2deg);
+        top: 110px;
+        left: 780px;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(4) {
-        top: 220px;
-        left: 70px;
-        transform: rotate(2deg);
-        -webkit-transform: rotate(2deg);
-        -moz-transform: rotate(2deg);
+        top: 250px;
+        left: 620px;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
       #cards #cchest .card:nth-of-type(5) {
-        top: 200px;
-        left: 450px;
-        transform: rotate(-1deg);
-        -webkit-transform: rotate(-1deg);
-        -moz-transform: rotate(-1deg);
+        top: 220px;
+        left: 800px;
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
@@ -374,20 +383,101 @@
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         transform: rotate(0deg);
-        -webkit-transform: scale(2);
-        -moz-transform: scale(2);
-        transform: scale(2);
+        -webkit-transform: scale(2.3);
+        -moz-transform: scale(2.3);
+        transform: scale(2.3);
         z-index: 1;
         border: 2px solid #333333;
         -webkit-box-shadow: 3px 3px 5px #333333;
         -moz-box-shadow: 3px 3px 5px #333333;
         box-shadow: 3px 3px 5px #333333; }
       #cards #cchest .card h3 {
-        padding: 7px 10px 0 10px;
+        padding: 5px 10px 0 10px;
         margin: 0;
-        font-size: 18px; }
+        font-size: 13px; }
       #cards #cchest .card p {
         padding: 0 10px;
         margin: 0;
-        font-size: 9px;
+        font-size: 6px;
         font-family: PatuaOne; }
+  #cards #chance {
+    position: relative; }
+    #cards #chance h1 {
+      position: absolute;
+      top: 560px;
+      padding-left: 55px;
+      font-family: "Yellowtail";
+      font-size: 42px; }
+    #cards #chance .card {
+      width: 160px;
+      height: 85px;
+      position: absolute;
+      background-color: #e82222;
+      border: 1px solid black; }
+      #cards #chance .card:nth-of-type(1) {
+        top: 680px;
+        left: 60px;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(2) {
+        top: 690px;
+        left: 240px;
+        transform: rotate(3deg);
+        -webkit-transform: rotate(3deg);
+        -moz-transform: rotate(3deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(3) {
+        top: 830px;
+        left: 60px;
+        transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        -moz-transform: rotate(4deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(4) {
+        top: 800px;
+        left: 220px;
+        transform: rotate(-4deg);
+        -webkit-transform: rotate(-4deg);
+        -moz-transform: rotate(-4deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(5) {
+        top: 810px;
+        left: 380px;
+        transform: rotate(-6deg);
+        -webkit-transform: rotate(-6deg);
+        -moz-transform: rotate(-6deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(2.3);
+        -moz-transform: scale(2.3);
+        transform: scale(2.3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
+      #cards #chance .card h3 {
+        font-family: "Yellowtail";
+        font-size: 14px;
+        margin: 0;
+        padding: 5px 10px 0 10px; }
+      #cards #chance .card p {
+        font-family: "Patua+One";
+        font-size: 6px;
+        margin: 0;
+        padding: 0 10px; }

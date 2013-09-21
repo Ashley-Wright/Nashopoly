@@ -1,8 +1,8 @@
 
-$card_width: 200px;
-$card_height: 110px;
-$cchest_header_fsize: 18px;
-$cchest_p_fsize: 9px;
+$card_width: 160px;
+$card_height: 85px;
+$cchest_header_fsize: 13px;
+$cchest_p_fsize: 6px;
 
 #cards
 {
@@ -13,6 +13,16 @@ $cchest_p_fsize: 9px;
   #cchest
   {
     position: relative;
+
+    h1
+    {
+      text-align: right;
+      width: 940px;
+      position: absolute;
+      top: 12px;
+      font-family: "Damion";
+      font-size: 42px;
+    }
 
     .card
     {
@@ -25,37 +35,37 @@ $cchest_p_fsize: 9px;
 
         &:nth-of-type(1)
         {
-          @include card_fn(70px, 60px, rotate(-5deg), all 0.3s ease-in-out);
+          @include card_fn(100px, 470px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(2)
         {
-          @include card_fn(80px, 320px, rotate(3deg), all 0.3s ease-in-out);
+          @include card_fn(150px, 620px, rotate(7deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(3)
         {
-          @include card_fn(70px, 600px, rotate(-2deg), all 0.3s ease-in-out);
+          @include card_fn(110px, 780px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(4)
         {
-          @include card_fn(220px, 70px, rotate(2deg), all 0.3s ease-in-out);
+          @include card_fn(250px, 620px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
         &:nth-of-type(5)
         {
-          @include card_fn(200px, 450px, rotate(-1deg), all 0.3s ease-in-out);
+          @include card_fn(220px, 800px, rotate(5deg), all 0.3s ease-in-out);
         }
 
         &:hover
           {
-            @include card_hover_fn(rotate(0deg), scale(2), 1, 2px solid #333333, 3px 3px 5px #333333);
+            @include card_hover_fn(rotate(0deg), scale(2.3), 1, 2px solid #333333, 3px 3px 5px #333333);
           }
 
         h3
         {
-          padding: 7px 10px 0 10px;
+          padding: 5px 10px 0 10px;
           margin: 0;
           font-size: $cchest_header_fsize;
         }
@@ -68,6 +78,82 @@ $cchest_p_fsize: 9px;
           font-family: Patua+One;
         }
     }
+  }
+
+  #chance
+  {
+
+    position: relative;
+
+    h1
+    {
+      position: absolute;
+      top: 560px;
+      padding-left: 55px;
+      font-family: "Yellowtail";
+      font-size: 42px;
+    }
+
+    .card
+    {
+
+      width: $card_width;
+      height: $card_height;
+      position: absolute;
+      background-color: $chance_color;
+      border: 1px solid black;
+
+      &:nth-of-type(1)
+      {
+        @include card_fn(680px, 60px, rotate(-5deg), all 0.3s ease-in-out);
+      }
+
+      &:nth-of-type(2)
+      {
+        @include card_fn(690px, 240px, rotate(3deg), all 0.3s ease-in-out);
+      }
+
+      &:nth-of-type(3)
+      {
+        @include card_fn(830px, 60px, rotate(4deg), all 0.3s ease-in-out);
+      }
+
+      &:nth-of-type(4)
+      {
+        @include card_fn(800px, 220px, rotate(-4deg), all 0.3s ease-in-out);
+      }
+
+      &:nth-of-type(5)
+      {
+        @include card_fn(810px, 380px, rotate(-6deg), all 0.3s ease-in-out);
+      }
+
+      &:hover
+        {
+          @include card_hover_fn(rotate(0deg), scale(2.3), 1, 2px solid #333333, 3px 3px 5px #333333);
+        }
+
+
+      h3
+      {
+        font-family: "Yellowtail";
+        font-size: 14px;
+        margin: 0;
+        padding: 5px 10px 0 10px;
+
+      }
+
+      p
+      {
+        font-family: "Patua+One";
+        font-size: $cchest_p_fsize;
+        margin: 0;
+        padding: 0 10px;
+      }
+
+    }
+
+
   }
 
 }
