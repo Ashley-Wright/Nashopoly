@@ -9,7 +9,7 @@
 #board {
   height: 1024px;
   width: 1024px;
-  background-color: red; }
+  background-color: #cfe1c4; }
   #board #top_row {
     height: 152px;
     width: 1024px; }
@@ -18,10 +18,12 @@
       height: 152px;
       background-color: yellow;
       float: left; }
+      #board #top_row .left.corner img {
+        height: 152px;
+        width: 152px; }
     #board #top_row .horiz_locations {
       width: 720px;
       height: 152px;
-      background-color: blue;
       float: left; }
       #board #top_row .horiz_locations img {
         width: 78px;
@@ -32,57 +34,48 @@
       #board #top_row .horiz_locations #parthenon {
         height: 152px;
         width: 80px;
-        background-color: red;
         float: left; }
         #board #top_row .horiz_locations #parthenon .color {
-          background-color: #00a89d; }
+          background-color: #f22a39; }
       #board #top_row .horiz_locations .chance {
         height: 152px;
         width: 80px;
-        background-color: yellow;
         float: left; }
       #board #top_row .horiz_locations #montgomery {
         height: 152px;
         width: 80px;
-        background-color: pink;
         float: left; }
         #board #top_row .horiz_locations #montgomery .color {
-          background-color: #00a89d; }
+          background-color: #f22a39; }
       #board #top_row .horiz_locations #centennial {
         height: 152px;
         width: 80px;
-        background-color: green;
         float: left; }
         #board #top_row .horiz_locations #centennial .color {
-          background-color: #00a89d; }
+          background-color: #f22a39; }
       #board #top_row .horiz_locations .university {
         height: 152px;
         width: 80px;
-        background-color: orange;
         float: left; }
       #board #top_row .horiz_locations #hall_of_fame {
         height: 152px;
         width: 80px;
-        background-color: purple;
         float: left; }
         #board #top_row .horiz_locations #hall_of_fame .color {
           background-color: #efbe52; }
       #board #top_row .horiz_locations #music_city_center {
         height: 152px;
         width: 80px;
-        background-color: blue;
         float: left; }
         #board #top_row .horiz_locations #music_city_center .color {
           background-color: #efbe52; }
       #board #top_row .horiz_locations .utility {
         height: 152px;
         width: 80px;
-        background-color: black;
         float: left; }
       #board #top_row .horiz_locations #shelby {
         height: 152px;
         width: 80px;
-        background-color: white;
         float: left; }
         #board #top_row .horiz_locations #shelby .color {
           background-color: #efbe52; }
@@ -91,10 +84,12 @@
       height: 152px;
       background-color: green;
       float: left; }
+      #board #top_row .right.corner img {
+        height: 152px;
+        width: 152px; }
   #board #middle_row .left.vert_locations {
     width: 152px;
     height: 720px;
-    background-color: orange;
     float: left; }
     #board #middle_row .left.vert_locations p {
       width: 18px;
@@ -110,58 +105,61 @@
       float: left; }
     #board #middle_row .left.vert_locations #rca {
       height: 80px;
-      width: 152px;
-      background-color: red; }
+      width: 152px; }
       #board #middle_row .left.vert_locations #rca p {
         margin: 0; }
+      #board #middle_row .left.vert_locations #rca .color {
+        background-color: #00a89d; }
     #board #middle_row .left.vert_locations #wpln {
       height: 80px;
-      width: 152px;
-      background-color: yellow; }
+      width: 152px; }
       #board #middle_row .left.vert_locations #wpln p {
         margin: 0; }
+      #board #middle_row .left.vert_locations #wpln .color {
+        background-color: #00a89d; }
     #board #middle_row .left.vert_locations .community_chest {
       height: 80px;
-      width: 152px;
-      background-color: pink; }
+      width: 152px; }
       #board #middle_row .left.vert_locations .community_chest p {
         margin: 0; }
     #board #middle_row .left.vert_locations #belmont {
       height: 80px;
-      width: 152px;
-      background-color: green; }
+      width: 152px; }
       #board #middle_row .left.vert_locations #belmont p {
         margin: 0; }
+      #board #middle_row .left.vert_locations #belmont .color {
+        background-color: #00a89d; }
     #board #middle_row .left.vert_locations .university {
       height: 80px;
-      width: 152px;
-      background-color: orange; }
+      width: 152px; }
       #board #middle_row .left.vert_locations .university p {
         margin: 0; }
     #board #middle_row .left.vert_locations #donut {
       height: 80px;
-      width: 152px;
-      background-color: purple; }
+      width: 152px; }
       #board #middle_row .left.vert_locations #donut p {
         margin: 0; }
+      #board #middle_row .left.vert_locations #donut .color {
+        background-color: #00a89d; }
     #board #middle_row .left.vert_locations #smoke {
       height: 80px;
-      width: 152px;
-      background-color: blue; }
+      width: 152px; }
       #board #middle_row .left.vert_locations #smoke p {
         margin: 0; }
+      #board #middle_row .left.vert_locations #smoke .color {
+        background-color: #00a89d; }
     #board #middle_row .left.vert_locations .utility {
       height: 80px;
-      width: 152px;
-      background-color: black; }
+      width: 152px; }
       #board #middle_row .left.vert_locations .utility p {
         margin: 0; }
     #board #middle_row .left.vert_locations #bluebird {
       height: 80px;
-      width: 152px;
-      background-color: white; }
+      width: 152px; }
       #board #middle_row .left.vert_locations #bluebird p {
         margin: 0; }
+      #board #middle_row .left.vert_locations #bluebird .color {
+        background-color: #00a89d; }
   #board #middle_row #center {
     width: 720px;
     height: 720px;
@@ -172,7 +170,6 @@
   #board #middle_row .right.vert_locations {
     width: 152px;
     height: 720px;
-    background-color: black;
     float: left; }
     #board #middle_row .right.vert_locations .color {
       width: 30px;
@@ -188,67 +185,70 @@
       float: left; }
     #board #middle_row .right.vert_locations #union {
       height: 80px;
-      width: 152px;
-      background-color: red; }
+      width: 152px; }
       #board #middle_row .right.vert_locations #union p {
         margin: 0; }
+      #board #middle_row .right.vert_locations #union .color {
+        background-color: #00a89d; }
     #board #middle_row .right.vert_locations #frist {
       height: 80px;
-      width: 152px;
-      background-color: yellow; }
+      width: 152px; }
       #board #middle_row .right.vert_locations #frist p {
         margin: 0; }
+      #board #middle_row .right.vert_locations #frist .color {
+        background-color: #00a89d; }
     #board #middle_row .right.vert_locations .community_chest {
       height: 80px;
-      width: 152px;
-      background-color: pink; }
+      width: 152px; }
       #board #middle_row .right.vert_locations .community_chest p {
         margin: 0; }
     #board #middle_row .right.vert_locations #ryman {
       height: 80px;
-      width: 152px;
-      background-color: green; }
+      width: 152px; }
       #board #middle_row .right.vert_locations #ryman p {
         margin: 0; }
+      #board #middle_row .right.vert_locations #ryman .color {
+        background-color: #00a89d; }
     #board #middle_row .right.vert_locations .university {
       height: 80px;
-      width: 152px;
-      background-color: orange; }
+      width: 152px; }
       #board #middle_row .right.vert_locations .university p {
         margin: 0; }
     #board #middle_row .right.vert_locations .chance {
       height: 80px;
-      width: 152px;
-      background-color: purple; }
+      width: 152px; }
       #board #middle_row .right.vert_locations .chance p {
         margin: 0; }
     #board #middle_row .right.vert_locations #hermitage {
       height: 80px;
-      width: 152px;
-      background-color: blue; }
+      width: 152px; }
       #board #middle_row .right.vert_locations #hermitage p {
         margin: 0; }
+      #board #middle_row .right.vert_locations #hermitage .color {
+        background-color: #00a89d; }
     #board #middle_row .right.vert_locations .tax {
       height: 80px;
-      width: 152px;
-      background-color: black; }
+      width: 152px; }
       #board #middle_row .right.vert_locations .tax p {
         margin: 0; }
     #board #middle_row .right.vert_locations #plantation {
       height: 80px;
-      width: 152px;
-      background-color: white; }
+      width: 152px; }
       #board #middle_row .right.vert_locations #plantation p {
         margin: 0; }
+      #board #middle_row .right.vert_locations #plantation .color {
+        background-color: #00a89d; }
   #board #bottom_row .left.corner {
     width: 152px;
     height: 152px;
     background-color: #222222;
     float: left; }
+    #board #bottom_row .left.corner img {
+      height: 152px;
+      width: 152px; }
   #board #bottom_row .horiz_locations {
     width: 720px;
     height: 152px;
-    background-color: #888888;
     float: left; }
     #board #bottom_row .horiz_locations img {
       width: 78px;
@@ -259,53 +259,58 @@
     #board #bottom_row .horiz_locations #mere_bulles {
       height: 152px;
       width: 80px;
-      background-color: red;
       float: left; }
+      #board #bottom_row .horiz_locations #mere_bulles .color {
+        background-color: #367995; }
     #board #bottom_row .horiz_locations #percy_warner {
       height: 152px;
       width: 80px;
-      background-color: yellow;
       float: left; }
+      #board #bottom_row .horiz_locations #percy_warner .color {
+        background-color: #367995; }
     #board #bottom_row .horiz_locations .chance {
       height: 152px;
       width: 80px;
-      background-color: pink;
       float: left; }
     #board #bottom_row .horiz_locations #radnor {
       height: 152px;
       width: 80px;
-      background-color: green;
       float: left; }
+      #board #bottom_row .horiz_locations #radnor .color {
+        background-color: #367995; }
     #board #bottom_row .horiz_locations .university {
       height: 152px;
       width: 80px;
-      background-color: orange;
       float: left; }
     #board #bottom_row .horiz_locations .tax {
       height: 152px;
       width: 80px;
-      background-color: purple;
       float: left; }
     #board #bottom_row .horiz_locations #zoo {
       height: 152px;
       width: 80px;
-      background-color: blue;
       float: left; }
+      #board #bottom_row .horiz_locations #zoo .color {
+        background-color: #e2a66a; }
     #board #bottom_row .horiz_locations .community_chest {
       height: 152px;
       width: 80px;
-      background-color: black;
       float: left; }
     #board #bottom_row .horiz_locations #bobbys {
       height: 152px;
       width: 80px;
-      background-color: white;
       float: left; }
+      #board #bottom_row .horiz_locations #bobbys .color {
+        background-color: #e2a66a; }
   #board #bottom_row .right.corner {
     width: 152px;
     height: 152px;
     background-color: #cccccc;
     float: left; }
+
+    #board #bottom_row .right.corner img {
+      height: 152px;
+      width: 152px; }
 
 #cards {
   width: 100%;
