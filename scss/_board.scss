@@ -22,8 +22,10 @@
     .horiz_locations
     {
       width: 720px;
-      height: 152px;
+      height: 148px;
       float: left;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
       img
       {
         width: 78px;
@@ -32,13 +34,13 @@
       .color
       {
         width: 80px;
-        height: 30px;
+        height: 22px;
+        border-top: 2px solid black;
       }
       #parthenon
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
-        // border: 1px solid black;
         float: left;
         .color
         {
@@ -47,13 +49,15 @@
       }
       .chance
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #montgomery
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -63,7 +67,7 @@
       }
       #centennial
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -73,13 +77,15 @@
       }
       .university
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #hall_of_fame
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -89,7 +95,7 @@
       }
       #music_city_center
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -99,13 +105,15 @@
       }
       .utility
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #shelby
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -132,12 +140,14 @@
   {
     .left.vert_locations
     {
-      width: 152px;
+      width: 148px;
       height: 720px;
       float: left;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
       p
       {
-        width: 18px;
+        width: 17px;
         height: 80px;
         float: left;
       }
@@ -149,14 +159,15 @@
       }
       .color
       {
-        width: 30px;
+        width: 25px;
         height: 80px;
         float: left;
+        border-left: 2px solid black;
       }
       #rca
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -169,7 +180,7 @@
       #wpln
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -181,17 +192,24 @@
       }
       .community_chest
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #belmont
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -203,17 +221,24 @@
       }
       .university
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #donut
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -226,7 +251,7 @@
       #smoke
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -238,17 +263,24 @@
       }
       .utility
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #bluebird
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -272,14 +304,17 @@
     }
     .right.vert_locations
     {
-      width: 152px;
+      width: 148px;
       height: 720px;
       float: left;
+      border-right: 2px solid black;
+      border-left: 2px solid black;
       .color
       {
-        width: 30px;
+        width: 25px;
         height: 80px;
         float: left;
+        border-right: 2px solid black;
       }
       img
       {
@@ -289,14 +324,14 @@
       }
       p
       {
-        width: 18px;
+        width: 17px;
         height: 80px;
         float: left;
       }
       #union
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -309,7 +344,7 @@
       #frist
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -321,17 +356,24 @@
       }
       .community_chest
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #ryman
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -343,26 +385,40 @@
       }
       .university
       {
-        height: 80px;
-        width: 152px;
+        height: 77px;
+        width: 151px;
+        border-bottom: 1px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       .chance
       {
-        height: 80px;
-        width: 152px;
+        height: 77px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 1px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #hermitage
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -374,18 +430,24 @@
       }
       .tax
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
         }
-
+        img
+        {
+          height: 76px;
+        }
       }
       #plantation
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
@@ -414,8 +476,10 @@
     .horiz_locations
     {
       width: 720px;
-      height: 152px;
+      height: 148px;
       float: left;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black;
       img
       {
         width: 78px;
@@ -424,11 +488,12 @@
       .color
       {
         width: 80px;
-        height: 30px;
+        height: 24px;
+        border-bottom: 2px solid black;
       }
       #mere_bulles
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -438,7 +503,7 @@
       }
       #percy_warner
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -448,13 +513,15 @@
       }
       .chance
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #radnor
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -464,19 +531,23 @@
       }
       .university
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 77px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 1px solid black;
       }
       .tax
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 77px;
         float: left;
+        border-left: 1px solid black;
+        border-right: 2px solid black;
       }
       #zoo
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
@@ -486,13 +557,15 @@
       }
       .community_chest
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #bobbys
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
