@@ -55,9 +55,9 @@
           position: relative;
           top: 230px;
           left: 130px;
-          transform: scale(4) rotate(0.5) translate(130px);
-          -ms-transform: scale(4) rotate(0.5);
-          -webkit-transform: scale(4) rotate(0.5);
+          transform: scale(4) rotate(180deg) translate(130px 200px);
+          -moz-transform: scale(4) rotate(180deg) translate(130px 200px);
+          -webkit-transform: scale(4) rotate(180deg) translate(130px 200px);
           -webkit-transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;
           -o-transition: all 0.2s ease-in-out;
@@ -475,9 +475,11 @@
         transform: scale(4);
         -ms-transform: scale(4);
         -webkit-transform: scale(4);
-        position: relative;
-        bottom: 230px;
-        left: 130px;
+        -webkit-transform: translate(200px);
+        -moz-transform: translate;
+        -ms-transform: translate;
+        -o-transform: translate;
+        transform: translate;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
@@ -816,7 +818,7 @@ footer #image_container {
       width: 160px;
       height: 85px;
       position: absolute;
-      background-color: #f23b26;
+      background-color: #f2560e;
       border: 1px solid black; }
       #cards #chance .card:nth-of-type(1) {
         top: 680px;
@@ -886,6 +888,7 @@ footer #image_container {
         margin: 0;
         padding: 0 10px; }
 
+<<<<<<< HEAD
 div#content {
   width: 1024px;
   margin: 0px auto; }
@@ -922,3 +925,13 @@ footer {
       footer ul li a {
         color: white;
         font-family: "Patua+One"; }
+=======
+#contact
+.person {
+  width: 340px;
+  float: left;
+  background-color: blue; }
+  #contact
+  .person img {
+    width: 200px; }
+>>>>>>> 5340b0284786a466f4aa21fb07dc819d708cd2e4
