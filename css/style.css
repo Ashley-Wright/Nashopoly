@@ -1,821 +1,105 @@
-@import url(http://fonts.googleapis.com/css?family=Damion);
-@import url(http://fonts.googleapis.com/css?family=Patua+One);
-@import url(http://fonts.googleapis.com/css?family=Parisienne);
-@import url(http://fonts.googleapis.com/css?family=Yellowtail);
-#main {
-  width: 1024px;
-  margin: auto; }
+/*
+Syntax error: Invalid CSS after "...     width 77px": expected "{", was ";"
+        on line 864 of scss/_board.scss
+        from line 20 of scss/style.scss
 
-.clear {
-  clear: both; }
+859:         float: left;
+860:         border-left: 1px solid black;
+861:         border-right: 2px solid black;
+862:         img
+863:         {
+864:           width 77px;
+865:           border: 0;
+866:         }
+867:       }
+868:       #zoo
+869:       {
 
-#board {
-  height: 1024px;
-  width: 1024px;
-  background-color: #cfe1c4; }
-  #board #top_row {
-    height: 152px;
-    width: 1024px; }
-    #board #top_row .left.corner {
-      width: 152px;
-      height: 152px;
-      float: left; }
-      #board #top_row .left.corner img {
-        height: 152px;
-        width: 152px; }
-    #board #top_row .horiz_locations {
-      width: 720px;
-      height: 148px;
-      float: left;
-      border-top: 2px solid black;
-      border-bottom: 2px solid black; }
-      #board #top_row .horiz_locations img {
-        height: 105px;
-        margin: 0;
-        border-bottom: 2px solid black;
-        border-top: 2px solid black; }
-      #board #top_row .horiz_locations .color {
-        width: 80px;
-        height: 23px;
-        border: 0;
-        margin: 0;
-        position: relative;
-        bottom: 4px; }
-      #board #top_row .horiz_locations .price {
-        height: 16px;
-        width: 80px;
-        border: 0;
-        margin: 0; }
-      #board #top_row .horiz_locations #parthenon {
-        height: 148px;
-        width: 80px;
-        float: left;
-        background-color: #f22a39; }
-        #board #top_row .horiz_locations #parthenon:hover {
-          position: relative;
-          top: 230px;
-          left: 130px;
-          transform: scale(4) rotate(180deg) translate(130px 200px);
-          -moz-transform: scale(4) rotate(180deg) translate(130px 200px);
-          -webkit-transform: scale(4) rotate(180deg) translate(130px 200px);
-          -webkit-transition: all 0.2s ease-in-out;
-          -moz-transition: all 0.2s ease-in-out;
-          -o-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out; }
-        #board #top_row .horiz_locations #parthenon img {
-          width: 80px; }
-        #board #top_row .horiz_locations #parthenon .price img {
-          height: 16px;
-          width: 80px;
-          border: 0;
-          margin: 0; }
-      #board #top_row .horiz_locations .chance {
-        height: 148px;
-        width: 76px;
-        float: left;
-        border-left: 2px solid black;
-        border-right: 2px solid black; }
-        #board #top_row .horiz_locations .chance img {
-          border: 0;
-          width: 76px;
-          height: 148px; }
-      #board #top_row .horiz_locations #montgomery {
-        height: 148px;
-        width: 79px;
-        float: left;
-        border-right: 1px solid black;
-        background-color: #f22a39; }
-        #board #top_row .horiz_locations #montgomery .price img {
-          height: 16px;
-          width: 79px;
-          border: 0;
-          margin: 0; }
-      #board #top_row .horiz_locations #centennial {
-        height: 148px;
-        width: 79px;
-        float: left;
-        border-left: 1px solid black;
-        background-color: #f22a39; }
-        #board #top_row .horiz_locations #centennial .price img {
-          height: 16px;
-          width: 79px;
-          border: 0;
-          margin: 0; }
-      #board #top_row .horiz_locations .university {
-        height: 148px;
-        width: 76px;
-        float: left;
-        border-left: 2px solid black;
-        border-right: 2px solid black; }
-        #board #top_row .horiz_locations .university img:first-child {
-          width: 76px;
-          height: 17px;
-          border: 0;
-          padding: 0; }
-        #board #top_row .horiz_locations .university img:last-child {
-          width: 76px;
-          border: 0;
-          padding: 0;
-          margin: 0;
-          position: relative;
-          bottom: 4px; }
-      #board #top_row .horiz_locations #hall_of_fame {
-        height: 148px;
-        width: 79px;
-        float: left;
-        border-right: 1px solid black;
-        background-color: #efbe52; }
-        #board #top_row .horiz_locations #hall_of_fame .price img {
-          height: 16px;
-          width: 79px;
-          border: 0;
-          margin: 0; }
-      #board #top_row .horiz_locations #music_city_center {
-        height: 148px;
-        width: 79px;
-        float: left;
-        border-left: 1px solid black;
-        background-color: #efbe52; }
-        #board #top_row .horiz_locations #music_city_center .price img {
-          height: 16px;
-          width: 79px;
-          border: 0;
-          margin: 0; }
-      #board #top_row .horiz_locations .utility {
-        height: 148px;
-        width: 76px;
-        float: left;
-        border-left: 2px solid black;
-        border-right: 2px solid black; }
-        #board #top_row .horiz_locations .utility img {
-          height: 148px;
-          width: 76px;
-          border: 0;
-          margin: 0;
-          padding: 0; }
-      #board #top_row .horiz_locations #shelby {
-        height: 148px;
-        width: 80px;
-        float: left;
-        background-color: #efbe52; }
-        #board #top_row .horiz_locations #shelby .price img {
-          height: 16px;
-          width: 80px;
-          border: 0;
-          margin: 0; }
-        #board #top_row .horiz_locations #shelby img {
-          width: 79px; }
-    #board #top_row .right.corner {
-      width: 152px;
-      height: 152px;
-      float: left; }
-      #board #top_row .right.corner img {
-        height: 152px;
-        width: 152px; }
-  #board #middle_row .left.vert_locations {
-    width: 148px;
-    height: 720px;
-    float: left;
-    border-left: 2px solid black;
-    border-right: 2px solid black; }
-    #board #middle_row .left.vert_locations .price {
-      width: 16px;
-      height: 78px;
-      border: 0;
-      margin: 0;
-      float: left; }
-    #board #middle_row .left.vert_locations img {
-      width: 105px;
-      margin: 0;
-      border-left: 2px solid black;
-      border-right: 2px solid black;
-      float: left; }
-    #board #middle_row .left.vert_locations .color {
-      width: 23px;
-      float: left;
-      border: 0;
-      margin: 0; }
-    #board #middle_row .left.vert_locations #rca {
-      height: 79px;
-      width: 148px;
-      border-bottom: 1px solid black;
-      background-color: #ff931e; }
-      #board #middle_row .left.vert_locations #rca img {
-        height: 79px; }
-      #board #middle_row .left.vert_locations #rca .price img {
-        height: 79px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .left.vert_locations #wpln {
-      height: 79px;
-      width: 148px;
-      border-top: 1px solid black;
-      background-color: #ff931e; }
-      #board #middle_row .left.vert_locations #wpln img {
-        height: 79px; }
-      #board #middle_row .left.vert_locations #wpln .price img {
-        height: 79px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .left.vert_locations .community_chest {
-      height: 76px;
-      width: 148px;
-      border-bottom: 2px solid black;
-      border-top: 2px solid black; }
-      #board #middle_row .left.vert_locations .community_chest img {
-        height: 76px;
-        width: 148px;
-        position: relative;
-        right: 3px; }
-    #board #middle_row .left.vert_locations #belmont {
-      height: 80px;
-      width: 148px;
-      background-color: #ff931e; }
-      #board #middle_row .left.vert_locations #belmont img {
-        height: 80px; }
-      #board #middle_row .left.vert_locations #belmont .price img {
-        height: 80px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .left.vert_locations .university {
-      height: 76px;
-      width: 148px;
-      border-bottom: 2px solid black;
-      border-top: 2px solid black; }
-      #board #middle_row .left.vert_locations .university img:first-child {
-        float: left;
-        height: 76px;
-        border: 0;
-        padding: 0;
-        width: 16px; }
-      #board #middle_row .left.vert_locations .university img:last-child {
-        height: 76px;
-        margin: 0;
-        border: 0;
-        padding: 0;
-        position: relative;
-        left: 3px; }
-    #board #middle_row .left.vert_locations #donut {
-      height: 79px;
-      width: 148px;
-      border-bottom: 1px solid black;
-      background-color: #ff7bac; }
-      #board #middle_row .left.vert_locations #donut img {
-        height: 79px; }
-      #board #middle_row .left.vert_locations #donut .price img {
-        height: 79px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .left.vert_locations #smoke {
-      height: 79px;
-      width: 148px;
-      border-top: 1px solid black;
-      background-color: #ff7bac; }
-      #board #middle_row .left.vert_locations #smoke img {
-        height: 79px; }
-      #board #middle_row .left.vert_locations #smoke .price img {
-        height: 79px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .left.vert_locations .utility {
-      height: 76px;
-      width: 148px;
-      border-bottom: 2px solid black;
-      border-top: 2px solid black; }
-      #board #middle_row .left.vert_locations .utility img {
-        height: 76px;
-        width: 148px;
-        border: 0;
-        margin: 0;
-        padding: 0; }
-    #board #middle_row .left.vert_locations #bluebird {
-      height: 80px;
-      width: 148px;
-      background-color: #ff7bac; }
-      #board #middle_row .left.vert_locations #bluebird img {
-        height: 80px; }
-      #board #middle_row .left.vert_locations #bluebird .price img {
-        height: 80px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-  #board #middle_row #center {
-    width: 720px;
-    height: 720px;
-    float: left; }
-    #board #middle_row #center img {
-      width: 720px;
-      height: 720px; }
-  #board #middle_row .right.vert_locations {
-    width: 148px;
-    height: 720px;
-    float: left;
-    border-right: 2px solid black;
-    border-left: 2px solid black; }
-    #board #middle_row .right.vert_locations .color {
-      width: 23px;
-      height: 80px;
-      float: left; }
-    #board #middle_row .right.vert_locations img {
-      height: 78px;
-      width: 105px;
-      margin: 0;
-      border-right: 2px solid black;
-      border-left: 2px solid black;
-      float: left; }
-    #board #middle_row .right.vert_locations .price {
-      width: 16px;
-      margin: 0;
-      border: 0;
-      float: left; }
-    #board #middle_row .right.vert_locations #union {
-      height: 79px;
-      width: 148px;
-      border-bottom: 1px solid black;
-      background-color: #7ac943; }
-      #board #middle_row .right.vert_locations #union img {
-        height: 79px; }
-      #board #middle_row .right.vert_locations #union .price img {
-        height: 79px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .right.vert_locations #frist {
-      height: 79px;
-      width: 148px;
-      border-top: 1px solid black;
-      background-color: #7ac943; }
-      #board #middle_row .right.vert_locations #frist img {
-        height: 79px; }
-      #board #middle_row .right.vert_locations #frist .price img {
-        height: 79px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .right.vert_locations .community_chest {
-      height: 76px;
-      width: 148px;
-      border-bottom: 2px solid black;
-      border-top: 2px solid black; }
-      #board #middle_row .right.vert_locations .community_chest img {
-        height: 76px;
-        width: 148px;
-        position: relative;
-        right: 2px; }
-    #board #middle_row .right.vert_locations #ryman {
-      height: 80px;
-      width: 149px;
-      background-color: #7ac943; }
-      #board #middle_row .right.vert_locations #ryman img {
-        height: 80px; }
-      #board #middle_row .right.vert_locations #ryman .price img {
-        height: 80px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .right.vert_locations .university {
-      height: 77px;
-      width: 149px;
-      border-bottom: 1px solid black;
-      border-top: 2px solid black; }
-      #board #middle_row .right.vert_locations .university img:first-child {
-        height: 77px;
-        padding: 0px;
-        border: 0;
-        margin-left: 24px;
-        float: left; }
-      #board #middle_row .right.vert_locations .university img:last-child {
-        height: 77px;
-        width: 16px;
-        float: left;
-        border: 0;
-        margin-left: 3px;
-        padding: 0; }
-    #board #middle_row .right.vert_locations .chance {
-      height: 77px;
-      width: 148px;
-      border-bottom: 2px solid black;
-      border-top: 1px solid black; }
-      #board #middle_row .right.vert_locations .chance img {
-        height: 77px;
-        width: 148px;
-        border: 0; }
-    #board #middle_row .right.vert_locations #hermitage {
-      height: 80px;
-      width: 148px;
-      background-color: #367995; }
-      #board #middle_row .right.vert_locations #hermitage img {
-        height: 80px; }
-      #board #middle_row .right.vert_locations #hermitage .price img {
-        height: 80px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-    #board #middle_row .right.vert_locations .tax {
-      height: 76px;
-      width: 148px;
-      border-bottom: 2px solid black;
-      border-top: 2px solid black; }
-      #board #middle_row .right.vert_locations .tax p {
-        margin: 0;
-        height: 76px; }
-      #board #middle_row .right.vert_locations .tax img {
-        height: 76px; }
-    #board #middle_row .right.vert_locations #plantation {
-      height: 80px;
-      width: 148px;
-      background-color: #367995; }
-      #board #middle_row .right.vert_locations #plantation img {
-        height: 80px; }
-      #board #middle_row .right.vert_locations #plantation .price img {
-        height: 80px;
-        width: 16px;
-        border: 0;
-        margin: 0; }
-  #board #bottom_row .left.corner {
-    width: 152px;
-    height: 152px;
-    float: left; }
-    #board #bottom_row .left.corner img {
-      height: 152px;
-      width: 152px; }
-  #board #bottom_row .horiz_locations {
-    width: 720px;
-    height: 148px;
-    float: left;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black; }
-    #board #bottom_row .horiz_locations img {
-      height: 105px;
-      margin: 0;
-      border-top: 2px solid black;
-      border-bottom: 2px solid black; }
-    #board #bottom_row .horiz_locations .color {
-      height: 23px;
-      border: 0;
-      margin: 0; }
-    #board #bottom_row .horiz_locations .price {
-      height: 16px;
-      border: 0;
-      margin: 0; }
-    #board #bottom_row .horiz_locations #mere_bulles {
-      height: 148px;
-      width: 79px;
-      float: left;
-      border-right: 1px solid black;
-      background-color: #00a89d; }
-      #board #bottom_row .horiz_locations #mere_bulles img {
-        width: 79px; }
-      #board #bottom_row .horiz_locations #mere_bulles:hover {
-        transform: scale(4);
-        -ms-transform: scale(4);
-        -webkit-transform: scale(4);
-        -webkit-transform: translate(200px);
-        -moz-transform: translate;
-        -ms-transform: translate;
-        -o-transform: translate;
-        transform: translate;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out; }
-      #board #bottom_row .horiz_locations #mere_bulles .price img {
-        height: 16px;
-        width: 79px;
-        border: 0;
-        margin: 0;
-        position: relative;
-        bottom: 5px; }
-    #board #bottom_row .horiz_locations #percy_warner {
-      height: 148px;
-      width: 79px;
-      float: left;
-      border-left: 1px solid black;
-      background-color: #00a89d; }
-      #board #bottom_row .horiz_locations #percy_warner:hover {
-        transform: scale(4);
-        -ms-transform: scale(4);
-        -webkit-transform: scale(4);
-        position: relative;
-        bottom: 230px;
-        left: 130px;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out; }
-      #board #bottom_row .horiz_locations #percy_warner img {
-        width: 79px; }
-      #board #bottom_row .horiz_locations #percy_warner .price img {
-        height: 16px;
-        width: 79px;
-        border: 0;
-        margin: 0;
-        position: relative;
-        bottom: 5px; }
-    #board #bottom_row .horiz_locations .chance {
-      height: 148px;
-      width: 76px;
-      float: left;
-      border-left: 2px solid black;
-      border-right: 2px solid black; }
-      #board #bottom_row .horiz_locations .chance img {
-        border: 0;
-        width: 76px;
-        height: 148px; }
-    #board #bottom_row .horiz_locations #radnor {
-      height: 148px;
-      width: 80px;
-      float: left;
-      background-color: #00a89d; }
-      #board #bottom_row .horiz_locations #radnor:hover {
-        transform: scale(4);
-        -ms-transform: scale(4);
-        -webkit-transform: scale(4);
-        position: relative;
-        bottom: 230px;
-        left: 100px;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out; }
-      #board #bottom_row .horiz_locations #radnor img {
-        width: 80px; }
-      #board #bottom_row .horiz_locations #radnor .price img {
-        height: 16px;
-        width: 79px;
-        border: 0;
-        margin: 0;
-        position: relative;
-        bottom: 5px; }
-    #board #bottom_row .horiz_locations .university {
-      height: 148px;
-      width: 77px;
-      float: left;
-      border-left: 2px solid black;
-      border-right: 1px solid black; }
-      #board #bottom_row .horiz_locations .university img:first-child {
-        width: 77px;
-        padding-top: 25px;
-        border: 0; }
-      #board #bottom_row .horiz_locations .university img:last-child {
-        width: 77px;
-        height: 16px;
-        border: 0;
-        position: relative;
-        bottom: 3px; }
-    #board #bottom_row .horiz_locations .tax {
-      height: 148px;
-      width: 77px;
-      float: left;
-      border-left: 1px solid black;
-      border-right: 2px solid black; }
-    #board #bottom_row .horiz_locations #zoo {
-      height: 148px;
-      width: 80px;
-      float: left;
-      background-color: #e2a66a; }
-      #board #bottom_row .horiz_locations #zoo:hover {
-        transform: scale(4);
-        -ms-transform: scale(4);
-        -webkit-transform: scale(4);
-        position: relative;
-        bottom: 230px;
-        left: -150px;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out; }
-      #board #bottom_row .horiz_locations #zoo img {
-        width: 80px; }
-      #board #bottom_row .horiz_locations #zoo .price img {
-        height: 16px;
-        width: 80px;
-        border: 0;
-        margin: 0;
-        position: relative;
-        bottom: 5px; }
-    #board #bottom_row .horiz_locations .community_chest {
-      height: 148px;
-      width: 77px;
-      float: left;
-      border-left: 2px solid black;
-      border-right: 2px solid black; }
-      #board #bottom_row .horiz_locations .community_chest img {
-        width: 77px;
-        height: 148px;
-        position: relative;
-        bottom: 2px; }
-    #board #bottom_row .horiz_locations #bobbys {
-      height: 148px;
-      width: 79px;
-      float: left;
-      background-color: #e2a66a; }
-      #board #bottom_row .horiz_locations #bobbys:hover {
-        transform: scale(4);
-        -ms-transform: scale(4);
-        -webkit-transform: scale(4);
-        position: relative;
-        bottom: 230px;
-        left: -250px;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out; }
-      #board #bottom_row .horiz_locations #bobbys img {
-        width: 79px; }
-      #board #bottom_row .horiz_locations #bobbys .price img {
-        height: 16px;
-        width: 79px;
-        border: 0;
-        margin: 0;
-        position: relative;
-        bottom: 5px; }
-  #board #bottom_row .right.corner {
-    width: 152px;
-    height: 152px;
-    float: left; }
-    #board #bottom_row .right.corner img {
-      height: 152px;
-      width: 152px; }
-
-#cards {
-  width: 100%;
-  background-image: url(../images/board_center.png);
-  height: 1024px; }
-  #cards #cchest {
-    position: relative; }
-    #cards #cchest h1 {
-      text-align: right;
-      width: 940px;
-      position: absolute;
-      top: 12px;
-      font-family: "Damion";
-      font-size: 42px; }
-    #cards #cchest .card {
-      width: 160px;
-      height: 85px;
-      position: absolute;
-      background-color: #ffb03d;
-      border: 1px solid #222222;
-      font-family: "Damion"; }
-      #cards #cchest .card:nth-of-type(1) {
-        top: 100px;
-        left: 470px;
-        transform: rotate(-5deg);
-        -webkit-transform: rotate(-5deg);
-        -moz-transform: rotate(-5deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(2) {
-        top: 150px;
-        left: 620px;
-        transform: rotate(7deg);
-        -webkit-transform: rotate(7deg);
-        -moz-transform: rotate(7deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(3) {
-        top: 110px;
-        left: 780px;
-        transform: rotate(-5deg);
-        -webkit-transform: rotate(-5deg);
-        -moz-transform: rotate(-5deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(4) {
-        top: 250px;
-        left: 620px;
-        transform: rotate(-5deg);
-        -webkit-transform: rotate(-5deg);
-        -moz-transform: rotate(-5deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(5) {
-        top: 220px;
-        left: 800px;
-        transform: rotate(5deg);
-        -webkit-transform: rotate(5deg);
-        -moz-transform: rotate(5deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:hover {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-transform: scale(2.3);
-        -moz-transform: scale(2.3);
-        transform: scale(2.3);
-        z-index: 1;
-        border: 2px solid #333333;
-        -webkit-box-shadow: 3px 3px 5px #333333;
-        -moz-box-shadow: 3px 3px 5px #333333;
-        box-shadow: 3px 3px 5px #333333; }
-      #cards #cchest .card h3 {
-        padding: 5px 10px 0 10px;
-        margin: 0;
-        font-size: 13px; }
-      #cards #cchest .card p {
-        padding: 0 10px;
-        margin: 0;
-        font-size: 6px;
-        font-family: PatuaOne; }
-  #cards #chance {
-    position: relative; }
-    #cards #chance h1 {
-      position: absolute;
-      top: 560px;
-      padding-left: 55px;
-      font-family: "Yellowtail";
-      font-size: 42px; }
-    #cards #chance .card {
-      width: 160px;
-      height: 85px;
-      position: absolute;
-      background-color: #f2560e;
-      border: 1px solid black; }
-      #cards #chance .card:nth-of-type(1) {
-        top: 680px;
-        left: 60px;
-        transform: rotate(-5deg);
-        -webkit-transform: rotate(-5deg);
-        -moz-transform: rotate(-5deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(2) {
-        top: 690px;
-        left: 240px;
-        transform: rotate(3deg);
-        -webkit-transform: rotate(3deg);
-        -moz-transform: rotate(3deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(3) {
-        top: 830px;
-        left: 60px;
-        transform: rotate(4deg);
-        -webkit-transform: rotate(4deg);
-        -moz-transform: rotate(4deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(4) {
-        top: 800px;
-        left: 220px;
-        transform: rotate(-4deg);
-        -webkit-transform: rotate(-4deg);
-        -moz-transform: rotate(-4deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(5) {
-        top: 810px;
-        left: 380px;
-        transform: rotate(-8deg);
-        -webkit-transform: rotate(-8deg);
-        -moz-transform: rotate(-8deg);
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      #cards #chance .card:hover {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-transform: scale(2.3);
-        -moz-transform: scale(2.3);
-        transform: scale(2.3);
-        z-index: 1;
-        border: 2px solid #333333;
-        -webkit-box-shadow: 3px 3px 5px #333333;
-        -moz-box-shadow: 3px 3px 5px #333333;
-        box-shadow: 3px 3px 5px #333333; }
-      #cards #chance .card h3 {
-        font-family: "Yellowtail";
-        font-size: 14px;
-        margin: 0;
-        padding: 5px 10px 0 10px; }
-      #cards #chance .card p {
-        font-family: "Patua+One";
-        font-size: 6px;
-        margin: 0;
-        padding: 0 10px; }
-
-#contact
-.person {
-  width: 340px;
-  float: left;
-  background-color: blue; }
-  #contact
-  .person img {
-    width: 200px; }
+Backtrace:
+scss/_board.scss:864
+scss/style.scss:20
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1145:in `expected'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1078:in `tok!'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:533:in `block'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:590:in `block in declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `call'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `rethrow'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:591:in `declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:553:in `block_child'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:542:in `block_contents'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:534:in `block'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:590:in `block in declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `call'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `rethrow'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:591:in `declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:553:in `block_child'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:545:in `block_contents'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:534:in `block'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:590:in `block in declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `call'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `rethrow'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:591:in `declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:553:in `block_child'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:545:in `block_contents'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:534:in `block'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:590:in `block in declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `call'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `rethrow'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:591:in `declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:553:in `block_child'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:545:in `block_contents'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:534:in `block'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:590:in `block in declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `call'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1121:in `rethrow'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:591:in `declaration_or_ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:553:in `block_child'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:545:in `block_contents'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:534:in `block'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:552:in `block_child'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:542:in `block_contents'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:82:in `stylesheet'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:27:in `parse'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:342:in `_to_tree'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:274:in `to_tree'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/home/gabrielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...     width 77px\": expected \"{\", was \";\"\A         on line 864 of scss/_board.scss\A         from line 20 of scss/style.scss\A \A 859:         float: left;\A 860:         border-left: 1px solid black;\A 861:         border-right: 2px solid black;\A 862:         img\A 863:         {\A 864:           width 77px;\A 865:           border: 0;\A 866:         }\A 867:       }\A 868:       #zoo\A 869:       {"; }
