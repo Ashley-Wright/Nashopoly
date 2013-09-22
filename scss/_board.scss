@@ -430,6 +430,7 @@
         width: 16px;
         margin: 0;
         border: 0;
+        float: left;
       }
       #union
       {
@@ -441,6 +442,16 @@
         {
           height: 79px;
         }
+        .price
+        {
+          img
+          {
+            height: 79px;
+            width: 16px;
+            border: 0;
+            margin: 0;
+          }
+        }
       }
       #frist
       {
@@ -451,6 +462,16 @@
         img
         {
           height: 79px;
+        }
+        .price
+        {
+          img
+          {
+            height: 79px;
+            width: 16px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
       .community_chest
@@ -477,6 +498,16 @@
         img
         {
           height: 80px;
+        }
+        .price
+        {
+          img
+          {
+            height: 80px;
+            width: 16px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
       .university
@@ -520,6 +551,16 @@
         {
           height: 80px;
         }
+        .price
+        {
+          img
+          {
+            height: 80px;
+            width: 16px;
+            border: 0;
+            margin: 0;
+          }
+        }
       }
       .tax
       {
@@ -545,6 +586,16 @@
         img
         {
           height: 80px;
+        }
+        .price
+        {
+          img
+          {
+            height: 80px;
+            width: 16px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
     }
