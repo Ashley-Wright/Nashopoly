@@ -51,6 +51,17 @@
         width: 80px;
         float: left;
         background-color: #f22a39; }
+        #board #top_row .horiz_locations #parthenon:hover {
+          position: relative;
+          top: 230px;
+          left: 130px;
+          transform: scale(4) rotate(0.5) translate(130px);
+          -ms-transform: scale(4) rotate(0.5);
+          -webkit-transform: scale(4) rotate(0.5);
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out; }
         #board #top_row .horiz_locations #parthenon img {
           width: 80px; }
         #board #top_row .horiz_locations #parthenon .price img {
