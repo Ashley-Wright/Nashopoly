@@ -51,6 +51,17 @@
         width: 80px;
         float: left;
         background-color: #f22a39; }
+        #board #top_row .horiz_locations #parthenon:hover {
+          position: relative;
+          top: 230px;
+          left: 130px;
+          transform: scale(4) rotate(180deg) translate(130px 200px);
+          -moz-transform: scale(4) rotate(180deg) translate(130px 200px);
+          -webkit-transform: scale(4) rotate(180deg) translate(130px 200px);
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out; }
         #board #top_row .horiz_locations #parthenon img {
           width: 80px; }
         #board #top_row .horiz_locations #parthenon .price img {
@@ -136,6 +147,12 @@
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black; }
+        #board #top_row .horiz_locations .utility img {
+          height: 148px;
+          width: 76px;
+          border: 0;
+          margin: 0;
+          padding: 0; }
       #board #top_row .horiz_locations #shelby {
         height: 148px;
         width: 80px;
@@ -271,7 +288,11 @@
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
       #board #middle_row .left.vert_locations .utility img {
-        height: 76px; }
+        height: 76px;
+        width: 148px;
+        border: 0;
+        margin: 0;
+        padding: 0; }
     #board #middle_row .left.vert_locations #bluebird {
       height: 80px;
       width: 148px;
@@ -454,9 +475,11 @@
         transform: scale(4);
         -ms-transform: scale(4);
         -webkit-transform: scale(4);
-        position: relative;
-        bottom: 230px;
-        left: 130px;
+        -webkit-transform: translate(200px);
+        -moz-transform: translate;
+        -ms-transform: translate;
+        -o-transform: translate;
+        transform: translate;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;

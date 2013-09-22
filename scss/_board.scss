@@ -54,6 +54,19 @@
         width: 80px;
         float: left;
         background-color: $red;
+        &:hover
+          {
+            position: relative;
+            top: 230px;
+            left: 130px;
+            transform: scale(4) rotate(180deg) translate(130px 200px);
+            -moz-transform: scale(4) rotate(180deg) translate(130px 200px);
+            -webkit-transform: scale(4) rotate(180deg) translate(130px 200px);
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
         img
         {
           width: 80px;
@@ -186,6 +199,14 @@
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black;
+        img
+        {
+          height: 148px;
+          width: 76px;
+          border: 0;
+          margin: 0;
+          padding: 0;
+        }
       }
       #shelby
       {
@@ -406,6 +427,10 @@
         img
         {
           height: 76px;
+          width: 148px;
+          border: 0;
+          margin: 0;
+          padding: 0;
         }
       }
       #bluebird
@@ -695,9 +720,11 @@
             transform: scale(4);
             -ms-transform: scale(4);
             -webkit-transform: scale(4);
-            position: relative;
-            bottom: 230px;
-            left: 130px;
+            -webkit-transform: translate(200px);
+            -moz-transform: translate;
+            -ms-transform: translate;
+            -o-transform: translate;
+            transform: translate;
             -webkit-transition: all 0.2s ease-in-out;
             -moz-transition: all 0.2s ease-in-out;
             -o-transition: all 0.2s ease-in-out;
