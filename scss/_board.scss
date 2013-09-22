@@ -11,7 +11,6 @@
     {
       width: 152px;
       height: 152px;
-      background-color: yellow;
       float: left;
       img
         {
@@ -77,6 +76,12 @@
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black;
+        img
+        {
+          border: 0;
+          width: 76px;
+          height: 148px;
+        }
       }
       #montgomery
       {
@@ -121,6 +126,22 @@
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black;
+        img:first-child
+        {
+          width: 76px;
+          height: 17px;
+          border: 0;
+          padding: 0;
+        }
+        img:last-child
+        {
+          width:76px;
+          border: 0;
+          padding: 0;
+          margin: 0;
+          position: relative;
+          bottom: 4px;
+        }
       }
       #hall_of_fame
       {
@@ -193,7 +214,6 @@
     {
       width: 152px;
       height: 152px;
-      background-color: green;
       float: left;
       img
         {
@@ -316,10 +336,24 @@
         width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
-        img
+        img:first-child
+        {
+          float: left;
+          height: 76px;
+          border: 0;
+          padding: 0;
+          width: 16px;
+        }
+        img:last-child
         {
           height: 76px;
+          margin: 0;
+          border: 0;
+          padding: 0;
+          position: relative;
+          left: 3px;
         }
+
       }
       #donut
       {
@@ -517,14 +551,22 @@
         width: 149px;
         border-bottom: 1px solid black;
         border-top: 2px solid black;
-        p
+        img:first-child
         {
-          margin: 0;
-          height: 76px;
+          height: 77px;
+          padding: 0px;
+          border: 0;
+          margin-left: 24px;
+          float: left;
         }
-        img
+        img:last-child
         {
-          height: 76px;
+          height: 77px;
+          width: 16px;
+          float: left;
+          border: 0;
+          margin-left: 3px;
+          padding: 0;
         }
       }
       .chance
@@ -533,14 +575,11 @@
         width: 148px;
         border-bottom: 2px solid black;
         border-top: 1px solid black;
-        p
-        {
-          margin: 0;
-          height: 76px;
-        }
         img
         {
-          height: 76px;
+          height: 77px;
+          width: 148px;
+          border: 0;
         }
       }
       #hermitage
@@ -607,7 +646,6 @@
     {
       width: 152px;
       height: 152px;
-      background-color: #222222;
       float: left;
       img
         {
@@ -696,6 +734,12 @@
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black;
+        img
+        {
+          border: 0;
+          width: 76px;
+          height: 148px;
+        }
       }
       #radnor
       {
@@ -727,6 +771,20 @@
         float: left;
         border-left: 2px solid black;
         border-right: 1px solid black;
+        img:first-child
+        {
+          width: 77px;
+          padding-top: 25px;
+          border: 0;
+        }
+        img:last-child
+        {
+          width: 77px;
+          height: 16px;
+          border: 0;
+          position: relative;
+          bottom: 3px;
+        }
       }
       .tax
       {
@@ -802,7 +860,6 @@
     {
       width: 152px;
       height: 152px;
-      background-color: #cccccc;
       float: left;
       img
         {
