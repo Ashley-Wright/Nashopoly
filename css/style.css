@@ -147,6 +147,12 @@
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black; }
+        #board #top_row .horiz_locations .utility img {
+          height: 148px;
+          width: 76px;
+          border: 0;
+          margin: 0;
+          padding: 0; }
       #board #top_row .horiz_locations #shelby {
         height: 148px;
         width: 80px;
@@ -282,7 +288,11 @@
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
       #board #middle_row .left.vert_locations .utility img {
-        height: 76px; }
+        height: 76px;
+        width: 148px;
+        border: 0;
+        margin: 0;
+        padding: 0; }
     #board #middle_row .left.vert_locations #bluebird {
       height: 80px;
       width: 148px;
