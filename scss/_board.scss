@@ -28,32 +28,46 @@
       border-bottom: 2px solid black;
       img
       {
-        width: 78px;
+        height: 105px;
         margin: 0;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
       }
       .color
       {
         width: 80px;
-        height: 21px;
-        border-top: 2px solid black;
+        height: 23px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 4px;
       }
-      p
+      .price
       {
-        margin-top: 0;
-        // height: 20;
+        height: 16px;
+        width: 80px;
+        border: 0;
+        margin: 0;
       }
       #parthenon
       {
         height: 148px;
         width: 80px;
         float: left;
-        .color
-        {
-          background-color: $red;
-        }
+        background-color: $red;
         img
         {
           width: 80px;
+        }
+        .price
+        {
+          img
+          {
+            height: 16px;
+            width: 80px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
       .chance
@@ -70,10 +84,16 @@
         width: 79px;
         float: left;
         border-right: 1px solid black;
-        .color
+        background-color: $red;
+        .price
         {
-          background-color: $red;
-          width: 79px;
+          img
+          {
+            height: 16px;
+            width: 79px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
       #centennial
@@ -82,10 +102,16 @@
         width: 79px;
         float: left;
         border-left: 1px solid black;
-        .color
+        background-color: $red;
+        .price
         {
-          background-color: $red;
-          width: 79px;
+          img
+          {
+            height: 16px;
+            width: 79px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
       .university
@@ -102,10 +128,16 @@
         width: 79px;
         float: left;
         border-right: 1px solid black;
-        .color
+        background-color: $gold;
+        .price
         {
-          background-color: $gold;
-          width: 79px;
+          img
+          {
+            height: 16px;
+            width: 79px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
       #music_city_center
@@ -114,10 +146,16 @@
         width: 79px;
         float: left;
         border-left: 1px solid black;
-        .color
+        background-color: $gold;
+        .price
         {
-          background-color: $gold;
-          width: 79px;
+          img
+          {
+            height: 16px;
+            width: 79px;
+            border: 0;
+            margin: 0;
+          }
         }
       }
       .utility
@@ -133,9 +171,16 @@
         height: 148px;
         width: 80px;
         float: left;
-        .color
+        background-color: $gold;
+        .price
         {
-          background-color: $gold;
+          img
+          {
+            height: 16px;
+            width: 80px;
+            border: 0;
+            margin: 0;
+          }
         }
         img
         {
@@ -166,40 +211,35 @@
       float: left;
       border-left: 2px solid black;
       border-right: 2px solid black;
-      p
+      .price
       {
-        width: 17px;
-        height: 80px;
+        width: 16px;
+        height: 78px;
+        border: 0;
+        margin: 0;
         float: left;
       }
       img
       {
-        height: 78px;
+        width: 105px;
         margin: 0;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
         float: left;
       }
       .color
       {
-        width: 25px;
-        height: 80px;
+        width: 23px;
         float: left;
-        border-left: 2px solid black;
+        border: 0;
+        margin: 0;
       }
       #rca
       {
         height: 79px;
-        width: 151px;
+        width: 148px;
         border-bottom: 1px solid black;
-        p
-        {
-          height: 79px;
-          margin: 0;
-        }
-        .color
-        {
-          height: 79px;
-          background-color: $orange;
-        }
+        background-color: $orange;
         img
         {
           height: 79px;
@@ -208,18 +248,9 @@
       #wpln
       {
         height: 79px;
-        width: 151px;
+        width: 148px;
         border-top: 1px solid black;
-        p
-        {
-          height: 79px;
-          margin: 0;
-        }
-        .color
-        {
-          height: 79px;
-          background-color: $orange;
-        }
+        background-color: $orange;
         img
         {
           height: 79px;
@@ -228,14 +259,9 @@
       .community_chest
       {
         height: 76px;
-        width: 151px;
+        width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
-        p
-        {
-          margin: 0;
-          height: 76px;
-        }
         img
         {
           height: 76px;
@@ -244,15 +270,8 @@
       #belmont
       {
         height: 80px;
-        width: 151px;
-        p
-        {
-          margin: 0;
-        }
-        .color
-        {
-          background-color: $orange;
-        }
+        width: 148px;
+        background-color: $orange;
         img
         {
           height: 80px;
@@ -261,14 +280,9 @@
       .university
       {
         height: 76px;
-        width: 151px;
+        width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
-        p
-        {
-          margin: 0;
-          height: 76px;
-        }
         img
         {
           height: 76px;
@@ -277,18 +291,9 @@
       #donut
       {
         height: 79px;
-        width: 151px;
+        width: 148px;
         border-bottom: 1px solid black;
-        p
-        {
-          height: 79px;
-          margin: 0;
-        }
-        .color
-        {
-          height: 79px;
-          background-color: $pink;
-        }
+        background-color: $pink;
         img
         {
           height: 79px;
@@ -297,18 +302,9 @@
       #smoke
       {
         height: 79px;
-        width: 151px;
+        width: 148px;
         border-top: 1px solid black;
-        p
-        {
-          height: 79px;
-          margin: 0;
-        }
-        .color
-        {
-          height: 79px;
-          background-color: $pink;
-        }
+        background-color: $pink;
         img
         {
           height: 79px;
@@ -317,14 +313,9 @@
       .utility
       {
         height: 76px;
-        width: 151px;
+        width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
-        p
-        {
-          margin: 0;
-          height: 76px;
-        }
         img
         {
           height: 76px;
@@ -333,15 +324,8 @@
       #bluebird
       {
         height: 80px;
-        width: 151px;
-        p
-        {
-          margin: 0;
-        }
-        .color
-        {
-          background-color: $pink;
-        }
+        width: 148px;
+        background-color: $pink;
         img
         {
           height: 80px;
@@ -368,38 +352,31 @@
       border-left: 2px solid black;
       .color
       {
-        width: 25px;
+        width: 23px;
         height: 80px;
         float: left;
-        border-right: 2px solid black;
       }
       img
       {
         height: 78px;
+        width: 105px;
         margin: 0;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
         float: left;
       }
-      p
+      .price
       {
-        width: 17px;
-        height: 80px;
-        float: left;
+        width: 16px;
+        margin: 0;
+        border: 0;
       }
       #union
       {
         height: 79px;
-        width: 151px;
+        width: 148px;
         border-bottom: 1px solid black;
-        p
-        {
-          height: 79px;
-          margin: 0;
-        }
-        .color
-        {
-          height: 79px;
-          background-color: $green;
-        }
+        background-color: $green;
         img
         {
           height: 79px;
@@ -408,18 +385,9 @@
       #frist
       {
         height: 79px;
-        width: 151px;
+        width: 148px;
         border-top: 1px solid black;
-        p
-        {
-          height: 79px;
-          margin: 0;
-        }
-        .color
-        {
-          height: 79px;
-          background-color: $green;
-        }
+        background-color: $green;
         img
         {
           height: 79px;
@@ -428,7 +396,7 @@
       .community_chest
       {
         height: 76px;
-        width: 151px;
+        width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
         p
@@ -444,15 +412,8 @@
       #ryman
       {
         height: 80px;
-        width: 151px;
-        p
-        {
-          margin: 0;
-        }
-        .color
-        {
-          background-color: $green;
-        }
+        width: 149px;
+        background-color: $green;
         img
         {
           height: 80px;
@@ -461,7 +422,7 @@
       .university
       {
         height: 77px;
-        width: 151px;
+        width: 149px;
         border-bottom: 1px solid black;
         border-top: 2px solid black;
         p
@@ -477,7 +438,7 @@
       .chance
       {
         height: 77px;
-        width: 151px;
+        width: 148px;
         border-bottom: 2px solid black;
         border-top: 1px solid black;
         p
@@ -493,15 +454,8 @@
       #hermitage
       {
         height: 80px;
-        width: 151px;
-        p
-        {
-          margin: 0;
-        }
-        .color
-        {
-          background-color: $blue;
-        }
+        width: 148px;
+        background-color: $blue;
         img
         {
           height: 80px;
@@ -510,7 +464,7 @@
       .tax
       {
         height: 76px;
-        width: 151px;
+        width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
         p
@@ -526,15 +480,8 @@
       #plantation
       {
         height: 80px;
-        width: 151px;
-        p
-        {
-          margin: 0;
-        }
-        .color
-        {
-          background-color: $blue;
-        }
+        width: 148px;
+        background-color: $blue;
         img
         {
           height: 80px;
@@ -565,26 +512,30 @@
       border-top: 2px solid black;
       img
       {
-        width: 78px;
+        height: 105px;
         margin: 0;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
       }
       .color
       {
-        width: 80px;
-        height: 24px;
-        border-bottom: 2px solid black;
+        height: 23px;
+        border: 0;
+        margin: 0;
+      }
+      .price
+      {
+        height: 16px;
+        border: 0;
+        margin: 0;
       }
       #mere_bulles
       {
-        height: 151px;
+        height: 148px;
         width: 79px;
         float: left;
         border-right: 1px solid black;
-        .color
-        {
-          width: 79px;
-          background-color: $teal;
-        }
+        background-color: $teal;
         img
         {
           width: 79px;
@@ -592,15 +543,11 @@
       }
       #percy_warner
       {
-        height: 151px;
+        height: 148px;
         width: 79px;
         float: left;
         border-left: 1px solid black;
-        .color
-        {
-          width: 79px;
-          background-color: $teal;
-        }
+        background-color: $teal;
         img
         {
           width: 79px;
@@ -608,7 +555,7 @@
       }
       .chance
       {
-        height: 151px;
+        height: 148px;
         width: 76px;
         float: left;
         border-left: 2px solid black;
@@ -616,13 +563,10 @@
       }
       #radnor
       {
-        height: 151px;
+        height: 148px;
         width: 80px;
         float: left;
-        .color
-        {
-          background-color: $teal;
-        }
+        background-color: $teal;
         img
         {
           width: 80px;
@@ -630,7 +574,7 @@
       }
       .university
       {
-        height: 151px;
+        height: 148px;
         width: 77px;
         float: left;
         border-left: 2px solid black;
@@ -638,7 +582,7 @@
       }
       .tax
       {
-        height: 151px;
+        height: 148px;
         width: 77px;
         float: left;
         border-left: 1px solid black;
@@ -646,13 +590,10 @@
       }
       #zoo
       {
-        height: 151px;
+        height: 148px;
         width: 80px;
         float: left;
-        .color
-        {
-          background-color: $brown;
-        }
+        background-color: $brown;
         img
         {
           width: 80px;
@@ -660,24 +601,21 @@
       }
       .community_chest
       {
-        height: 151px;
-        width: 76px;
+        height: 148px;
+        width: 77px;
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black;
       }
       #bobbys
       {
-        height: 151px;
-        width: 80px;
+        height: 148px;
+        width: 79px;
         float: left;
-        .color
-        {
-          background-color: $brown;
-        }
+        background-color: $brown;
         img
         {
-          width: 80px;
+          width: 79px;
         }
       }
     }

@@ -28,22 +28,34 @@
       border-top: 2px solid black;
       border-bottom: 2px solid black; }
       #board #top_row .horiz_locations img {
-        width: 78px;
-        margin: 0; }
+        height: 105px;
+        margin: 0;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black; }
       #board #top_row .horiz_locations .color {
         width: 80px;
-        height: 21px;
-        border-top: 2px solid black; }
-      #board #top_row .horiz_locations p {
-        margin-top: 0; }
+        height: 23px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 4px; }
+      #board #top_row .horiz_locations .price {
+        height: 16px;
+        width: 80px;
+        border: 0;
+        margin: 0; }
       #board #top_row .horiz_locations #parthenon {
         height: 148px;
         width: 80px;
-        float: left; }
-        #board #top_row .horiz_locations #parthenon .color {
-          background-color: #f22a39; }
+        float: left;
+        background-color: #f22a39; }
         #board #top_row .horiz_locations #parthenon img {
           width: 80px; }
+        #board #top_row .horiz_locations #parthenon .price img {
+          height: 16px;
+          width: 80px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations .chance {
         height: 148px;
         width: 76px;
@@ -54,18 +66,24 @@
         height: 148px;
         width: 79px;
         float: left;
-        border-right: 1px solid black; }
-        #board #top_row .horiz_locations #montgomery .color {
-          background-color: #f22a39;
-          width: 79px; }
+        border-right: 1px solid black;
+        background-color: #f22a39; }
+        #board #top_row .horiz_locations #montgomery .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations #centennial {
         height: 148px;
         width: 79px;
         float: left;
-        border-left: 1px solid black; }
-        #board #top_row .horiz_locations #centennial .color {
-          background-color: #f22a39;
-          width: 79px; }
+        border-left: 1px solid black;
+        background-color: #f22a39; }
+        #board #top_row .horiz_locations #centennial .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations .university {
         height: 148px;
         width: 76px;
@@ -76,18 +94,24 @@
         height: 148px;
         width: 79px;
         float: left;
-        border-right: 1px solid black; }
-        #board #top_row .horiz_locations #hall_of_fame .color {
-          background-color: #efbe52;
-          width: 79px; }
+        border-right: 1px solid black;
+        background-color: #efbe52; }
+        #board #top_row .horiz_locations #hall_of_fame .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations #music_city_center {
         height: 148px;
         width: 79px;
         float: left;
-        border-left: 1px solid black; }
-        #board #top_row .horiz_locations #music_city_center .color {
-          background-color: #efbe52;
-          width: 79px; }
+        border-left: 1px solid black;
+        background-color: #efbe52; }
+        #board #top_row .horiz_locations #music_city_center .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations .utility {
         height: 148px;
         width: 76px;
@@ -97,9 +121,13 @@
       #board #top_row .horiz_locations #shelby {
         height: 148px;
         width: 80px;
-        float: left; }
-        #board #top_row .horiz_locations #shelby .color {
-          background-color: #efbe52; }
+        float: left;
+        background-color: #efbe52; }
+        #board #top_row .horiz_locations #shelby .price img {
+          height: 16px;
+          width: 80px;
+          border: 0;
+          margin: 0; }
         #board #top_row .horiz_locations #shelby img {
           width: 79px; }
     #board #top_row .right.corner {
@@ -116,113 +144,82 @@
     float: left;
     border-left: 2px solid black;
     border-right: 2px solid black; }
-    #board #middle_row .left.vert_locations p {
-      width: 17px;
-      height: 80px;
-      float: left; }
-    #board #middle_row .left.vert_locations img {
+    #board #middle_row .left.vert_locations .price {
+      width: 16px;
       height: 78px;
+      border: 0;
       margin: 0;
       float: left; }
+    #board #middle_row .left.vert_locations img {
+      width: 105px;
+      margin: 0;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      float: left; }
     #board #middle_row .left.vert_locations .color {
-      width: 25px;
-      height: 80px;
+      width: 23px;
       float: left;
-      border-left: 2px solid black; }
+      border: 0;
+      margin: 0; }
     #board #middle_row .left.vert_locations #rca {
       height: 79px;
-      width: 151px;
-      border-bottom: 1px solid black; }
-      #board #middle_row .left.vert_locations #rca p {
-        height: 79px;
-        margin: 0; }
-      #board #middle_row .left.vert_locations #rca .color {
-        height: 79px;
-        background-color: #ff931e; }
+      width: 148px;
+      border-bottom: 1px solid black;
+      background-color: #ff931e; }
       #board #middle_row .left.vert_locations #rca img {
         height: 79px; }
     #board #middle_row .left.vert_locations #wpln {
       height: 79px;
-      width: 151px;
-      border-top: 1px solid black; }
-      #board #middle_row .left.vert_locations #wpln p {
-        height: 79px;
-        margin: 0; }
-      #board #middle_row .left.vert_locations #wpln .color {
-        height: 79px;
-        background-color: #ff931e; }
+      width: 148px;
+      border-top: 1px solid black;
+      background-color: #ff931e; }
       #board #middle_row .left.vert_locations #wpln img {
         height: 79px; }
     #board #middle_row .left.vert_locations .community_chest {
       height: 76px;
-      width: 151px;
+      width: 148px;
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
-      #board #middle_row .left.vert_locations .community_chest p {
-        margin: 0;
-        height: 76px; }
       #board #middle_row .left.vert_locations .community_chest img {
         height: 76px; }
     #board #middle_row .left.vert_locations #belmont {
       height: 80px;
-      width: 151px; }
-      #board #middle_row .left.vert_locations #belmont p {
-        margin: 0; }
-      #board #middle_row .left.vert_locations #belmont .color {
-        background-color: #ff931e; }
+      width: 148px;
+      background-color: #ff931e; }
       #board #middle_row .left.vert_locations #belmont img {
         height: 80px; }
     #board #middle_row .left.vert_locations .university {
       height: 76px;
-      width: 151px;
+      width: 148px;
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
-      #board #middle_row .left.vert_locations .university p {
-        margin: 0;
-        height: 76px; }
       #board #middle_row .left.vert_locations .university img {
         height: 76px; }
     #board #middle_row .left.vert_locations #donut {
       height: 79px;
-      width: 151px;
-      border-bottom: 1px solid black; }
-      #board #middle_row .left.vert_locations #donut p {
-        height: 79px;
-        margin: 0; }
-      #board #middle_row .left.vert_locations #donut .color {
-        height: 79px;
-        background-color: #ff7bac; }
+      width: 148px;
+      border-bottom: 1px solid black;
+      background-color: #ff7bac; }
       #board #middle_row .left.vert_locations #donut img {
         height: 79px; }
     #board #middle_row .left.vert_locations #smoke {
       height: 79px;
-      width: 151px;
-      border-top: 1px solid black; }
-      #board #middle_row .left.vert_locations #smoke p {
-        height: 79px;
-        margin: 0; }
-      #board #middle_row .left.vert_locations #smoke .color {
-        height: 79px;
-        background-color: #ff7bac; }
+      width: 148px;
+      border-top: 1px solid black;
+      background-color: #ff7bac; }
       #board #middle_row .left.vert_locations #smoke img {
         height: 79px; }
     #board #middle_row .left.vert_locations .utility {
       height: 76px;
-      width: 151px;
+      width: 148px;
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
-      #board #middle_row .left.vert_locations .utility p {
-        margin: 0;
-        height: 76px; }
       #board #middle_row .left.vert_locations .utility img {
         height: 76px; }
     #board #middle_row .left.vert_locations #bluebird {
       height: 80px;
-      width: 151px; }
-      #board #middle_row .left.vert_locations #bluebird p {
-        margin: 0; }
-      #board #middle_row .left.vert_locations #bluebird .color {
-        background-color: #ff7bac; }
+      width: 148px;
+      background-color: #ff7bac; }
       #board #middle_row .left.vert_locations #bluebird img {
         height: 80px; }
   #board #middle_row #center {
@@ -239,45 +236,37 @@
     border-right: 2px solid black;
     border-left: 2px solid black; }
     #board #middle_row .right.vert_locations .color {
-      width: 25px;
+      width: 23px;
       height: 80px;
-      float: left;
-      border-right: 2px solid black; }
+      float: left; }
     #board #middle_row .right.vert_locations img {
       height: 78px;
+      width: 105px;
       margin: 0;
+      border-right: 2px solid black;
+      border-left: 2px solid black;
       float: left; }
-    #board #middle_row .right.vert_locations p {
-      width: 17px;
-      height: 80px;
-      float: left; }
+    #board #middle_row .right.vert_locations .price {
+      width: 16px;
+      margin: 0;
+      border: 0; }
     #board #middle_row .right.vert_locations #union {
       height: 79px;
-      width: 151px;
-      border-bottom: 1px solid black; }
-      #board #middle_row .right.vert_locations #union p {
-        height: 79px;
-        margin: 0; }
-      #board #middle_row .right.vert_locations #union .color {
-        height: 79px;
-        background-color: #7ac943; }
+      width: 148px;
+      border-bottom: 1px solid black;
+      background-color: #7ac943; }
       #board #middle_row .right.vert_locations #union img {
         height: 79px; }
     #board #middle_row .right.vert_locations #frist {
       height: 79px;
-      width: 151px;
-      border-top: 1px solid black; }
-      #board #middle_row .right.vert_locations #frist p {
-        height: 79px;
-        margin: 0; }
-      #board #middle_row .right.vert_locations #frist .color {
-        height: 79px;
-        background-color: #7ac943; }
+      width: 148px;
+      border-top: 1px solid black;
+      background-color: #7ac943; }
       #board #middle_row .right.vert_locations #frist img {
         height: 79px; }
     #board #middle_row .right.vert_locations .community_chest {
       height: 76px;
-      width: 151px;
+      width: 148px;
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
       #board #middle_row .right.vert_locations .community_chest p {
@@ -287,16 +276,13 @@
         height: 76px; }
     #board #middle_row .right.vert_locations #ryman {
       height: 80px;
-      width: 151px; }
-      #board #middle_row .right.vert_locations #ryman p {
-        margin: 0; }
-      #board #middle_row .right.vert_locations #ryman .color {
-        background-color: #7ac943; }
+      width: 149px;
+      background-color: #7ac943; }
       #board #middle_row .right.vert_locations #ryman img {
         height: 80px; }
     #board #middle_row .right.vert_locations .university {
       height: 77px;
-      width: 151px;
+      width: 149px;
       border-bottom: 1px solid black;
       border-top: 2px solid black; }
       #board #middle_row .right.vert_locations .university p {
@@ -306,7 +292,7 @@
         height: 76px; }
     #board #middle_row .right.vert_locations .chance {
       height: 77px;
-      width: 151px;
+      width: 148px;
       border-bottom: 2px solid black;
       border-top: 1px solid black; }
       #board #middle_row .right.vert_locations .chance p {
@@ -316,16 +302,13 @@
         height: 76px; }
     #board #middle_row .right.vert_locations #hermitage {
       height: 80px;
-      width: 151px; }
-      #board #middle_row .right.vert_locations #hermitage p {
-        margin: 0; }
-      #board #middle_row .right.vert_locations #hermitage .color {
-        background-color: #367995; }
+      width: 148px;
+      background-color: #367995; }
       #board #middle_row .right.vert_locations #hermitage img {
         height: 80px; }
     #board #middle_row .right.vert_locations .tax {
       height: 76px;
-      width: 151px;
+      width: 148px;
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
       #board #middle_row .right.vert_locations .tax p {
@@ -335,11 +318,8 @@
         height: 76px; }
     #board #middle_row .right.vert_locations #plantation {
       height: 80px;
-      width: 151px; }
-      #board #middle_row .right.vert_locations #plantation p {
-        margin: 0; }
-      #board #middle_row .right.vert_locations #plantation .color {
-        background-color: #367995; }
+      width: 148px;
+      background-color: #367995; }
       #board #middle_row .right.vert_locations #plantation img {
         height: 80px; }
   #board #bottom_row .left.corner {
@@ -357,80 +337,79 @@
     border-bottom: 2px solid black;
     border-top: 2px solid black; }
     #board #bottom_row .horiz_locations img {
-      width: 78px;
-      margin: 0; }
-    #board #bottom_row .horiz_locations .color {
-      width: 80px;
-      height: 24px;
+      height: 105px;
+      margin: 0;
+      border-top: 2px solid black;
       border-bottom: 2px solid black; }
+    #board #bottom_row .horiz_locations .color {
+      height: 23px;
+      border: 0;
+      margin: 0; }
+    #board #bottom_row .horiz_locations .price {
+      height: 16px;
+      border: 0;
+      margin: 0; }
     #board #bottom_row .horiz_locations #mere_bulles {
-      height: 151px;
+      height: 148px;
       width: 79px;
       float: left;
-      border-right: 1px solid black; }
-      #board #bottom_row .horiz_locations #mere_bulles .color {
-        width: 79px;
-        background-color: #00a89d; }
+      border-right: 1px solid black;
+      background-color: #00a89d; }
       #board #bottom_row .horiz_locations #mere_bulles img {
         width: 79px; }
     #board #bottom_row .horiz_locations #percy_warner {
-      height: 151px;
+      height: 148px;
       width: 79px;
       float: left;
-      border-left: 1px solid black; }
-      #board #bottom_row .horiz_locations #percy_warner .color {
-        width: 79px;
-        background-color: #00a89d; }
+      border-left: 1px solid black;
+      background-color: #00a89d; }
       #board #bottom_row .horiz_locations #percy_warner img {
         width: 79px; }
     #board #bottom_row .horiz_locations .chance {
-      height: 151px;
+      height: 148px;
       width: 76px;
       float: left;
       border-left: 2px solid black;
       border-right: 2px solid black; }
     #board #bottom_row .horiz_locations #radnor {
-      height: 151px;
+      height: 148px;
       width: 80px;
-      float: left; }
-      #board #bottom_row .horiz_locations #radnor .color {
-        background-color: #00a89d; }
+      float: left;
+      background-color: #00a89d; }
       #board #bottom_row .horiz_locations #radnor img {
         width: 80px; }
     #board #bottom_row .horiz_locations .university {
-      height: 151px;
+      height: 148px;
       width: 77px;
       float: left;
       border-left: 2px solid black;
       border-right: 1px solid black; }
     #board #bottom_row .horiz_locations .tax {
-      height: 151px;
+      height: 148px;
       width: 77px;
       float: left;
       border-left: 1px solid black;
       border-right: 2px solid black; }
     #board #bottom_row .horiz_locations #zoo {
-      height: 151px;
+      height: 148px;
       width: 80px;
-      float: left; }
-      #board #bottom_row .horiz_locations #zoo .color {
-        background-color: #e2a66a; }
+      float: left;
+      background-color: #e2a66a; }
       #board #bottom_row .horiz_locations #zoo img {
         width: 80px; }
     #board #bottom_row .horiz_locations .community_chest {
-      height: 151px;
-      width: 76px;
+      height: 148px;
+      width: 77px;
       float: left;
       border-left: 2px solid black;
       border-right: 2px solid black; }
     #board #bottom_row .horiz_locations #bobbys {
-      height: 151px;
-      width: 80px;
-      float: left; }
-      #board #bottom_row .horiz_locations #bobbys .color {
-        background-color: #e2a66a; }
+      height: 148px;
+      width: 79px;
+      float: left;
+      background-color: #e2a66a; }
       #board #bottom_row .horiz_locations #bobbys img {
-        width: 80px; }
+        width: 79px; }
   #board #bottom_row .right.corner {
     width: 152px;
     height: 152px;
