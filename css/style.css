@@ -631,6 +631,72 @@
       height: 152px;
       width: 152px; }
 
+div#main {
+  width: 1024px; }
+
+div#nav {
+  width: 1024px;
+  background-color: #f22a39; }
+  div#nav ul {
+    width: 700px;
+    margin: 0px auto; }
+    div#nav ul li {
+      display: inline-block;
+      padding: 10px; }
+      div#nav ul li a {
+        color: white;
+        text-decoration: none; }
+        div#nav ul li a img {
+          width: 150px;
+          position: relative;
+          top: 20px; }
+
+#pieces_header {
+  width: 1024px;
+  height: 300px;
+  background-color: white;
+  padding-top: 100px; }
+  #pieces_header h1 {
+    float: right;
+    width: 400px; }
+  #pieces_header p {
+    float: right;
+    width: 400px; }
+
+.clear {
+  clear: both; }
+
+.pieces_container {
+  width: 1024px; }
+
+.pieces_right_section {
+  width: 1004px;
+  height: 100%;
+  background-color: #00a89d;
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px; }
+  .pieces_right_section .description {
+    display: inline-block;
+    width: 500px;
+    float: right; }
+    .pieces_right_section .description h2 {
+      width: 400px; }
+    .pieces_right_section .description p {
+      width: 400px; }
+
+.pieces_left_section {
+  width: 1004px;
+  height: 100%;
+  background-color: #7ac943;
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px; }
+  .pieces_left_section h2 {
+    width: 400px; }
+  .pieces_left_section p {
+    width: 400px; }
+
 #cards {
   width: 100%;
   background-image: url(../images/board_center.png);
