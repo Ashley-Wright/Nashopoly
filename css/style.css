@@ -171,6 +171,11 @@
       background-color: #ff931e; }
       #board #middle_row .left.vert_locations #rca img {
         height: 79px; }
+      #board #middle_row .left.vert_locations #rca .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
+        margin: 0; }
     #board #middle_row .left.vert_locations #wpln {
       height: 79px;
       width: 148px;
@@ -178,6 +183,11 @@
       background-color: #ff931e; }
       #board #middle_row .left.vert_locations #wpln img {
         height: 79px; }
+      #board #middle_row .left.vert_locations #wpln .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
+        margin: 0; }
     #board #middle_row .left.vert_locations .community_chest {
       height: 76px;
       width: 148px;
@@ -191,6 +201,11 @@
       background-color: #ff931e; }
       #board #middle_row .left.vert_locations #belmont img {
         height: 80px; }
+      #board #middle_row .left.vert_locations #belmont .price img {
+        height: 80px;
+        width: 16px;
+        border: 0;
+        margin: 0; }
     #board #middle_row .left.vert_locations .university {
       height: 76px;
       width: 148px;
@@ -205,6 +220,11 @@
       background-color: #ff7bac; }
       #board #middle_row .left.vert_locations #donut img {
         height: 79px; }
+      #board #middle_row .left.vert_locations #donut .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
+        margin: 0; }
     #board #middle_row .left.vert_locations #smoke {
       height: 79px;
       width: 148px;
@@ -212,6 +232,11 @@
       background-color: #ff7bac; }
       #board #middle_row .left.vert_locations #smoke img {
         height: 79px; }
+      #board #middle_row .left.vert_locations #smoke .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
+        margin: 0; }
     #board #middle_row .left.vert_locations .utility {
       height: 76px;
       width: 148px;
@@ -225,6 +250,11 @@
       background-color: #ff7bac; }
       #board #middle_row .left.vert_locations #bluebird img {
         height: 80px; }
+      #board #middle_row .left.vert_locations #bluebird .price img {
+        height: 80px;
+        width: 16px;
+        border: 0;
+        margin: 0; }
   #board #middle_row #center {
     width: 720px;
     height: 720px;
