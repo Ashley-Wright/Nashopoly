@@ -285,6 +285,9 @@
         img
         {
           height: 76px;
+          width: 148px;
+          position: relative;
+          right: 3px;
         }
       }
       #belmont
@@ -480,14 +483,12 @@
         width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
-        p
-        {
-          margin: 0;
-          height: 76px;
-        }
         img
         {
           height: 76px;
+          width: 148px;
+          position: relative;
+          right: 2px;
         }
       }
       #ryman
@@ -765,6 +766,13 @@
         float: left;
         border-left: 2px solid black;
         border-right: 2px solid black;
+        img
+        {
+          width: 77px;
+          height: 148px;
+          position: relative;
+          bottom: 2px;
+        }
       }
       #bobbys
       {

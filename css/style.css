@@ -194,7 +194,10 @@
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
       #board #middle_row .left.vert_locations .community_chest img {
-        height: 76px; }
+        height: 76px;
+        width: 148px;
+        position: relative;
+        right: 3px; }
     #board #middle_row .left.vert_locations #belmont {
       height: 80px;
       width: 148px;
@@ -313,11 +316,11 @@
       width: 148px;
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
-      #board #middle_row .right.vert_locations .community_chest p {
-        margin: 0;
-        height: 76px; }
       #board #middle_row .right.vert_locations .community_chest img {
-        height: 76px; }
+        height: 76px;
+        width: 148px;
+        position: relative;
+        right: 2px; }
     #board #middle_row .right.vert_locations #ryman {
       height: 80px;
       width: 149px;
@@ -490,6 +493,11 @@
       float: left;
       border-left: 2px solid black;
       border-right: 2px solid black; }
+      #board #bottom_row .horiz_locations .community_chest img {
+        width: 77px;
+        height: 148px;
+        position: relative;
+        bottom: 2px; }
     #board #bottom_row .horiz_locations #bobbys {
       height: 148px;
       width: 79px;
