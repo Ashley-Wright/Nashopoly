@@ -55,9 +55,9 @@
           position: relative;
           top: 230px;
           left: 130px;
-          transform: scale(4) rotate(0.5) translate(130px);
-          -ms-transform: scale(4) rotate(0.5);
-          -webkit-transform: scale(4) rotate(0.5);
+          transform: scale(4) rotate(180deg) translate(130px 200px);
+          -moz-transform: scale(4) rotate(180deg) translate(130px 200px);
+          -webkit-transform: scale(4) rotate(180deg) translate(130px 200px);
           -webkit-transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;
           -o-transition: all 0.2s ease-in-out;
@@ -475,9 +475,11 @@
         transform: scale(4);
         -ms-transform: scale(4);
         -webkit-transform: scale(4);
-        position: relative;
-        bottom: 230px;
-        left: 130px;
+        -webkit-transform: translate(200px);
+        -moz-transform: translate;
+        -ms-transform: translate;
+        -o-transform: translate;
+        transform: translate;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
