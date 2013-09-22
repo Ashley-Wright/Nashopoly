@@ -412,7 +412,7 @@
       width: 160px;
       height: 85px;
       position: absolute;
-      background-color: #e82222;
+      background-color: #f23b26;
       border: 1px solid black; }
       #cards #chance .card:nth-of-type(1) {
         top: 680px;
@@ -453,9 +453,9 @@
       #cards #chance .card:nth-of-type(5) {
         top: 810px;
         left: 380px;
-        transform: rotate(-6deg);
-        -webkit-transform: rotate(-6deg);
-        -moz-transform: rotate(-6deg);
+        transform: rotate(-8deg);
+        -webkit-transform: rotate(-8deg);
+        -moz-transform: rotate(-8deg);
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
