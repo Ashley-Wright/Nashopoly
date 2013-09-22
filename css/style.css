@@ -556,7 +556,7 @@
       width: 80px;
       float: left;
       background-color: #e2a66a; }
-      #board #bottom_row .horiz_locations #zoo:hover {
+      #board #bottom_row .horiz_locations #zoo:active {
         transform: scale(4);
         -ms-transform: scale(4);
         -webkit-transform: scale(4);

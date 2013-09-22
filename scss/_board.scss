@@ -839,7 +839,7 @@
         width: 80px;
         float: left;
         background-color: $brown;
-        &:hover
+        &:active
           {
             transform: scale(4);
             -ms-transform: scale(4);
