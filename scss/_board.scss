@@ -22,95 +22,124 @@
     .horiz_locations
     {
       width: 720px;
-      height: 152px;
+      height: 148px;
       float: left;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
       img
       {
         width: 78px;
-        margin-left: 1px;
+        margin: 0;
       }
       .color
       {
         width: 80px;
-        height: 30px;
+        height: 21px;
+        border-top: 2px solid black;
+      }
+      p
+      {
+        margin-top: 0;
+        // height: 20;
       }
       #parthenon
       {
-        height: 152px;
+        height: 148px;
         width: 80px;
-        // border: 1px solid black;
         float: left;
         .color
         {
           background-color: $red;
+        }
+        img
+        {
+          width: 80px;
         }
       }
       .chance
       {
-        height: 152px;
-        width: 80px;
+        height: 148px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #montgomery
       {
-        height: 152px;
-        width: 80px;
+        height: 148px;
+        width: 79px;
         float: left;
+        border-right: 1px solid black;
         .color
         {
           background-color: $red;
+          width: 79px;
         }
       }
       #centennial
       {
-        height: 152px;
-        width: 80px;
+        height: 148px;
+        width: 79px;
         float: left;
+        border-left: 1px solid black;
         .color
         {
           background-color: $red;
+          width: 79px;
         }
       }
       .university
       {
-        height: 152px;
-        width: 80px;
+        height: 148px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #hall_of_fame
       {
-        height: 152px;
-        width: 80px;
+        height: 148px;
+        width: 79px;
         float: left;
+        border-right: 1px solid black;
         .color
         {
           background-color: $gold;
+          width: 79px;
         }
       }
       #music_city_center
       {
-        height: 152px;
+        height: 148px;
+        width: 79px;
+        float: left;
+        border-left: 1px solid black;
+        .color
+        {
+          background-color: $gold;
+          width: 79px;
+        }
+      }
+      .utility
+      {
+        height: 148px;
+        width: 76px;
+        float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+      }
+      #shelby
+      {
+        height: 148px;
         width: 80px;
         float: left;
         .color
         {
           background-color: $gold;
         }
-      }
-      .utility
-      {
-        height: 152px;
-        width: 80px;
-        float: left;
-      }
-      #shelby
-      {
-        height: 152px;
-        width: 80px;
-        float: left;
-        .color
+        img
         {
-          background-color: $gold;
+          width: 79px;
         }
       }
 
@@ -132,130 +161,190 @@
   {
     .left.vert_locations
     {
-      width: 152px;
+      width: 148px;
       height: 720px;
       float: left;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
       p
       {
-        width: 18px;
+        width: 17px;
         height: 80px;
         float: left;
       }
       img
       {
         height: 78px;
-        margin-top: 1px;
+        margin: 0;
         float: left;
       }
       .color
       {
-        width: 30px;
+        width: 25px;
         height: 80px;
         float: left;
+        border-left: 2px solid black;
       }
       #rca
       {
-        height: 80px;
-        width: 152px;
+        height: 79px;
+        width: 151px;
+        border-bottom: 1px solid black;
         p
         {
+          height: 79px;
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          height: 79px;
+          background-color: $orange;
+        }
+        img
+        {
+          height: 79px;
         }
       }
       #wpln
       {
-        height: 80px;
-        width: 152px;
+        height: 79px;
+        width: 151px;
+        border-top: 1px solid black;
         p
         {
+          height: 79px;
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          height: 79px;
+          background-color: $orange;
+        }
+        img
+        {
+          height: 79px;
         }
       }
       .community_chest
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #belmont
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          background-color: $orange;
+        }
+        img
+        {
+          height: 80px;
         }
       }
       .university
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #donut
       {
-        height: 80px;
-        width: 152px;
+        height: 79px;
+        width: 151px;
+        border-bottom: 1px solid black;
         p
         {
+          height: 79px;
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          height: 79px;
+          background-color: $pink;
+        }
+        img
+        {
+          height: 79px;
         }
       }
       #smoke
       {
-        height: 80px;
-        width: 152px;
+        height: 79px;
+        width: 151px;
+        border-top: 1px solid black;
         p
         {
+          height: 79px;
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          height: 79px;
+          background-color: $pink;
+        }
+        img
+        {
+          height: 79px;
         }
       }
       .utility
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #bluebird
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          background-color: $pink;
+        }
+        img
+        {
+          height: 80px;
         }
       }
     }
@@ -272,127 +361,183 @@
     }
     .right.vert_locations
     {
-      width: 152px;
+      width: 148px;
       height: 720px;
       float: left;
+      border-right: 2px solid black;
+      border-left: 2px solid black;
       .color
       {
-        width: 30px;
+        width: 25px;
         height: 80px;
         float: left;
+        border-right: 2px solid black;
       }
       img
       {
         height: 78px;
-        margin-top: 1px;
+        margin: 0;
         float: left;
       }
       p
       {
-        width: 18px;
+        width: 17px;
         height: 80px;
         float: left;
       }
       #union
       {
-        height: 80px;
-        width: 152px;
+        height: 79px;
+        width: 151px;
+        border-bottom: 1px solid black;
         p
         {
+          height: 79px;
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          height: 79px;
+          background-color: $green;
+        }
+        img
+        {
+          height: 79px;
         }
       }
       #frist
       {
-        height: 80px;
-        width: 152px;
+        height: 79px;
+        width: 151px;
+        border-top: 1px solid black;
         p
         {
+          height: 79px;
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          height: 79px;
+          background-color: $green;
+        }
+        img
+        {
+          height: 79px;
         }
       }
       .community_chest
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #ryman
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          background-color: $green;
+        }
+        img
+        {
+          height: 80px;
         }
       }
       .university
       {
-        height: 80px;
-        width: 152px;
+        height: 77px;
+        width: 151px;
+        border-bottom: 1px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       .chance
       {
-        height: 80px;
-        width: 152px;
+        height: 77px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 1px solid black;
         p
         {
           margin: 0;
+          height: 76px;
+        }
+        img
+        {
+          height: 76px;
         }
       }
       #hermitage
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          background-color: $blue;
+        }
+        img
+        {
+          height: 80px;
         }
       }
       .tax
       {
-        height: 80px;
-        width: 152px;
+        height: 76px;
+        width: 151px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         p
         {
           margin: 0;
+          height: 76px;
         }
-
+        img
+        {
+          height: 76px;
+        }
       }
       #plantation
       {
         height: 80px;
-        width: 152px;
+        width: 151px;
         p
         {
           margin: 0;
         }
         .color
         {
-          background-color: $teal;
+          background-color: $blue;
+        }
+        img
+        {
+          height: 80px;
         }
       }
     }
@@ -414,90 +559,125 @@
     .horiz_locations
     {
       width: 720px;
-      height: 152px;
+      height: 148px;
       float: left;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black;
       img
       {
         width: 78px;
-        margin-left: 1px;
+        margin: 0;
       }
       .color
       {
         width: 80px;
-        height: 30px;
+        height: 24px;
+        border-bottom: 2px solid black;
       }
       #mere_bulles
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 79px;
         float: left;
+        border-right: 1px solid black;
         .color
         {
-          background-color: $blue;
+          width: 79px;
+          background-color: $teal;
+        }
+        img
+        {
+          width: 79px;
         }
       }
       #percy_warner
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 79px;
         float: left;
+        border-left: 1px solid black;
         .color
         {
-          background-color: $blue;
+          width: 79px;
+          background-color: $teal;
+        }
+        img
+        {
+          width: 79px;
         }
       }
       .chance
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #radnor
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
         {
-          background-color: $blue;
+          background-color: $teal;
+        }
+        img
+        {
+          width: 80px;
         }
       }
       .university
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 77px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 1px solid black;
       }
       .tax
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 77px;
         float: left;
+        border-left: 1px solid black;
+        border-right: 2px solid black;
       }
       #zoo
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
         {
           background-color: $brown;
         }
+        img
+        {
+          width: 80px;
+        }
       }
       .community_chest
       {
-        height: 152px;
-        width: 80px;
+        height: 151px;
+        width: 76px;
         float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
       }
       #bobbys
       {
-        height: 152px;
+        height: 151px;
         width: 80px;
         float: left;
         .color
         {
           background-color: $brown;
+        }
+        img
+        {
+          width: 80px;
         }
       }
     }
