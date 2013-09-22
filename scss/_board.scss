@@ -690,6 +690,19 @@
         {
           width: 79px;
         }
+        &:hover
+          {
+            transform: scale(4);
+            -ms-transform: scale(4);
+            -webkit-transform: scale(4);
+            position: relative;
+            bottom: 230px;
+            left: 130px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
         .price
         {
           img
@@ -710,6 +723,19 @@
         float: left;
         border-left: 1px solid black;
         background-color: $teal;
+        &:hover
+          {
+            transform: scale(4);
+            -ms-transform: scale(4);
+            -webkit-transform: scale(4);
+            position: relative;
+            bottom: 230px;
+            left: 130px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
         img
         {
           width: 79px;
@@ -747,6 +773,19 @@
         width: 80px;
         float: left;
         background-color: $teal;
+        &:hover
+          {
+            transform: scale(4);
+            -ms-transform: scale(4);
+            -webkit-transform: scale(4);
+            position: relative;
+            bottom: 230px;
+            left: 100px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
         img
         {
           width: 80px;
@@ -800,6 +839,19 @@
         width: 80px;
         float: left;
         background-color: $brown;
+        &:hover
+          {
+            transform: scale(4);
+            -ms-transform: scale(4);
+            -webkit-transform: scale(4);
+            position: relative;
+            bottom: 230px;
+            left: -150px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
         img
         {
           width: 80px;
@@ -838,6 +890,19 @@
         width: 79px;
         float: left;
         background-color: $brown;
+        &:hover
+          {
+            transform: scale(4);
+            -ms-transform: scale(4);
+            -webkit-transform: scale(4);
+            position: relative;
+            bottom: 230px;
+            left: -250px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
         img
         {
           width: 79px;

@@ -450,6 +450,17 @@
       background-color: #00a89d; }
       #board #bottom_row .horiz_locations #mere_bulles img {
         width: 79px; }
+      #board #bottom_row .horiz_locations #mere_bulles:hover {
+        transform: scale(4);
+        -ms-transform: scale(4);
+        -webkit-transform: scale(4);
+        position: relative;
+        bottom: 230px;
+        left: 130px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
       #board #bottom_row .horiz_locations #mere_bulles .price img {
         height: 16px;
         width: 79px;
@@ -463,6 +474,17 @@
       float: left;
       border-left: 1px solid black;
       background-color: #00a89d; }
+      #board #bottom_row .horiz_locations #percy_warner:hover {
+        transform: scale(4);
+        -ms-transform: scale(4);
+        -webkit-transform: scale(4);
+        position: relative;
+        bottom: 230px;
+        left: 130px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
       #board #bottom_row .horiz_locations #percy_warner img {
         width: 79px; }
       #board #bottom_row .horiz_locations #percy_warner .price img {
@@ -487,6 +509,17 @@
       width: 80px;
       float: left;
       background-color: #00a89d; }
+      #board #bottom_row .horiz_locations #radnor:hover {
+        transform: scale(4);
+        -ms-transform: scale(4);
+        -webkit-transform: scale(4);
+        position: relative;
+        bottom: 230px;
+        left: 100px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
       #board #bottom_row .horiz_locations #radnor img {
         width: 80px; }
       #board #bottom_row .horiz_locations #radnor .price img {
@@ -523,6 +556,17 @@
       width: 80px;
       float: left;
       background-color: #e2a66a; }
+      #board #bottom_row .horiz_locations #zoo:hover {
+        transform: scale(4);
+        -ms-transform: scale(4);
+        -webkit-transform: scale(4);
+        position: relative;
+        bottom: 230px;
+        left: -150px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
       #board #bottom_row .horiz_locations #zoo img {
         width: 80px; }
       #board #bottom_row .horiz_locations #zoo .price img {
@@ -548,6 +592,17 @@
       width: 79px;
       float: left;
       background-color: #e2a66a; }
+      #board #bottom_row .horiz_locations #bobbys:hover {
+        transform: scale(4);
+        -ms-transform: scale(4);
+        -webkit-transform: scale(4);
+        position: relative;
+        bottom: 230px;
+        left: -250px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
       #board #bottom_row .horiz_locations #bobbys img {
         width: 79px; }
       #board #bottom_row .horiz_locations #bobbys .price img {
