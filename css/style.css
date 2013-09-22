@@ -681,7 +681,7 @@ div#nav {
 
 .pieces_right_section {
   width: 1004px;
-  height: 100%;
+  height: 300px;
   background-color: #00a89d;
   color: white;
   padding-top: 30px;
@@ -697,7 +697,7 @@ div#nav {
 
 .pieces_left_section {
   width: 1004px;
-  height: 100%;
+  height: 300px;
   background-color: #7ac943;
   color: white;
   padding-top: 30px;
@@ -706,6 +706,17 @@ div#nav {
     width: 400px; }
   .pieces_left_section p {
     width: 400px; }
+
+footer {
+  width: 1024px;
+  background-color: #367995;
+  height: 200px; }
+
+footer #image_container {
+  width: 300px;
+  margin: 0px auto; }
+  footer #image_container img {
+    width: 300px; }
 
 #cards {
   width: 100%;
