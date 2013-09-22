@@ -4,28 +4,60 @@
 	%meta{charset: '#'}
 	%title NASHOPOLY | FAQ
 	%link{rel:'stylesheet', type:'text/css', href:'../css/style.css'}
+	%link{rel:'stylesheet', type:'text/css', href:'../css/normalize.css'}
 %body
-	.nav
-		%ul
-			%li 
-				%a Home
-			%li 
-				%a Board
-			%li 
-				%a Cards
-			%li
-				%a
-					%img
-			%li 
-				%a Pieces
-			%li 
-				%a FAQ
-			%li 
-				%a Contact Us	
-	.faq_header
-		.faq_header_section
-			%h1
+	#content
+		.nav
+			%ul
+				%li 
+					%a Home
+				%li 
+					%a Board
+				%li 
+					%a Cards
+				%li
+					%a
+						%img{src:'../images/nashopoly_logo_full.png'}
+				%li 
+					%a Pieces
+				%li 
+					%a FAQ
+				%li 
+					%a Contact Us	
+		.faq_header
+			.faq_header_section
+				%h1
 
-			%p
-		.faq_header_section
-			%img.faq_header_image
+				%p
+			.faq_header_section
+				%img.faq_header_image
+		.faq_content
+			.faq_content_question
+				%h2
+			.faq_content_answer
+				%p
+		.faq_content
+			.faq_content_question
+				%h2
+			.faq_content_answer
+				%p
+		.faq_content
+			.faq_content_question
+				%h2
+			.faq_content_answer
+				%p
+		%footer
+			%ul
+				%li
+					%a Home
+				%li
+					%a Board
+				%li
+					%a Cards
+				%li
+					%a Pieces
+				%li
+					%a FAQS
+				%li
+					%a Contact Us
+		

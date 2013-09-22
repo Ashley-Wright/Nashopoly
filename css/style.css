@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Damion);
-@font-face {
-  font-face: silverflake;
-  src: url("../fonts/Silverflake.otf"); }
-
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+@import url(http://fonts.googleapis.com/css?family=Parisienne);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
 #main {
   width: 1024px;
   margin: auto; }
@@ -13,7 +12,7 @@
 #board {
   height: 1024px;
   width: 1024px;
-  background-color: red; }
+  background-color: #cfe1c4; }
   #board #top_row {
     height: 152px;
     width: 1024px; }
@@ -22,149 +21,242 @@
       height: 152px;
       background-color: yellow;
       float: left; }
+      #board #top_row .left.corner img {
+        height: 152px;
+        width: 152px; }
     #board #top_row .horiz_locations {
       width: 720px;
-      height: 152px;
-      background-color: blue;
-      float: left; }
+      height: 148px;
+      float: left;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black; }
       #board #top_row .horiz_locations img {
-        width: 78px;
-        margin-left: 1px; }
+        height: 105px;
+        margin: 0;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black; }
       #board #top_row .horiz_locations .color {
         width: 80px;
-        height: 30px; }
+        height: 23px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 4px; }
+      #board #top_row .horiz_locations .price {
+        height: 16px;
+        width: 80px;
+        border: 0;
+        margin: 0; }
       #board #top_row .horiz_locations #parthenon {
-        height: 152px;
+        height: 148px;
         width: 80px;
-        background-color: red;
-        float: left; }
-        #board #top_row .horiz_locations #parthenon .color {
-          background-color: #00a89d; }
+        float: left;
+        background-color: #f22a39; }
+        #board #top_row .horiz_locations #parthenon img {
+          width: 80px; }
+        #board #top_row .horiz_locations #parthenon .price img {
+          height: 16px;
+          width: 80px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations .chance {
-        height: 152px;
-        width: 80px;
-        background-color: yellow;
-        float: left; }
+        height: 148px;
+        width: 76px;
+        float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black; }
       #board #top_row .horiz_locations #montgomery {
-        height: 152px;
-        width: 80px;
-        background-color: pink;
-        float: left; }
-        #board #top_row .horiz_locations #montgomery .color {
-          background-color: #00a89d; }
+        height: 148px;
+        width: 79px;
+        float: left;
+        border-right: 1px solid black;
+        background-color: #f22a39; }
+        #board #top_row .horiz_locations #montgomery .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations #centennial {
-        height: 152px;
-        width: 80px;
-        background-color: green;
-        float: left; }
-        #board #top_row .horiz_locations #centennial .color {
-          background-color: #00a89d; }
+        height: 148px;
+        width: 79px;
+        float: left;
+        border-left: 1px solid black;
+        background-color: #f22a39; }
+        #board #top_row .horiz_locations #centennial .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations .university {
-        height: 152px;
-        width: 80px;
-        background-color: orange;
-        float: left; }
+        height: 148px;
+        width: 76px;
+        float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black; }
       #board #top_row .horiz_locations #hall_of_fame {
-        height: 152px;
-        width: 80px;
-        background-color: purple;
-        float: left; }
-        #board #top_row .horiz_locations #hall_of_fame .color {
-          background-color: #efbe52; }
+        height: 148px;
+        width: 79px;
+        float: left;
+        border-right: 1px solid black;
+        background-color: #efbe52; }
+        #board #top_row .horiz_locations #hall_of_fame .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations #music_city_center {
-        height: 152px;
-        width: 80px;
-        background-color: blue;
-        float: left; }
-        #board #top_row .horiz_locations #music_city_center .color {
-          background-color: #efbe52; }
+        height: 148px;
+        width: 79px;
+        float: left;
+        border-left: 1px solid black;
+        background-color: #efbe52; }
+        #board #top_row .horiz_locations #music_city_center .price img {
+          height: 16px;
+          width: 79px;
+          border: 0;
+          margin: 0; }
       #board #top_row .horiz_locations .utility {
-        height: 152px;
-        width: 80px;
-        background-color: black;
-        float: left; }
+        height: 148px;
+        width: 76px;
+        float: left;
+        border-left: 2px solid black;
+        border-right: 2px solid black; }
       #board #top_row .horiz_locations #shelby {
-        height: 152px;
+        height: 148px;
         width: 80px;
-        background-color: white;
-        float: left; }
-        #board #top_row .horiz_locations #shelby .color {
-          background-color: #efbe52; }
+        float: left;
+        background-color: #efbe52; }
+        #board #top_row .horiz_locations #shelby .price img {
+          height: 16px;
+          width: 80px;
+          border: 0;
+          margin: 0; }
+        #board #top_row .horiz_locations #shelby img {
+          width: 79px; }
     #board #top_row .right.corner {
       width: 152px;
       height: 152px;
       background-color: green;
       float: left; }
+      #board #top_row .right.corner img {
+        height: 152px;
+        width: 152px; }
   #board #middle_row .left.vert_locations {
-    width: 152px;
+    width: 148px;
     height: 720px;
-    background-color: orange;
-    float: left; }
-    #board #middle_row .left.vert_locations p {
-      width: 18px;
-      height: 80px;
+    float: left;
+    border-left: 2px solid black;
+    border-right: 2px solid black; }
+    #board #middle_row .left.vert_locations .price {
+      width: 16px;
+      height: 78px;
+      border: 0;
+      margin: 0;
       float: left; }
     #board #middle_row .left.vert_locations img {
-      height: 78px;
-      margin-top: 1px;
+      width: 105px;
+      margin: 0;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
       float: left; }
     #board #middle_row .left.vert_locations .color {
-      width: 30px;
-      height: 80px;
-      float: left; }
+      width: 23px;
+      float: left;
+      border: 0;
+      margin: 0; }
     #board #middle_row .left.vert_locations #rca {
-      height: 80px;
-      width: 152px;
-      background-color: red; }
-      #board #middle_row .left.vert_locations #rca p {
+      height: 79px;
+      width: 148px;
+      border-bottom: 1px solid black;
+      background-color: #ff931e; }
+      #board #middle_row .left.vert_locations #rca img {
+        height: 79px; }
+      #board #middle_row .left.vert_locations #rca .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .left.vert_locations #wpln {
-      height: 80px;
-      width: 152px;
-      background-color: yellow; }
-      #board #middle_row .left.vert_locations #wpln p {
+      height: 79px;
+      width: 148px;
+      border-top: 1px solid black;
+      background-color: #ff931e; }
+      #board #middle_row .left.vert_locations #wpln img {
+        height: 79px; }
+      #board #middle_row .left.vert_locations #wpln .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .left.vert_locations .community_chest {
-      height: 80px;
-      width: 152px;
-      background-color: pink; }
-      #board #middle_row .left.vert_locations .community_chest p {
-        margin: 0; }
+      height: 76px;
+      width: 148px;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black; }
+      #board #middle_row .left.vert_locations .community_chest img {
+        height: 76px;
+        width: 148px;
+        position: relative;
+        right: 3px; }
     #board #middle_row .left.vert_locations #belmont {
       height: 80px;
-      width: 152px;
-      background-color: green; }
-      #board #middle_row .left.vert_locations #belmont p {
+      width: 148px;
+      background-color: #ff931e; }
+      #board #middle_row .left.vert_locations #belmont img {
+        height: 80px; }
+      #board #middle_row .left.vert_locations #belmont .price img {
+        height: 80px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .left.vert_locations .university {
-      height: 80px;
-      width: 152px;
-      background-color: orange; }
-      #board #middle_row .left.vert_locations .university p {
-        margin: 0; }
+      height: 76px;
+      width: 148px;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black; }
+      #board #middle_row .left.vert_locations .university img {
+        height: 76px; }
     #board #middle_row .left.vert_locations #donut {
-      height: 80px;
-      width: 152px;
-      background-color: purple; }
-      #board #middle_row .left.vert_locations #donut p {
+      height: 79px;
+      width: 148px;
+      border-bottom: 1px solid black;
+      background-color: #ff7bac; }
+      #board #middle_row .left.vert_locations #donut img {
+        height: 79px; }
+      #board #middle_row .left.vert_locations #donut .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .left.vert_locations #smoke {
-      height: 80px;
-      width: 152px;
-      background-color: blue; }
-      #board #middle_row .left.vert_locations #smoke p {
+      height: 79px;
+      width: 148px;
+      border-top: 1px solid black;
+      background-color: #ff7bac; }
+      #board #middle_row .left.vert_locations #smoke img {
+        height: 79px; }
+      #board #middle_row .left.vert_locations #smoke .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .left.vert_locations .utility {
-      height: 80px;
-      width: 152px;
-      background-color: black; }
-      #board #middle_row .left.vert_locations .utility p {
-        margin: 0; }
+      height: 76px;
+      width: 148px;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black; }
+      #board #middle_row .left.vert_locations .utility img {
+        height: 76px; }
     #board #middle_row .left.vert_locations #bluebird {
       height: 80px;
-      width: 152px;
-      background-color: white; }
-      #board #middle_row .left.vert_locations #bluebird p {
+      width: 148px;
+      background-color: #ff7bac; }
+      #board #middle_row .left.vert_locations #bluebird img {
+        height: 80px; }
+      #board #middle_row .left.vert_locations #bluebird .price img {
+        height: 80px;
+        width: 16px;
+        border: 0;
         margin: 0; }
   #board #middle_row #center {
     width: 720px;
@@ -174,251 +266,462 @@
       width: 720px;
       height: 720px; }
   #board #middle_row .right.vert_locations {
-    width: 152px;
+    width: 148px;
     height: 720px;
-    background-color: black;
-    float: left; }
+    float: left;
+    border-right: 2px solid black;
+    border-left: 2px solid black; }
     #board #middle_row .right.vert_locations .color {
-      width: 30px;
+      width: 23px;
       height: 80px;
       float: left; }
     #board #middle_row .right.vert_locations img {
       height: 78px;
-      margin-top: 1px;
+      width: 105px;
+      margin: 0;
+      border-right: 2px solid black;
+      border-left: 2px solid black;
       float: left; }
-    #board #middle_row .right.vert_locations p {
-      width: 18px;
-      height: 80px;
+    #board #middle_row .right.vert_locations .price {
+      width: 16px;
+      margin: 0;
+      border: 0;
       float: left; }
     #board #middle_row .right.vert_locations #union {
-      height: 80px;
-      width: 152px;
-      background-color: red; }
-      #board #middle_row .right.vert_locations #union p {
+      height: 79px;
+      width: 148px;
+      border-bottom: 1px solid black;
+      background-color: #7ac943; }
+      #board #middle_row .right.vert_locations #union img {
+        height: 79px; }
+      #board #middle_row .right.vert_locations #union .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .right.vert_locations #frist {
-      height: 80px;
-      width: 152px;
-      background-color: yellow; }
-      #board #middle_row .right.vert_locations #frist p {
+      height: 79px;
+      width: 148px;
+      border-top: 1px solid black;
+      background-color: #7ac943; }
+      #board #middle_row .right.vert_locations #frist img {
+        height: 79px; }
+      #board #middle_row .right.vert_locations #frist .price img {
+        height: 79px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .right.vert_locations .community_chest {
-      height: 80px;
-      width: 152px;
-      background-color: pink; }
-      #board #middle_row .right.vert_locations .community_chest p {
-        margin: 0; }
+      height: 76px;
+      width: 148px;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black; }
+      #board #middle_row .right.vert_locations .community_chest img {
+        height: 76px;
+        width: 148px;
+        position: relative;
+        right: 2px; }
     #board #middle_row .right.vert_locations #ryman {
       height: 80px;
-      width: 152px;
-      background-color: green; }
-      #board #middle_row .right.vert_locations #ryman p {
+      width: 149px;
+      background-color: #7ac943; }
+      #board #middle_row .right.vert_locations #ryman img {
+        height: 80px; }
+      #board #middle_row .right.vert_locations #ryman .price img {
+        height: 80px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .right.vert_locations .university {
-      height: 80px;
-      width: 152px;
-      background-color: orange; }
+      height: 77px;
+      width: 149px;
+      border-bottom: 1px solid black;
+      border-top: 2px solid black; }
       #board #middle_row .right.vert_locations .university p {
-        margin: 0; }
+        margin: 0;
+        height: 76px; }
+      #board #middle_row .right.vert_locations .university img {
+        height: 76px; }
     #board #middle_row .right.vert_locations .chance {
-      height: 80px;
-      width: 152px;
-      background-color: purple; }
+      height: 77px;
+      width: 148px;
+      border-bottom: 2px solid black;
+      border-top: 1px solid black; }
       #board #middle_row .right.vert_locations .chance p {
-        margin: 0; }
+        margin: 0;
+        height: 76px; }
+      #board #middle_row .right.vert_locations .chance img {
+        height: 76px; }
     #board #middle_row .right.vert_locations #hermitage {
       height: 80px;
-      width: 152px;
-      background-color: blue; }
-      #board #middle_row .right.vert_locations #hermitage p {
+      width: 148px;
+      background-color: #367995; }
+      #board #middle_row .right.vert_locations #hermitage img {
+        height: 80px; }
+      #board #middle_row .right.vert_locations #hermitage .price img {
+        height: 80px;
+        width: 16px;
+        border: 0;
         margin: 0; }
     #board #middle_row .right.vert_locations .tax {
-      height: 80px;
-      width: 152px;
-      background-color: black; }
+      height: 76px;
+      width: 148px;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black; }
       #board #middle_row .right.vert_locations .tax p {
-        margin: 0; }
+        margin: 0;
+        height: 76px; }
+      #board #middle_row .right.vert_locations .tax img {
+        height: 76px; }
     #board #middle_row .right.vert_locations #plantation {
       height: 80px;
-      width: 152px;
-      background-color: white; }
-      #board #middle_row .right.vert_locations #plantation p {
+      width: 148px;
+      background-color: #367995; }
+      #board #middle_row .right.vert_locations #plantation img {
+        height: 80px; }
+      #board #middle_row .right.vert_locations #plantation .price img {
+        height: 80px;
+        width: 16px;
+        border: 0;
         margin: 0; }
   #board #bottom_row .left.corner {
     width: 152px;
     height: 152px;
     background-color: #222222;
     float: left; }
+    #board #bottom_row .left.corner img {
+      height: 152px;
+      width: 152px; }
   #board #bottom_row .horiz_locations {
     width: 720px;
-    height: 152px;
-    background-color: #888888;
-    float: left; }
+    height: 148px;
+    float: left;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black; }
     #board #bottom_row .horiz_locations img {
-      width: 78px;
-      margin-left: 1px; }
+      height: 105px;
+      margin: 0;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black; }
     #board #bottom_row .horiz_locations .color {
-      width: 80px;
-      height: 30px; }
+      height: 23px;
+      border: 0;
+      margin: 0; }
+    #board #bottom_row .horiz_locations .price {
+      height: 16px;
+      border: 0;
+      margin: 0; }
     #board #bottom_row .horiz_locations #mere_bulles {
-      height: 152px;
-      width: 80px;
-      background-color: red;
-      float: left; }
+      height: 148px;
+      width: 79px;
+      float: left;
+      border-right: 1px solid black;
+      background-color: #00a89d; }
+      #board #bottom_row .horiz_locations #mere_bulles img {
+        width: 79px; }
+      #board #bottom_row .horiz_locations #mere_bulles .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations #percy_warner {
-      height: 152px;
-      width: 80px;
-      background-color: yellow;
-      float: left; }
+      height: 148px;
+      width: 79px;
+      float: left;
+      border-left: 1px solid black;
+      background-color: #00a89d; }
+      #board #bottom_row .horiz_locations #percy_warner img {
+        width: 79px; }
+      #board #bottom_row .horiz_locations #percy_warner .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations .chance {
-      height: 152px;
-      width: 80px;
-      background-color: pink;
-      float: left; }
+      height: 148px;
+      width: 76px;
+      float: left;
+      border-left: 2px solid black;
+      border-right: 2px solid black; }
     #board #bottom_row .horiz_locations #radnor {
-      height: 152px;
+      height: 148px;
       width: 80px;
-      background-color: green;
-      float: left; }
+      float: left;
+      background-color: #00a89d; }
+      #board #bottom_row .horiz_locations #radnor img {
+        width: 80px; }
+      #board #bottom_row .horiz_locations #radnor .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations .university {
-      height: 152px;
-      width: 80px;
-      background-color: orange;
-      float: left; }
+      height: 148px;
+      width: 77px;
+      float: left;
+      border-left: 2px solid black;
+      border-right: 1px solid black; }
     #board #bottom_row .horiz_locations .tax {
-      height: 152px;
-      width: 80px;
-      background-color: purple;
-      float: left; }
+      height: 148px;
+      width: 77px;
+      float: left;
+      border-left: 1px solid black;
+      border-right: 2px solid black; }
     #board #bottom_row .horiz_locations #zoo {
-      height: 152px;
+      height: 148px;
       width: 80px;
-      background-color: blue;
-      float: left; }
+      float: left;
+      background-color: #e2a66a; }
+      #board #bottom_row .horiz_locations #zoo img {
+        width: 80px; }
+      #board #bottom_row .horiz_locations #zoo .price img {
+        height: 16px;
+        width: 80px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations .community_chest {
-      height: 152px;
-      width: 80px;
-      background-color: black;
-      float: left; }
+      height: 148px;
+      width: 77px;
+      float: left;
+      border-left: 2px solid black;
+      border-right: 2px solid black; }
+      #board #bottom_row .horiz_locations .community_chest img {
+        width: 77px;
+        height: 148px;
+        position: relative;
+        bottom: 2px; }
     #board #bottom_row .horiz_locations #bobbys {
-      height: 152px;
-      width: 80px;
-      background-color: white;
-      float: left; }
+      height: 148px;
+      width: 79px;
+      float: left;
+      background-color: #e2a66a; }
+      #board #bottom_row .horiz_locations #bobbys img {
+        width: 79px; }
+      #board #bottom_row .horiz_locations #bobbys .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
   #board #bottom_row .right.corner {
     width: 152px;
     height: 152px;
     background-color: #cccccc;
     float: left; }
+    #board #bottom_row .right.corner img {
+      height: 152px;
+      width: 152px; }
 
 #cards {
-  width: 100%; }
+  width: 100%;
+  background-image: url(../images/board_center.png);
+  height: 1024px; }
   #cards #cchest {
-    position: absolute; }
+    position: relative; }
+    #cards #cchest h1 {
+      text-align: right;
+      width: 940px;
+      position: absolute;
+      top: 12px;
+      font-family: "Damion";
+      font-size: 42px; }
     #cards #cchest .card {
-      width: 250px;
-      height: 125px;
+      width: 160px;
+      height: 85px;
       position: absolute;
       background-color: #ffb03d;
+      border: 1px solid #222222;
       font-family: "Damion"; }
       #cards #cchest .card:nth-of-type(1) {
-        top: 70px;
+        top: 100px;
+        left: 470px;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #cchest .card:nth-of-type(2) {
+        top: 150px;
+        left: 620px;
+        transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #cchest .card:nth-of-type(3) {
+        top: 110px;
+        left: 780px;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #cchest .card:nth-of-type(4) {
+        top: 250px;
+        left: 620px;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #cchest .card:nth-of-type(5) {
+        top: 220px;
+        left: 800px;
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #cchest .card:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(2.3);
+        -moz-transform: scale(2.3);
+        transform: scale(2.3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
+      #cards #cchest .card h3 {
+        padding: 5px 10px 0 10px;
+        margin: 0;
+        font-size: 13px; }
+      #cards #cchest .card p {
+        padding: 0 10px;
+        margin: 0;
+        font-size: 6px;
+        font-family: PatuaOne; }
+  #cards #chance {
+    position: relative; }
+    #cards #chance h1 {
+      position: absolute;
+      top: 560px;
+      padding-left: 55px;
+      font-family: "Yellowtail";
+      font-size: 42px; }
+    #cards #chance .card {
+      width: 160px;
+      height: 85px;
+      position: absolute;
+      background-color: #f23b26;
+      border: 1px solid black; }
+      #cards #chance .card:nth-of-type(1) {
+        top: 680px;
         left: 60px;
         transform: rotate(-5deg);
         -webkit-transform: rotate(-5deg);
         -moz-transform: rotate(-5deg);
-        -webkit-transition: transform 1s, width 1s, height 1s;
-        -moz-transition: transform 1s, width 1s, height 1s;
-        transition: transform 1s, width 1s, height 1s; }
-        #cards #cchest .card:nth-of-type(1):hover {
-          -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-          width: 300px;
-          height: 150px;
-          z-index: 1;
-          border: 2px solid #333333;
-          box-shadow: 3px 3px 5px #333333; }
-      #cards #cchest .card:nth-of-type(2) {
-        top: 80px;
-        left: 320px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(2) {
+        top: 690px;
+        left: 240px;
         transform: rotate(3deg);
         -webkit-transform: rotate(3deg);
-        -moz-transform: rotate(3deg); }
-      #cards #cchest .card:nth-of-type(3) {
-        top: 70px;
-        left: 600px;
-        transform: rotate(-2deg);
-        -webkit-transform: rotate(-2deg);
-        -moz-transform: rotate(-2deg); }
-      #cards #cchest .card:nth-of-type(4) {
-        top: 220px;
-        left: 70px;
-        transform: rotate(2deg);
-        -webkit-transform: rotate(2deg);
-        -moz-transform: rotate(2deg); }
-      #cards #cchest .card:nth-of-type(5) {
-        top: 200px;
-        left: 450px;
-        transform: rotate(-1deg);
-        -webkit-transform: rotate(-1deg);
-        -moz-transform: rotate(-1deg); }
-      #cards #cchest .card h3 {
-        padding: 7px 10px 0 10px;
+        -moz-transform: rotate(3deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(3) {
+        top: 830px;
+        left: 60px;
+        transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        -moz-transform: rotate(4deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(4) {
+        top: 800px;
+        left: 220px;
+        transform: rotate(-4deg);
+        -webkit-transform: rotate(-4deg);
+        -moz-transform: rotate(-4deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:nth-of-type(5) {
+        top: 810px;
+        left: 380px;
+        transform: rotate(-8deg);
+        -webkit-transform: rotate(-8deg);
+        -moz-transform: rotate(-8deg);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #cards #chance .card:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(2.3);
+        -moz-transform: scale(2.3);
+        transform: scale(2.3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
+      #cards #chance .card h3 {
+        font-family: "Yellowtail";
+        font-size: 14px;
         margin: 0;
-        font-size: 19px; }
-      #cards #cchest .card p {
-        padding: 0 10px;
-        margin: 0; }
+        padding: 5px 10px 0 10px; }
+      #cards #chance .card p {
+        font-family: "Patua+One";
+        font-size: 6px;
+        margin: 0;
+        padding: 0 10px; }
 
-#main {
-  border: 1px dashed #efbe52; }
+div#content {
+  width: 1024px;
+  margin: 0px auto; }
 
-.upper_nav {
-  width: 90%;
-  padding: 20px;
-  margin: 20px auto; }
+div.nav {
+  width: 100%;
+  background-color: #f22a39; }
+  div.nav ul {
+    width: 60%;
+    margin: 0px auto;
+    list-style-type: none;
+    padding: 0px; }
+    div.nav ul li {
+      display: inline-block;
+      padding: 10px; }
+      div.nav ul li a {
+        color: white;
+        font-family: "Patua+One"; }
+        div.nav ul li a img {
+          width: 200px;
+          position: relative;
+          bottom: 10px; }
 
-.upper_nav .logo_img {
-  width: 80px;
-  height: 50px;
-  background-color: #f22a39;
-  display: inline-block;
-  float: left;
-  margin-top: 15px;
-  margin-left: 110px; }
-
-.upper_nav ul {
-  list-style-type: none;
-  padding: 0px;
-  display: inline-block;
-  float: left; }
-  .upper_nav ul li {
-    display: inline-block;
-    padding: 15px;
-    text-align: center;
-    vertical-align: center; }
-    .upper_nav ul li a {
-      text-decoration: none; }
-
-#content {
-  padding: 10px;
-  background-color: #00a89d;
-  color: #FFF;
-  width: 1004px; }
-
-#content #header {
-  margin: 5px auto;
-  width: 90%;
-  background-color: white;
-  border-radius: 10px;
-  font-family: silverflake, sans-serif; }
-  #content #header h1 {
-    color: #f22a39;
-    text-align: center; }
-
-.row {
-  width: 40%;
-  display: inline-block;
-  float: left;
-  margin-left: 65px;
-  margin-bottom: 46px; }
+footer {
+  width: 100%;
+  background-color: #367995; }
+  footer ul {
+    width: 40%;
+    margin: 0px auto;
+    padding: 0px; }
+    footer ul li {
+      display: inline-block;
+      padding: 10px; }
+      footer ul li a {
+        color: white;
+        font-family: "Patua+One"; }
