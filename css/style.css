@@ -360,6 +360,13 @@
       background-color: #00a89d; }
       #board #bottom_row .horiz_locations #mere_bulles img {
         width: 79px; }
+      #board #bottom_row .horiz_locations #mere_bulles .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations #percy_warner {
       height: 148px;
       width: 79px;
@@ -368,6 +375,13 @@
       background-color: #00a89d; }
       #board #bottom_row .horiz_locations #percy_warner img {
         width: 79px; }
+      #board #bottom_row .horiz_locations #percy_warner .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations .chance {
       height: 148px;
       width: 76px;
@@ -381,6 +395,13 @@
       background-color: #00a89d; }
       #board #bottom_row .horiz_locations #radnor img {
         width: 80px; }
+      #board #bottom_row .horiz_locations #radnor .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations .university {
       height: 148px;
       width: 77px;
@@ -400,6 +421,13 @@
       background-color: #e2a66a; }
       #board #bottom_row .horiz_locations #zoo img {
         width: 80px; }
+      #board #bottom_row .horiz_locations #zoo .price img {
+        height: 16px;
+        width: 80px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
     #board #bottom_row .horiz_locations .community_chest {
       height: 148px;
       width: 77px;
@@ -413,6 +441,13 @@
       background-color: #e2a66a; }
       #board #bottom_row .horiz_locations #bobbys img {
         width: 79px; }
+      #board #bottom_row .horiz_locations #bobbys .price img {
+        height: 16px;
+        width: 79px;
+        border: 0;
+        margin: 0;
+        position: relative;
+        bottom: 5px; }
   #board #bottom_row .right.corner {
     width: 152px;
     height: 152px;
