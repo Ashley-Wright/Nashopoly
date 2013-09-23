@@ -421,11 +421,10 @@
       width: 148px;
       border-bottom: 2px solid black;
       border-top: 2px solid black; }
-      #board #middle_row .right.vert_locations .tax p {
-        margin: 0;
-        height: 76px; }
       #board #middle_row .right.vert_locations .tax img {
-        height: 76px; }
+        height: 76px;
+        width: 148px;
+        border: none; }
     #board #middle_row .right.vert_locations #plantation {
       height: 80px;
       width: 148px;
@@ -574,6 +573,26 @@
       float: left;
       border-left: 1px solid black;
       border-right: 2px solid black; }
+      #board #bottom_row .horiz_locations .tax p {
+        margin: 0;
+        border: 0;
+        text-align: center;
+        width: 77px;
+        padding: 0;
+        font-size: 9px;
+        height: 12px; }
+      #board #bottom_row .horiz_locations .tax p:first-child {
+        padding-top: 20px;
+        font-size: 12px;
+        line-height: 10px; }
+      #board #bottom_row .horiz_locations .tax p:nth-child(2) {
+        font-size: 12px;
+        line-height: 10px; }
+      #board #bottom_row .horiz_locations .tax img {
+        margin: 10px 33px 20px 33px;
+        width: 11px;
+        height: 10px;
+        border: 0; }
     #board #bottom_row .horiz_locations #zoo {
       height: 148px;
       width: 80px;

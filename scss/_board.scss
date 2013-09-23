@@ -633,14 +633,11 @@
         width: 148px;
         border-bottom: 2px solid black;
         border-top: 2px solid black;
-        p
-        {
-          margin: 0;
-          height: 76px;
-        }
         img
         {
           height: 76px;
+          width: 148px;
+          border: none;
         }
       }
       #plantation
@@ -859,6 +856,34 @@
         float: left;
         border-left: 1px solid black;
         border-right: 2px solid black;
+        p
+        {
+          margin: 0;
+          border: 0;
+          text-align: center;
+          width: 77px;
+          padding: 0;
+          font-size: 9px;
+          height: 12px;
+        }
+        p:first-child
+        {
+          padding-top: 20px;
+          font-size: 12px;
+          line-height: 10px;
+        }
+        p:nth-child(2)
+        {
+          font-size: 12px;
+          line-height: 10px;
+        }
+        img
+        {
+          margin: 10px 33px 20px 33px;
+          width: 11px;
+          height: 10px;
+          border: 0;
+        }
       }
       #zoo
       {
