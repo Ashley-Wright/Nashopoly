@@ -3,6 +3,9 @@
 @import url(http://fonts.googleapis.com/css?family=Parisienne);
 @import url(http://fonts.googleapis.com/css?family=Yellowtail);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+footer ul {
+  width: 510px; }
+
 #main {
   width: 1024px;
   margin: auto;
@@ -990,7 +993,7 @@ footer {
   width: 100%;
   background-color: #367995; }
   footer ul {
-    width: 40%;
+    width: 50%;
     margin: 0px auto;
     padding: 0px; }
     footer ul li {
