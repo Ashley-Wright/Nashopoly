@@ -2,9 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Patua+One);
 @import url(http://fonts.googleapis.com/css?family=Parisienne);
 @import url(http://fonts.googleapis.com/css?family=Yellowtail);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 #main {
   width: 1024px;
-  margin: auto; }
+  margin: auto;
+  font-family: RobotoSlab; }
 
 .clear {
   clear: both; }
