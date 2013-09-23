@@ -459,7 +459,27 @@
       width: 79px;
       float: left;
       border-right: 1px solid black;
-      background-color: #00a89d; }
+      background-color: #00a89d;
+      top: 810px;
+      left: 380px;
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #board #bottom_row .horiz_locations #mere_bulles:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        transform: scale(3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
       #board #bottom_row .horiz_locations #mere_bulles img {
         width: 79px; }
       #board #bottom_row .horiz_locations #mere_bulles .price img {
@@ -474,7 +494,27 @@
       width: 79px;
       float: left;
       border-left: 1px solid black;
-      background-color: #00a89d; }
+      background-color: #00a89d;
+      top: 810px;
+      left: 380px;
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #board #bottom_row .horiz_locations #percy_warner:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        transform: scale(3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
       #board #bottom_row .horiz_locations #percy_warner img {
         width: 79px; }
       #board #bottom_row .horiz_locations #percy_warner .price img {
@@ -498,7 +538,27 @@
       height: 148px;
       width: 80px;
       float: left;
-      background-color: #00a89d; }
+      background-color: #00a89d;
+      top: 810px;
+      left: 380px;
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #board #bottom_row .horiz_locations #radnor:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        transform: scale(3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
       #board #bottom_row .horiz_locations #radnor img {
         width: 80px; }
       #board #bottom_row .horiz_locations #radnor .price img {
@@ -513,7 +573,15 @@
       width: 77px;
       float: left;
       border-left: 2px solid black;
-      border-right: 1px solid black; }
+      border-right: 1px solid black;
+      top: 810px;
+      left: 380px;
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
       #board #bottom_row .horiz_locations .university img:first-child {
         width: 77px;
         padding-top: 25px;
@@ -524,6 +592,18 @@
         border: 0;
         position: relative;
         bottom: 3px; }
+      #board #bottom_row .horiz_locations .university:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        transform: scale(3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
     #board #bottom_row .horiz_locations .tax {
       height: 148px;
       width: 77px;
@@ -554,7 +634,27 @@
       height: 148px;
       width: 80px;
       float: left;
-      background-color: #e2a66a; }
+      background-color: #e2a66a;
+      top: 810px;
+      left: 380px;
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #board #bottom_row .horiz_locations #zoo:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        transform: scale(3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
       #board #bottom_row .horiz_locations #zoo img {
         width: 80px; }
       #board #bottom_row .horiz_locations #zoo .price img {
@@ -579,7 +679,27 @@
       height: 148px;
       width: 79px;
       float: left;
-      background-color: #e2a66a; }
+      background-color: #e2a66a;
+      top: 810px;
+      left: 380px;
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #board #bottom_row .horiz_locations #bobbys:hover {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        transform: scale(3);
+        z-index: 1;
+        border: 2px solid #333333;
+        -webkit-box-shadow: 3px 3px 5px #333333;
+        -moz-box-shadow: 3px 3px 5px #333333;
+        box-shadow: 3px 3px 5px #333333; }
       #board #bottom_row .horiz_locations #bobbys img {
         width: 79px; }
       #board #bottom_row .horiz_locations #bobbys .price img {

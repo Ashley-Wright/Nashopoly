@@ -10,7 +10,12 @@
   -moz-transition: $transition;
   transition: $transition;
 }
-
+@mixin board_fn($transition)
+{
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
 @mixin card_hover_fn($transform1, $transform2, $z-index, $border, $box-shadow)
 {
   -webkit-transform: $transform1;

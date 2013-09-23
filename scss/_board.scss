@@ -55,19 +55,6 @@
         width: 80px;
         float: left;
         background-color: $red;
-        // &:hover
-        //   {
-        //     position: relative;
-        //     top: 230px;
-        //     left: 130px;
-        //     transform: scale(4) rotate(180deg) translate(130px 200px);
-        //     -moz-transform: scale(4) rotate(180deg) translate(130px 200px);
-        //     -webkit-transform: scale(4) rotate(180deg) translate(130px 200px);
-        //     -webkit-transition: all 0.2s ease-in-out;
-        //     -moz-transition: all 0.2s ease-in-out;
-        //     -o-transition: all 0.2s ease-in-out;
-        //     transition: all 0.2s ease-in-out;
-        //   }
         img
         {
           width: 80px;
@@ -375,7 +362,6 @@
           position: relative;
           left: 3px;
         }
-
       }
       #donut
       {
@@ -709,25 +695,15 @@
         float: left;
         border-right: 1px solid black;
         background-color: $teal;
+        @include card_fn(810px, 380px, rotate(0deg), all 0.3s ease-in-out);
+        &:hover
+          {
+            @include card_hover_fn(rotate(0deg), scale(3), 1, 2px solid #333333, 3px 3px 5px #333333);
+          }
         img
         {
           width: 79px;
         }
-        // &:hover
-        //   {
-        //     transform: scale(4);
-        //     -ms-transform: scale(4);
-        //     -webkit-transform: scale(4);
-        //     -webkit-transform: translate(200px 100px);
-        //     -moz-transform: translate(200px 100px);
-        //     -ms-transform: translate(200px 100px);
-        //     -o-transform: translate(200px 100px);
-        //     transform: translate(200px 100px);
-        //     -webkit-transition: all 0.2s ease-in-out;
-        //     -moz-transition: all 0.2s ease-in-out;
-        //     -o-transition: all 0.2s ease-in-out;
-        //     transition: all 0.2s ease-in-out;
-        //   }
         .price
         {
           img
@@ -748,19 +724,11 @@
         float: left;
         border-left: 1px solid black;
         background-color: $teal;
-        // &:hover
-        //   {
-        //     transform: scale(4);
-        //     -ms-transform: scale(4);
-        //     -webkit-transform: scale(4);
-        //     position: relative;
-        //     bottom: 230px;
-        //     left: 130px;
-        //     -webkit-transition: all 0.2s ease-in-out;
-        //     -moz-transition: all 0.2s ease-in-out;
-        //     -o-transition: all 0.2s ease-in-out;
-        //     transition: all 0.2s ease-in-out;
-        //   }
+        @include card_fn(810px, 380px, rotate(0deg), all 0.3s ease-in-out);
+        &:hover
+          {
+            @include card_hover_fn(rotate(0deg), scale(3), 1, 2px solid #333333, 3px 3px 5px #333333);
+          }
         img
         {
           width: 79px;
@@ -798,19 +766,11 @@
         width: 80px;
         float: left;
         background-color: $teal;
-        // &:hover
-        //   {
-        //     transform: scale(4);
-        //     -ms-transform: scale(4);
-        //     -webkit-transform: scale(4);
-        //     position: relative;
-        //     bottom: 230px;
-        //     left: 100px;
-        //     -webkit-transition: all 0.2s ease-in-out;
-        //     -moz-transition: all 0.2s ease-in-out;
-        //     -o-transition: all 0.2s ease-in-out;
-        //     transition: all 0.2s ease-in-out;
-        //   }
+        @include card_fn(810px, 380px, rotate(0deg), all 0.3s ease-in-out);
+        &:hover
+          {
+            @include card_hover_fn(rotate(0deg), scale(3), 1, 2px solid #333333, 3px 3px 5px #333333);
+          }
         img
         {
           width: 80px;
@@ -849,6 +809,11 @@
           position: relative;
           bottom: 3px;
         }
+        @include card_fn(810px, 380px, rotate(0deg), all 0.3s ease-in-out);
+        &:hover
+          {
+            @include card_hover_fn(rotate(0deg), scale(3), 1, 2px solid #333333, 3px 3px 5px #333333);
+          }
       }
       .tax
       {
@@ -892,19 +857,11 @@
         width: 80px;
         float: left;
         background-color: $brown;
-        // &:hover
-        //   {
-        //     transform: scale(4);
-        //     -ms-transform: scale(4);
-        //     -webkit-transform: scale(4);
-        //     position: relative;
-        //     bottom: 230px;
-        //     left: -150px;
-        //     -webkit-transition: all 0.2s ease-in-out;
-        //     -moz-transition: all 0.2s ease-in-out;
-        //     -o-transition: all 0.2s ease-in-out;
-        //     transition: all 0.2s ease-in-out;
-        //   }
+        @include card_fn(810px, 380px, rotate(0deg), all 0.3s ease-in-out);
+        &:hover
+          {
+            @include card_hover_fn(rotate(0deg), scale(3), 1, 2px solid #333333, 3px 3px 5px #333333);
+          }
         img
         {
           width: 80px;
@@ -943,19 +900,11 @@
         width: 79px;
         float: left;
         background-color: $brown;
-        // &:hover
-        //   {
-        //     transform: scale(4);
-        //     -ms-transform: scale(4);
-        //     -webkit-transform: scale(4);
-        //     position: relative;
-        //     bottom: 230px;
-        //     left: -250px;
-        //     -webkit-transition: all 0.2s ease-in-out;
-        //     -moz-transition: all 0.2s ease-in-out;
-        //     -o-transition: all 0.2s ease-in-out;
-        //     transition: all 0.2s ease-in-out;
-        //   }
+        @include card_fn(810px, 380px, rotate(0deg), all 0.3s ease-in-out);
+        &:hover
+          {
+            @include card_hover_fn(rotate(0deg), scale(3), 1, 2px solid #333333, 3px 3px 5px #333333);
+          }
         img
         {
           width: 79px;
