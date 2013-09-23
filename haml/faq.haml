@@ -6,46 +6,45 @@
 	%link{rel:'stylesheet', type:'text/css', href:'../css/style.css'}
 	%link{rel:'stylesheet', type:'text/css', href:'../css/normalize.css'}
 %body
-	#content
-		.nav
+	#main
+		#nav
 			%ul
-				%li 
-					%a Home
-				%li 
-					%a Board
-				%li 
-					%a Cards
 				%li
-					%a
+					%a{href:"../index.html"}HOME
+				%li
+					%a{href:"board.html"}BOARD
+				%li
+					%a{href:"cards.html"}CARDS
+				%li
+					%a{href:"#"}
 						%img{src:'../images/nashopoly_logo_full.png'}
-				%li 
-					%a Pieces
-				%li 
-					%a FAQ
-				%li 
-					%a Contact Us	
+				%li
+					%a{href:"pieces.html"}PIECES
+				%li
+					%a{href:"faq.html"}FAQS
+				%li
+					%a{href:"contact.html"}CONTACT US
 		.faq_header
 			.faq_header_section
 				%h1
-
 				%p
 			.faq_header_section
-				%img.faq_header_image
-		.faq_content
-			.faq_content_question
-				%h2
-			.faq_content_answer
-				%p
-		.faq_content
-			.faq_content_question
-				%h2
-			.faq_content_answer
-				%p
-		.faq_content
-			.faq_content_question
-				%h2
-			.faq_content_answer
-				%p
+				%img{src:"", alt:'faq header image'}
+			.faq_content
+				.faq_content_question
+					%h2
+				.faq_content_answer
+					%p
+			.faq_content
+				.faq_content_question
+					%h2
+				.faq_content_answer
+					%p
+			.faq_content
+				.faq_content_question
+					%h2
+				.faq_content_answer
+					%p
 		%footer
 			%ul
 				%li
@@ -60,4 +59,3 @@
 					%a FAQS
 				%li
 					%a Contact Us
-		
