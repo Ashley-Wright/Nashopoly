@@ -6,8 +6,28 @@
     %link{rel: 'stylesheet', href: 'css/normalize.css'}
     %link{rel: 'stylesheet', href: 'css/style.css'}
   %body
-    %div#main
-      %header This is a test
-      %nav
+    #main
+      #nav
+        %ul
+          %li
+            %a{href:"index.html"}HOME
+          %li
+            %a{href:"haml/board.html"}BOARD
+          %li
+            %a{href:"haml/cards.html"}CARDS
+          %li
+            %a{href:"#"}
+              %img{src:'../images/nashopoly_logo_full.png'}
+          %li
+            %a{href:"haml/pieces.html"}PIECES
+          %li
+            %a{href:"haml/faq.html"}FAQS
+          %li
+            %a{href:"haml/contact.html"}CONTACT US
+
       %footer
+        #image_container
+          %img{src:'../images/nashopoly_logo_full.png'}
+
+
 

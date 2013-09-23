@@ -7,8 +7,23 @@
     %link{rel: 'stylesheet', href: '../css/style.css'}
   %body
     %div#main
-      %header
-      %nav
+      #nav
+        %ul
+          %li
+            %a{href:"../index.html"}HOME
+          %li
+            %a{href:"board.html"}BOARD
+          %li
+            %a{href:"cards.html"}CARDS
+          %li
+            %a{href:"#"}
+              %img{src:'../images/nashopoly_logo_full.png'}
+          %li
+            %a{href:"pieces.html"}PIECES
+          %li
+            %a{href:"faq.html"}FAQS
+          %li
+            %a{href:"contact.html"}CONTACT US
       %div#contact
         %h1 Contact us
         %ul
@@ -34,5 +49,6 @@
           %p Message:
           <textarea name="comments" rows="10" cols="48"></textarea>
           %p <input type="submit" value="Send">
-
-      %footer
+    %footer
+      #image_container
+        %img{src:'../images/nashopoly_logo_full.png'}
