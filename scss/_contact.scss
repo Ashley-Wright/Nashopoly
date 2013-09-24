@@ -44,6 +44,28 @@
   {
     padding-left: 23px;
 
+    p:nth-of-type(4)
+    {
+      text-align: center;
+      padding: 2px 0 0 0;
+      border: 1px solid #222222;
+      border-radius: 5px;
+      -webkit-box-shadow: 1px 1px 2px #222222;
+      -moz-box-shadow: 1px 1px 2px #222222;
+      box-shadow: 1px 1px 2px #222222;
+      width: 60px;
+      height: 22px;
+      margin: 10px 0 10px 445px;
+      background-color: $gold;
+      color: #222222;
+
+      &:hover
+      {
+        background-color: rgba(239, 190, 82, 0.8);
+      }
+    }
+
+
   }
 
 }
