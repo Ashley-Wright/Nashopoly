@@ -765,13 +765,11 @@ div#main {
   padding-top: 30px;
   padding-left: 20px; }
   .pieces_right_section .description {
-    display: inline-block;
     width: 500px;
     float: right; }
-    .pieces_right_section .description h2 {
-      width: 400px; }
-    .pieces_right_section .description p {
-      width: 400px; }
+  .pieces_right_section img {
+    float: left;
+    width: 200px; }
 
 .pieces_left_section {
   width: 1004px;

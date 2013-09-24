@@ -43,21 +43,29 @@ div#main
 
 	.description
 	{
-		display: inline-block;
+		// display: inline-block;
 		width: 500px;
 		float:right;
 
 		h2
 		{
-			width: 400px;
+			// width: 400px;
 
 		}
 
 		p
 		{
-			width: 400px;
+			// width: 400px;
 		}
 	}
+
+	img
+	{
+		float: left;
+		width: 200px;
+	}
+
+
 }
 
 .pieces_left_section
