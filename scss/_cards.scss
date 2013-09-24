@@ -2,7 +2,7 @@
 $card_width: 160px;
 $card_height: 85px;
 $cchest_header_fsize: 13px;
-$cchest_p_fsize: 6px;
+$cchest_p_fsize: 7px;
 
 #cards
 {
@@ -73,7 +73,7 @@ $cchest_p_fsize: 6px;
 
         p
         {
-          padding: 0 10px;
+          padding: 0 20px 0 10px;
           margin: 0;
           font-size: $cchest_p_fsize;
           font-family: Patua+One;
@@ -149,7 +149,7 @@ $cchest_p_fsize: 6px;
         font-family: "Patua+One";
         font-size: $cchest_p_fsize;
         margin: 0;
-        padding: 0 10px;
+        padding: 0 20px 0 10px;
       }
 
     }

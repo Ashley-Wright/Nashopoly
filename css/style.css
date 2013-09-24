@@ -830,13 +830,16 @@ div#main {
   padding-top: 30px;
   padding-left: 20px; }
   .pieces_right_section .description {
-    width: 400px;
+    width: 450px;
     float: right;
     padding: 10px 60px 10px 10px; }
+    .pieces_right_section .description h2 {
+      margin: 0; }
   .pieces_right_section img {
     float: left;
     width: 200px;
-    padding-left: 120px; }
+    padding-left: 120px;
+    padding-top: 30px; }
 
 .pieces_left_section {
   width: 1004px;
@@ -846,9 +849,11 @@ div#main {
   padding-top: 30px;
   padding-left: 20px; }
   .pieces_left_section .description {
-    width: 400px;
+    width: 450px;
     float: left;
     padding: 10px 10px 10px 60px; }
+    .pieces_left_section .description h2 {
+      margin: 0; }
   .pieces_left_section img {
     float: right;
     padding: 20px 120px 10px 10px; }
@@ -942,9 +947,9 @@ div#main {
         margin: 0;
         font-size: 13px; }
       #cards #cchest .card p {
-        padding: 0 10px;
+        padding: 0 20px 0 10px;
         margin: 0;
-        font-size: 6px;
+        font-size: 7px;
         font-family: PatuaOne; }
   #cards #chance {
     position: relative; }
@@ -1024,9 +1029,9 @@ div#main {
         padding: 5px 10px 0 10px; }
       #cards #chance .card p {
         font-family: "Patua+One";
-        font-size: 6px;
+        font-size: 7px;
         margin: 0;
-        padding: 0 10px; }
+        padding: 0 20px 0 10px; }
 
 div#main {
   width: 1024px;
