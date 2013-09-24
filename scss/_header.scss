@@ -1,35 +1,102 @@
-
-div.nav
+header
 {
-  width:100%;
-  background-color:$red;
-
-  ul
+  width: 1024px;
+  height: 200px;
+  background-color: rgb(22, 54, 72);
+  margin: 120px auto 0 auto;
+  #wrapper1
   {
-    width: 70%;
-    margin:0px auto;
-    list-style-type: none;
-    padding:0px;
-
-    li
+    width: 1024px;
+    height: 30px;
+    background-color: rgb(22, 54, 72);
+    margin-top: 20px;
+  }
+  #wrapper2
+  {
+    width: 1024px;
+    height: 3px;
+    background-color: rgb(116, 109, 83);
+  }
+  #wrapper3
+  {
+    width: 1024px;
+    height: 3px;
+    background-color: rgb(116, 109, 83);
+  }
+  #wrapper4
+  {
+    width: 1024px;
+    height: 30px;
+    background-color: rgb(22, 54, 72);
+  }
+  #nav1
+  {
+    width: 200px;
+    height: 170px;
+    float: left;
+    ul
     {
-      display: inline-block;
-      padding:10px;
-
-      a
+      padding-left: 0;
+      li
       {
-        color:white;
-        font-family: "Patua+One";
-
-        img
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        margin-left: 30px;
+        a
         {
-          width:200px;
-          position:relative;
-          bottom:10px;
-
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 3px;
         }
-
       }
     }
   }
+  #nav2
+  {
+    width: 200px;
+    height: 170px;
+    float: right;
+    ul
+    {
+      padding-left: 0;
+      li
+      {
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        a
+        {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 3px;
+
+        }
+      }
+    }
+  }
+  img
+  {
+    width: 1070px;
+    position: absolute;
+    top: -120px;
+    height: 750px;
+    left: -5px;
+  }
 }
+
+
+
+
