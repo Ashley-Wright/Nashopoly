@@ -759,29 +759,40 @@ div#main {
 
 .pieces_right_section {
   width: 1004px;
-  height: 300px;
+  height: 250px;
   background-color: #00a89d;
   color: white;
   padding-top: 30px;
   padding-left: 20px; }
   .pieces_right_section .description {
-    width: 500px;
-    float: right; }
+    width: 400px;
+    float: right;
+    padding: 10px 60px 10px 10px; }
   .pieces_right_section img {
     float: left;
-    width: 200px; }
+    width: 200px;
+    padding-left: 120px; }
 
 .pieces_left_section {
   width: 1004px;
-  height: 300px;
+  height: 250px;
   background-color: #7ac943;
   color: white;
   padding-top: 30px;
   padding-left: 20px; }
-  .pieces_left_section h2 {
-    width: 400px; }
-  .pieces_left_section p {
-    width: 400px; }
+  .pieces_left_section .description {
+    width: 400px;
+    float: left;
+    padding: 10px 10px 10px 60px; }
+  .pieces_left_section img {
+    float: right;
+    padding: 20px 120px 10px 10px; }
+  .pieces_left_section img#guitar {
+    height: 180px; }
+  .pieces_left_section img#mic {
+    height: 150px; }
+  .pieces_left_section img#par {
+    height: 100px; }
 
 #cards {
   width: 100%;
