@@ -2,39 +2,6 @@ div#main
 {
 	width:1024px;
 }
-
-div#nav
-{
-	width:1024px;
-	background-color:$red;
-
-	ul
-	{
-		width: 80%;
-		margin:0px auto;
-
-		li
-		{
-			display: inline-block;
-			padding:10px;
-
-			a
-			{
-				color:white;
-				text-decoration: none;
-
-				img
-				{
-					width: 150px;
-					position:relative;
-					top:20px;
-
-				}
-			}
-		}
-	}
-}
-
 #pieces_header
 {
 	width:1024px;
@@ -114,21 +81,3 @@ div#nav
 	}
 }
 
-footer{
-	width:1024px;
-	background-color:$blue;
-	height:200px;
-}
-
-footer
-{
-	#image_container
-	{
-		width: 300px;
-		margin:0px auto;
-
-		img{
-			width: 300px;
-		}
-	}
-}

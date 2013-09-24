@@ -3,8 +3,24 @@
 @import url(http://fonts.googleapis.com/css?family=Parisienne);
 @import url(http://fonts.googleapis.com/css?family=Yellowtail);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
-footer ul {
-  width: 510px; }
+div.nav {
+  width: 100%;
+  background-color: #f22a39; }
+  div.nav ul {
+    width: 70%;
+    margin: 0px auto;
+    list-style-type: none;
+    padding: 0px; }
+    div.nav ul li {
+      display: inline-block;
+      padding: 10px; }
+      div.nav ul li a {
+        color: white;
+        font-family: "Patua+One"; }
+        div.nav ul li a img {
+          width: 200px;
+          position: relative;
+          bottom: 10px; }
 
 #main {
   width: 1024px;
@@ -723,23 +739,6 @@ footer ul {
 div#main {
   width: 1024px; }
 
-div#nav {
-  width: 1024px;
-  background-color: #f22a39; }
-  div#nav ul {
-    width: 80%;
-    margin: 0px auto; }
-    div#nav ul li {
-      display: inline-block;
-      padding: 10px; }
-      div#nav ul li a {
-        color: white;
-        text-decoration: none; }
-        div#nav ul li a img {
-          width: 150px;
-          position: relative;
-          top: 20px; }
-
 #pieces_header {
   width: 1024px;
   height: 300px;
@@ -785,17 +784,6 @@ div#nav {
     width: 400px; }
   .pieces_left_section p {
     width: 400px; }
-
-footer {
-  width: 1024px;
-  background-color: #367995;
-  height: 200px; }
-
-footer #image_container {
-  width: 300px;
-  margin: 0px auto; }
-  footer #image_container img {
-    width: 300px; }
 
 #cards {
   width: 100%;
@@ -969,39 +957,6 @@ footer #image_container {
 div#main {
   width: 1024px;
   margin: 0px auto; }
-
-div.nav {
-  width: 100%;
-  background-color: #f22a39; }
-  div.nav ul {
-    width: 70%;
-    margin: 0px auto;
-    list-style-type: none;
-    padding: 0px; }
-    div.nav ul li {
-      display: inline-block;
-      padding: 10px; }
-      div.nav ul li a {
-        color: white;
-        font-family: "Patua+One"; }
-        div.nav ul li a img {
-          width: 200px;
-          position: relative;
-          bottom: 10px; }
-
-footer {
-  width: 100%;
-  background-color: #367995; }
-  footer ul {
-    width: 50%;
-    margin: 0px auto;
-    padding: 0px; }
-    footer ul li {
-      display: inline-block;
-      padding: 10px; }
-      footer ul li a {
-        color: white;
-        font-family: "Patua+One"; }
 
 .faq_content a {
   text-decoration: none; }
