@@ -46,6 +46,12 @@ header
         border: 1px solid rgb(110, 39, 20);
         text-align: center;
         margin-left: 30px;
+        border-radius: 6px;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
         a
         {
           font-family: 'Poiret One', cursive;
@@ -54,6 +60,7 @@ header
           font-size: 30px;
           color: rgb(185, 177, 145);
           padding: 3px;
+          text-shadow: 1px 1px black;
         }
       }
     }
@@ -74,6 +81,13 @@ header
         width: 145px;
         border: 1px solid rgb(110, 39, 20);
         text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
         a
         {
           font-family: 'Poiret One', cursive;
@@ -82,7 +96,7 @@ header
           font-size: 30px;
           color: rgb(185, 177, 145);
           padding: 3px;
-
+          text-shadow: 1px 1px black;
         }
       }
     }
@@ -94,6 +108,7 @@ header
     top: -120px;
     height: 750px;
     left: -5px;
+    z-index: 0;
   }
 }
 
