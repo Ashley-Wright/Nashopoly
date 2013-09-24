@@ -6,14 +6,22 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 header {
   width: 1024px;
-  height: 200px;
+  height: 220px;
   background-color: #163648;
   margin: 120px auto 0 auto; }
+  header #image_holder {
+    height: 20px; }
+    header #image_holder img {
+      width: 730px;
+      position: relative;
+      top: -50px;
+      height: 350px;
+      left: 140px;
+      z-index: 0; }
   header #wrapper1 {
     width: 1024px;
     height: 30px;
-    background-color: #163648;
-    margin-top: 20px; }
+    background-color: #163648; }
   header #wrapper2 {
     width: 1024px;
     height: 3px;
@@ -78,13 +86,6 @@ header {
           color: #b9b191;
           padding: 3px;
           text-shadow: 1px 1px black; }
-  header img {
-    width: 1070px;
-    position: absolute;
-    top: -120px;
-    height: 750px;
-    left: -5px;
-    z-index: 0; }
 
 #main {
   width: 1024px;
