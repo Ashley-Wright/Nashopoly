@@ -1,26 +1,91 @@
 @import url(http://fonts.googleapis.com/css?family=Damion);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 @import url(http://fonts.googleapis.com/css?family=Patua+One);
 @import url(http://fonts.googleapis.com/css?family=Parisienne);
 @import url(http://fonts.googleapis.com/css?family=Yellowtail);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
-div.nav {
-  width: 100%;
-  background-color: #f22a39; }
-  div.nav ul {
-    width: 70%;
-    margin: 0px auto;
-    list-style-type: none;
-    padding: 0px; }
-    div.nav ul li {
-      display: inline-block;
-      padding: 10px; }
-      div.nav ul li a {
-        color: white;
-        font-family: "Patua+One"; }
-        div.nav ul li a img {
-          width: 200px;
-          position: relative;
-          bottom: 10px; }
+header {
+  width: 1024px;
+  height: 220px;
+  background-color: #163648;
+  margin: 120px auto 0 auto; }
+  header #image_holder {
+    height: 20px; }
+    header #image_holder img {
+      width: 730px;
+      position: relative;
+      top: -50px;
+      height: 350px;
+      left: 140px;
+      z-index: 0; }
+  header #wrapper1 {
+    width: 1024px;
+    height: 30px;
+    background-color: #163648; }
+  header #wrapper2 {
+    width: 1024px;
+    height: 3px;
+    background-color: #746d53; }
+  header #wrapper3 {
+    width: 1024px;
+    height: 3px;
+    background-color: #746d53; }
+  header #wrapper4 {
+    width: 1024px;
+    height: 30px;
+    background-color: #163648; }
+  header #nav1 {
+    width: 200px;
+    height: 170px;
+    float: left; }
+    header #nav1 ul {
+      padding-left: 0; }
+      header #nav1 ul li {
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid #6e2714;
+        text-align: center;
+        margin-left: 30px;
+        border-radius: 6px; }
+        header #nav1 ul li:hover {
+          background-color: #6e2714;
+          box-shadow: 1px 1px #b9b191; }
+        header #nav1 ul li a {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: #b9b191;
+          padding: 3px;
+          text-shadow: 1px 1px black; }
+  header #nav2 {
+    width: 200px;
+    height: 170px;
+    float: right; }
+    header #nav2 ul {
+      padding-left: 0; }
+      header #nav2 ul li {
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid #6e2714;
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1; }
+        header #nav2 ul li:hover {
+          background-color: #6e2714;
+          box-shadow: 1px 1px #b9b191; }
+        header #nav2 ul li a {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: #b9b191;
+          padding: 3px;
+          text-shadow: 1px 1px black; }
 
 #main {
   width: 1024px;
