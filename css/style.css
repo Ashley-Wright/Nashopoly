@@ -1045,40 +1045,45 @@ div#main {
 .faq_content p {
   margin: 0 0 40px 25px; }
 
-#contact h1 {
-  padding-top: 5px; }
-#contact ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  #contact ul li {
-    display: inline-block;
-    padding: 0px;
-    width: 280px;
-    margin: 0 28px; }
-    #contact ul li img {
-      width: 200px; }
-    #contact ul li h3 {
-      margin: 8px 0; }
-    #contact ul li p {
-      margin: 6px 0; }
-#contact form {
-  padding-left: 23px; }
-  #contact form p:nth-of-type(4) {
-    text-align: center;
-    padding: 2px 0 0 0;
-    border: 1px solid #222222;
-    border-radius: 5px;
-    -webkit-box-shadow: 1px 1px 2px #222222;
-    -moz-box-shadow: 1px 1px 2px #222222;
-    box-shadow: 1px 1px 2px #222222;
-    width: 60px;
-    height: 22px;
-    margin: 10px 0 10px 445px;
-    background-color: #efbe52;
-    color: #222222; }
-    #contact form p:nth-of-type(4):hover {
-      background-color: rgba(239, 190, 82, 0.8); }
+#contact {
+  background-image: url(../images/nashville2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto; }
+  #contact h1 {
+    padding-top: 5px; }
+  #contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    #contact ul li {
+      display: inline-block;
+      padding: 0px;
+      width: 280px;
+      margin: 0 28px; }
+      #contact ul li img {
+        width: 200px; }
+      #contact ul li h3 {
+        margin: 8px 0; }
+      #contact ul li p {
+        margin: 6px 0; }
+  #contact form {
+    padding-left: 23px; }
+    #contact form p:nth-of-type(4) {
+      text-align: center;
+      padding: 2px 0 0 0;
+      border: 1px solid #222222;
+      border-radius: 5px;
+      -webkit-box-shadow: 1px 1px 2px #222222;
+      -moz-box-shadow: 1px 1px 2px #222222;
+      box-shadow: 1px 1px 2px #222222;
+      width: 60px;
+      height: 22px;
+      margin: 10px 0 10px 445px;
+      background-color: #efbe52;
+      color: #222222; }
+      #contact form p:nth-of-type(4):hover {
+        background-color: rgba(239, 190, 82, 0.8); }
 
 footer {
   width: 1024px;
