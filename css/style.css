@@ -867,6 +867,7 @@ div#main {
 #cards {
   width: 100%;
   background-image: url(../images/board_center.png);
+  background-repeat: no-repeat;
   height: 1024px;
   margin: 30px 0; }
   #cards #cchest {
@@ -878,6 +879,21 @@ div#main {
       top: 12px;
       font-family: "Damion";
       font-size: 42px; }
+    #cards #cchest .cardback {
+      width: 160px;
+      height: 85px;
+      position: absolute;
+      background-color: #ffb03d;
+      border: 1px solid #222222;
+      font-family: "Damion";
+      top: 200px;
+      left: 770px;
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg); }
+      #cards #cchest .cardback img {
+        height: 80px;
+        margin-left: 40px; }
     #cards #cchest .card {
       width: 160px;
       height: 85px;
@@ -885,7 +901,7 @@ div#main {
       background-color: #ffb03d;
       border: 1px solid #222222;
       font-family: "Damion"; }
-      #cards #cchest .card:nth-of-type(1) {
+      #cards #cchest .card:nth-of-type(2) {
         top: 100px;
         left: 470px;
         transform: rotate(-5deg);
@@ -894,7 +910,7 @@ div#main {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(2) {
+      #cards #cchest .card:nth-of-type(3) {
         top: 150px;
         left: 620px;
         transform: rotate(7deg);
@@ -903,7 +919,7 @@ div#main {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(3) {
+      #cards #cchest .card:nth-of-type(4) {
         top: 110px;
         left: 780px;
         transform: rotate(-5deg);
@@ -912,7 +928,7 @@ div#main {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(4) {
+      #cards #cchest .card:nth-of-type(5) {
         top: 250px;
         left: 620px;
         transform: rotate(-5deg);
@@ -921,8 +937,8 @@ div#main {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(5) {
-        top: 220px;
+      #cards #cchest .card:nth-of-type(6) {
+        top: 320px;
         left: 800px;
         transform: rotate(5deg);
         -webkit-transform: rotate(5deg);
