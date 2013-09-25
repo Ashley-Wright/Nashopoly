@@ -7,6 +7,7 @@
     %link{rel: 'stylesheet', href: '../css/style.css'}
   %body
     #main
+    = Haml::Engine.new(File.read('_header.haml')).render
       #board
         #top_row
           .left.corner
@@ -174,4 +175,4 @@
           .right.corner
             %img{src:'../images/go.jpg', alt:'go'}
           .clear
-
+    = Haml::Engine.new(File.read('_footer.haml')).render
