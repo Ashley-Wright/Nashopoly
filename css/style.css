@@ -1595,11 +1595,7 @@ header {
           text-shadow: 1px 1px black; }
 
 #contact {
-  margin-top: 60px;
-  background-image: url(../images/nashville2.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto; }
+  margin-top: 60px; }
   #contact h1 {
     padding-top: 5px; }
   #contact ul {
@@ -1619,6 +1615,10 @@ header {
         margin: 6px 0; }
   #contact form {
     padding-left: 23px; }
+    #contact form p input {
+      opacity: 0.5; }
+    #contact form textarea {
+      opacity: 0.5; }
     #contact form p:nth-of-type(4) {
       text-align: center;
       padding: 2px 0 0 0;
