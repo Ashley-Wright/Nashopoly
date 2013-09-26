@@ -1,8 +1,3 @@
-body
-{
-  width: 100%;
-  background-image: url("../images/bkg-1.jpg");
-}
 
 header
 {
@@ -835,14 +830,18 @@ header
         border-bottom: 2px solid black;
         .art
         {
-        -moz-transition: .3s transform ease-in-out;
-        -webkit-transition: .3s transform ease-in-out;
-        transition: .3s transform ease-in-out;
-        &:hover
+          -moz-transition: all .3s transform ease-in-out;
+          -webkit-transition: all .3s transform ease-in-out;
+          transition: all .3s transform ease-in-out;
+          &:hover
           {
             -webkit-transform: scale(4);
             -moz-transform: scale(4);
+<<<<<<< HEAD
             // z-index: 1;
+=======
+            transform: scale(4);
+>>>>>>> 31304e8553b37a8f28ad3e35aa14314fa6bf6d43
           }
         }
       }
