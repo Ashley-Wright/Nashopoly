@@ -149,12 +149,26 @@ div#main
 
 .pieces_right_section
 {
+<<<<<<< HEAD
+	width:984px;
+	height:300px;
+=======
 	width:1004px;
 	height:250px;
+>>>>>>> a911bcecb56c3bb59b07cac28e922d686519e905
 	background-color:$teal;
 	color:white;
 	padding-top:30px;
 	padding-left:20px;
+<<<<<<< HEAD
+	padding-right:20px;
+
+		h2
+		{
+			width: 400px;
+			border:solid 1px white;
+			float:right;
+=======
 
 	.description
 	{
@@ -167,14 +181,24 @@ div#main
 		{
 			// width: 400px;
 			margin: 0;
+>>>>>>> a911bcecb56c3bb59b07cac28e922d686519e905
 
 		}
 
 		p
 		{
+<<<<<<< HEAD
+			width: 400px;
+			border:solid 1px white;
+			float:right;
+		}
+	
+}
+=======
 			// width: 400px;
 		}
 	}
+>>>>>>> a911bcecb56c3bb59b07cac28e922d686519e905
 
 	img
 	{
@@ -195,6 +219,10 @@ div#main
 
 	.description
 	{
+<<<<<<< HEAD
+		width: 400px;
+		border:solid 1px white;
+=======
 		width: 450px;
 		float: left;
 		padding: 10px 10px 10px 60px;
@@ -203,13 +231,19 @@ div#main
 		{
 			margin: 0;
 		}
+>>>>>>> a911bcecb56c3bb59b07cac28e922d686519e905
 
 	}
 
 	img
 	{
+<<<<<<< HEAD
+		width: 400px;
+		border:solid 1px white;
+=======
 		float: right;
 		padding: 20px 120px 10px 10px;
+>>>>>>> a911bcecb56c3bb59b07cac28e922d686519e905
 	}
 
 	img#guitar
