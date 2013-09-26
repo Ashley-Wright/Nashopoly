@@ -124,6 +124,7 @@ header
 {
   width: 100%;
   background-image: url(../images/board_center.png);
+  background-repeat: no-repeat;
   height: 1024px;
   margin: 60px 0;
 
@@ -141,6 +142,28 @@ header
       font-size: 42px;
     }
 
+    .cardback
+    {
+      width: $card_width;
+      height: $card_height;
+      position: absolute;
+      background-color: $cchest_color;
+      border: 1px solid #222222;
+      font-family: "Damion";
+      top: 200px;
+      left: 770px;
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg);
+
+      img
+      {
+        height: 80px;
+        margin-left: 40px;
+      }
+
+    }
+
     .card
     {
       width: $card_width;
@@ -150,29 +173,29 @@ header
       border: 1px solid #222222;
       font-family: "Damion";
 
-        &:nth-of-type(1)
+        &:nth-of-type(2)
         {
           @include card_fn(100px, 470px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(2)
+        &:nth-of-type(3)
         {
           @include card_fn(150px, 620px, rotate(7deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(3)
+        &:nth-of-type(4)
         {
           @include card_fn(110px, 780px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(4)
+        &:nth-of-type(5)
         {
           @include card_fn(250px, 620px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(5)
+        &:nth-of-type(6)
         {
-          @include card_fn(220px, 800px, rotate(5deg), all 0.3s ease-in-out);
+          @include card_fn(320px, 800px, rotate(5deg), all 0.3s ease-in-out);
         }
 
         &:hover
@@ -211,6 +234,30 @@ header
       font-size: 42px;
     }
 
+    .cardback
+    {
+      width: $card_width;
+      height: $card_height;
+      position: absolute;
+      background-color: $chance_color;
+      border: 1px solid #222222;
+      font-family: "Damion";
+      top: 770px;
+      left: 80px;
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg);
+
+      img
+      {
+        height: 60px;
+        margin-top: 10px;
+        margin-left: 65px;
+      }
+
+    }
+
+
     .card
     {
 
@@ -220,29 +267,29 @@ header
       background-color: $chance_color;
       border: 1px solid black;
 
-      &:nth-of-type(1)
+      &:nth-of-type(2)
       {
         @include card_fn(680px, 60px, rotate(-5deg), all 0.3s ease-in-out);
       }
 
-      &:nth-of-type(2)
+      &:nth-of-type(3)
       {
         @include card_fn(690px, 240px, rotate(3deg), all 0.3s ease-in-out);
       }
 
-      &:nth-of-type(3)
-      {
-        @include card_fn(830px, 60px, rotate(4deg), all 0.3s ease-in-out);
-      }
-
       &:nth-of-type(4)
       {
-        @include card_fn(800px, 220px, rotate(-4deg), all 0.3s ease-in-out);
+        @include card_fn(870px, 60px, rotate(4deg), all 0.3s ease-in-out);
       }
 
       &:nth-of-type(5)
       {
-        @include card_fn(810px, 380px, rotate(-8deg), all 0.3s ease-in-out);
+        @include card_fn(830px, 220px, rotate(-4deg), all 0.3s ease-in-out);
+      }
+
+      &:nth-of-type(6)
+      {
+        @include card_fn(850px, 380px, rotate(-8deg), all 0.3s ease-in-out);
       }
 
       &:hover

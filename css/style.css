@@ -1288,6 +1288,7 @@ header {
 #cards {
   width: 100%;
   background-image: url(../images/board_center.png);
+  background-repeat: no-repeat;
   height: 1024px;
   margin: 60px 0; }
   #cards #cchest {
@@ -1299,6 +1300,21 @@ header {
       top: 12px;
       font-family: "Damion";
       font-size: 42px; }
+    #cards #cchest .cardback {
+      width: 160px;
+      height: 85px;
+      position: absolute;
+      background-color: #ffb03d;
+      border: 1px solid #222222;
+      font-family: "Damion";
+      top: 200px;
+      left: 770px;
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg); }
+      #cards #cchest .cardback img {
+        height: 80px;
+        margin-left: 40px; }
     #cards #cchest .card {
       width: 160px;
       height: 85px;
@@ -1306,7 +1322,7 @@ header {
       background-color: #ffb03d;
       border: 1px solid #222222;
       font-family: "Damion"; }
-      #cards #cchest .card:nth-of-type(1) {
+      #cards #cchest .card:nth-of-type(2) {
         top: 100px;
         left: 470px;
         transform: rotate(-5deg);
@@ -1315,7 +1331,7 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(2) {
+      #cards #cchest .card:nth-of-type(3) {
         top: 150px;
         left: 620px;
         transform: rotate(7deg);
@@ -1324,7 +1340,7 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(3) {
+      #cards #cchest .card:nth-of-type(4) {
         top: 110px;
         left: 780px;
         transform: rotate(-5deg);
@@ -1333,7 +1349,7 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(4) {
+      #cards #cchest .card:nth-of-type(5) {
         top: 250px;
         left: 620px;
         transform: rotate(-5deg);
@@ -1342,8 +1358,8 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #cchest .card:nth-of-type(5) {
-        top: 220px;
+      #cards #cchest .card:nth-of-type(6) {
+        top: 320px;
         left: 800px;
         transform: rotate(5deg);
         -webkit-transform: rotate(5deg);
@@ -1380,13 +1396,29 @@ header {
       padding-left: 55px;
       font-family: "Yellowtail";
       font-size: 42px; }
+    #cards #chance .cardback {
+      width: 160px;
+      height: 85px;
+      position: absolute;
+      background-color: #f86c00;
+      border: 1px solid #222222;
+      font-family: "Damion";
+      top: 770px;
+      left: 80px;
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg); }
+      #cards #chance .cardback img {
+        height: 60px;
+        margin-top: 10px;
+        margin-left: 65px; }
     #cards #chance .card {
       width: 160px;
       height: 85px;
       position: absolute;
-      background-color: #f2560e;
+      background-color: #f86c00;
       border: 1px solid black; }
-      #cards #chance .card:nth-of-type(1) {
+      #cards #chance .card:nth-of-type(2) {
         top: 680px;
         left: 60px;
         transform: rotate(-5deg);
@@ -1395,7 +1427,7 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(2) {
+      #cards #chance .card:nth-of-type(3) {
         top: 690px;
         left: 240px;
         transform: rotate(3deg);
@@ -1404,8 +1436,8 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(3) {
-        top: 830px;
+      #cards #chance .card:nth-of-type(4) {
+        top: 870px;
         left: 60px;
         transform: rotate(4deg);
         -webkit-transform: rotate(4deg);
@@ -1413,8 +1445,8 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(4) {
-        top: 800px;
+      #cards #chance .card:nth-of-type(5) {
+        top: 830px;
         left: 220px;
         transform: rotate(-4deg);
         -webkit-transform: rotate(-4deg);
@@ -1422,8 +1454,8 @@ header {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
-      #cards #chance .card:nth-of-type(5) {
-        top: 810px;
+      #cards #chance .card:nth-of-type(6) {
+        top: 850px;
         left: 380px;
         transform: rotate(-8deg);
         -webkit-transform: rotate(-8deg);
