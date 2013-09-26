@@ -118,25 +118,24 @@ div#main
 {
 	width:1024px;
 	margin:0px auto;
-}
+  .faq_content
+  {
+  	a
+  	{
+  		text-decoration: none;
+  	}
 
-.faq_content
-{
-	a
-	{
-		text-decoration: none;
-	}
+  	h2
+  	{
+  		margin: 0 0 5px 0;
+  		font-size: 20px;
+  	}
 
-	h2
-	{
-		margin: 0 0 5px 0;
-		font-size: 20px;
-	}
-
-	p
-	{
-		margin: 0 0 40px 25px;
-	}
+  	p
+  	{
+  		margin: 0 0 40px 25px;
+  	}
+  }
 }
 footer
 {
