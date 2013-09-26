@@ -6,7 +6,6 @@
     %link{rel: 'stylesheet', href: 'css/normalize.css'}
     %link{rel: 'stylesheet', href: 'css/style.css'}
   %body
-    %img{src:"images/nashville_index.jpg", alt:'Nashville view'}
     #main
       = Haml::Engine.new(File.read('haml/_header_index.haml')).render
       = Haml::Engine.new(File.read('haml/_footer_index.haml')).render
