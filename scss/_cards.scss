@@ -2,13 +2,131 @@
 $card_width: 160px;
 $card_height: 85px;
 $cchest_header_fsize: 13px;
-$cchest_p_fsize: 6px;
+$cchest_p_fsize: 7px;
+header
+{
+  width: 1024px;
+  height: 220px;
+  background-color: rgb(22, 54, 72);
+  margin: 120px auto 0 auto;
+  #image_holder
+  {
+    height: 20px;
+    img
+    {
+      width: 730px;
+      position: relative;
+      top: -50px;
+      height: 350px;
+      left: 140px;
+      z-index: 0;
+    }
+  }
+  #wrapper1
+  {
+    width: 1024px;
+    height: 30px;
+    background-color: rgb(22, 54, 72);
+  }
+  #wrapper2
+  {
+    width: 1024px;
+    height: 3px;
+    background-color: rgb(116, 109, 83);
+  }
+  #wrapper3
+  {
+    width: 1024px;
+    height: 3px;
+    background-color: rgb(116, 109, 83);
+  }
+  #wrapper4
+  {
+    width: 1024px;
+    height: 30px;
+    background-color: rgb(22, 54, 72);
+  }
+  #nav1
+  {
+    width: 200px;
+    height: 170px;
+    float: left;
+    ul
+    {
+      padding-left: 0;
+      li
+      {
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        margin-left: 30px;
+        border-radius: 6px;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
+        a
+        {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 3px;
+          text-shadow: 1px 1px black;
+        }
+      }
+    }
+  }
+  #nav2
+  {
+    width: 200px;
+    height: 170px;
+    float: right;
+    ul
+    {
+      padding-left: 0;
+      li
+      {
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
+        a
+        {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 3px;
+          text-shadow: 1px 1px black;
+        }
+      }
+    }
+  }
+}
 
 #cards
 {
   width: 100%;
   background-image: url(../images/board_center.png);
+  background-repeat: no-repeat;
   height: 1024px;
+  margin: 60px 0;
 
   #cchest
   {
@@ -24,6 +142,28 @@ $cchest_p_fsize: 6px;
       font-size: 42px;
     }
 
+    .cardback
+    {
+      width: $card_width;
+      height: $card_height;
+      position: absolute;
+      background-color: $cchest_color;
+      border: 1px solid #222222;
+      font-family: "Damion";
+      top: 200px;
+      left: 770px;
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg);
+
+      img
+      {
+        height: 80px;
+        margin-left: 40px;
+      }
+
+    }
+
     .card
     {
       width: $card_width;
@@ -33,29 +173,29 @@ $cchest_p_fsize: 6px;
       border: 1px solid #222222;
       font-family: "Damion";
 
-        &:nth-of-type(1)
+        &:nth-of-type(2)
         {
           @include card_fn(100px, 470px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(2)
+        &:nth-of-type(3)
         {
           @include card_fn(150px, 620px, rotate(7deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(3)
+        &:nth-of-type(4)
         {
           @include card_fn(110px, 780px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(4)
+        &:nth-of-type(5)
         {
           @include card_fn(250px, 620px, rotate(-5deg), all 0.3s ease-in-out);
         }
 
-        &:nth-of-type(5)
+        &:nth-of-type(6)
         {
-          @include card_fn(220px, 800px, rotate(5deg), all 0.3s ease-in-out);
+          @include card_fn(320px, 800px, rotate(5deg), all 0.3s ease-in-out);
         }
 
         &:hover
@@ -72,7 +212,7 @@ $cchest_p_fsize: 6px;
 
         p
         {
-          padding: 0 10px;
+          padding: 0 20px 0 10px;
           margin: 0;
           font-size: $cchest_p_fsize;
           font-family: Patua+One;
@@ -94,6 +234,30 @@ $cchest_p_fsize: 6px;
       font-size: 42px;
     }
 
+    .cardback
+    {
+      width: $card_width;
+      height: $card_height;
+      position: absolute;
+      background-color: $chance_color;
+      border: 1px solid #222222;
+      font-family: "Damion";
+      top: 770px;
+      left: 80px;
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg);
+
+      img
+      {
+        height: 60px;
+        margin-top: 10px;
+        margin-left: 65px;
+      }
+
+    }
+
+
     .card
     {
 
@@ -103,29 +267,29 @@ $cchest_p_fsize: 6px;
       background-color: $chance_color;
       border: 1px solid black;
 
-      &:nth-of-type(1)
+      &:nth-of-type(2)
       {
         @include card_fn(680px, 60px, rotate(-5deg), all 0.3s ease-in-out);
       }
 
-      &:nth-of-type(2)
+      &:nth-of-type(3)
       {
         @include card_fn(690px, 240px, rotate(3deg), all 0.3s ease-in-out);
       }
 
-      &:nth-of-type(3)
-      {
-        @include card_fn(830px, 60px, rotate(4deg), all 0.3s ease-in-out);
-      }
-
       &:nth-of-type(4)
       {
-        @include card_fn(800px, 220px, rotate(-4deg), all 0.3s ease-in-out);
+        @include card_fn(870px, 60px, rotate(4deg), all 0.3s ease-in-out);
       }
 
       &:nth-of-type(5)
       {
-        @include card_fn(810px, 380px, rotate(-8deg), all 0.3s ease-in-out);
+        @include card_fn(830px, 220px, rotate(-4deg), all 0.3s ease-in-out);
+      }
+
+      &:nth-of-type(6)
+      {
+        @include card_fn(850px, 380px, rotate(-8deg), all 0.3s ease-in-out);
       }
 
       &:hover
@@ -148,12 +312,127 @@ $cchest_p_fsize: 6px;
         font-family: "Patua+One";
         font-size: $cchest_p_fsize;
         margin: 0;
-        padding: 0 10px;
+        padding: 0 20px 0 10px;
       }
-
     }
-
-
   }
-
 }
+footer
+{
+  width: 1024px;
+  height: 220px;
+  background-color: rgb(22, 54, 72);
+  margin: 120px auto 0 auto;
+  #image_holder
+  {
+    height: 20px;
+    img
+    {
+      width: 730px;
+      position: relative;
+      top: -50px;
+      height: 350px;
+      left: 140px;
+      z-index: 0;
+    }
+  }
+  #wrapper1
+  {
+    width: 1024px;
+    height: 30px;
+    background-color: rgb(22, 54, 72);
+  }
+  #nav1
+  {
+    width: 300px;
+    height: 70px;
+    float: left;
+    position: relative;
+    bottom: 15px;
+    ul
+    {
+      padding-left: 0;
+      margin: 0;
+      li
+      {
+        display: inline;
+        margin: 5px;
+        list-style-type: none;
+        height: 35px;
+        width: 130px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        margin-left: 30px;
+        border-radius: 6px;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
+        a
+        {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 2px;
+          text-shadow: 1px 1px black;
+        }
+      }
+    }
+  }
+  #nav2
+  {
+    width: 600px;
+    height: 70px;
+    float: right;
+    position: relative;
+    left:100px;
+    bottom: 15px;
+    ul
+    {
+      padding-left: 0;
+      margin: 0;
+      li
+      {
+        padding: 0;
+        display: inline;
+        margin: 8px;
+        list-style-type: inline;
+        height: 35px;
+        width: 145px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
+        a
+        {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 3px;
+          text-shadow: 1px 1px black;
+        }
+      }
+    }
+  }
+}
+p#copywrite
+{
+  font-size: 13px;
+  position: relative;
+  top: 12px;
+  text-align: center;
+}
+
+
+
+

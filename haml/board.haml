@@ -6,167 +6,217 @@
     %link{rel: 'stylesheet', href: '../css/normalize.css'}
     %link{rel: 'stylesheet', href: '../css/style.css'}
   %body
-    #board
-      #top_row
-        .left.corner
-          %img{src:"../images/free_parking.jpg", alt:'free parking'}
-        .horiz_locations
-          #parthenon
-            .price
-              %img{src:"../images/220.png", alt:'Price $220'}
-            %img{src:"../images/parthenon.jpg", alt:'parthenon'}
-            .color
-          .chance
-            %img{src:"../images/chance_top.jpg", alt:'chance'}
-          #montgomery
-            .price
-              %img{src:"../images/220.png", alt:'Price $220'}
-            %img{src:"../images/montgomery_bell.jpg", alt:'montgomery bell'}
-            .color
-          #centennial
-            .price
-              %img{src:"../images/240.png", alt:'Price $240'}
-            %img{src:"../images/centennial.jpg", alt:'centennial park'}
-            .color
-          .university
-            %img{src:"../images/200_top.png", alt:'price 200'}
-            %img{src:"../images/belmont.jpg", alt:'Belmont university'}
-          #hall_of_fame
-            .price
-              %img{src:"../images/260.png", alt:'Price $260'}
-            %img{src:"../images/country_music_hall_of_fame.jpg", alt:'country music hall of fame'}
-            .color
-          #music_city_center
-            .price
-              %img{src:"../images/260.png", alt:'Price $260'}
-            %img{src:"../images/music_city_center.jpg", alt:'music city center'}
-            .color
-          .utility
-            %img{src:"../images/waterworks.png", alt:'waterworks'}
-          #shelby
-            .price
-              %img{src:"../images/280.png", alt:'Price $280'}
-            %img{src:"../images/shelby_park.jpg", alt:'shelby park'}
-            .color
-        .right.corner
-          %img{src:"../images/go_to_jail.jpeg", alt:'go to jail'}
+    #main
+      %header
+        #image_holder
+          %img{src:'../images/nashopoly_logo_full.png', alt:'Nashopoly logo'}
+        #wrapper1
+        #wrapper2
+          %navigation#nav1
+            %ul
+              %li
+                %a{href:"../index.html"}HOME
+              %li
+                %a{href:"board.html"}BOARD
+              %li
+                %a{href:"cards.html"}CARDS
+          %navigation#nav2
+            %ul
+              %li
+                %a{href:"pieces.html"}PIECES
+              %li
+                %a{href:"faq.html"}FAQS
+              %li
+                %a{href:"contact.html"}CONTACT
         .clear
-      #middle_row
-        .left.vert_locations
-          #rca
-            .price
+        #wrapper3
+        #wrapper4
+      #board
+        #top_row
+          .left.corner
+            %img{src:"../images/free_parking.jpg", alt:'free parking'}
+          .horiz_locations
+            #parthenon.art
+              .price
+                %img{src:"../images/220.png", alt:'Price $220'}
+              %img{src:"../images/parthenon.jpg", alt:'parthenon'}
+              .color
+            .chance
+              %img{src:"../images/chance_top.jpg", alt:'chance'}
+            #montgomery.art
+              .price
+                %img{src:"../images/220.png", alt:'Price $220'}
+              %img{src:"../images/montgomery_bell.jpg", alt:'montgomery bell'}
+              .color
+            #centennial.art
+              .price
+                %img{src:"../images/240.png", alt:'Price $240'}
+              %img{src:"../images/centennial.jpg", alt:'centennial park'}
+              .color
+            .university
+              %img{src:"../images/200_top.png", alt:'price 200'}
+              %img{src:"../images/belmont.jpg", alt:'Belmont university'}
+            #hall_of_fame.art
+              .price
+                %img{src:"../images/260.png", alt:'Price $260'}
+              %img{src:"../images/country_music_hall_of_fame.jpg", alt:'country music hall of fame'}
+              .color
+            #music_city_center.art
+              .price
+                %img{src:"../images/260.png", alt:'Price $260'}
+              %img{src:"../images/music_city_center.jpg", alt:'music city center'}
+              .color
+            .utility
+              %img{src:"../images/waterworks.png", alt:'waterworks'}
+            #shelby.art
+              .price
+                %img{src:"../images/280.png", alt:'Price $280'}
+              %img{src:"../images/shelby_park.jpg", alt:'shelby park'}
+              .color
+          .right.corner
+            %img{src:"../images/go_to_jail.jpeg", alt:'go to jail'}
+          .clear
+        #middle_row
+          .left.vert_locations
+            #rca
+              .price
+                %img{src:"../images/200_left.png", alt:'Price $200'}
+              %img{src:"../images/rca_studio_b.png", alt:'RCA studio B'}
+              .color
+            #wpln
+              .price
+                %img{src:"../images/180.png", alt:'Price $180'}
+              %img{src:"../images/wpln.jpg", alt:'WPLN'}
+              .color
+            .community_chest
+              %img{src:"../images/community_chest_left.png", alt:'Community chest'}
+            #belmont
+              .price
+                %img{src:"../images/180.png", alt:'Price $180'}
+              %img{src:"../images/belmont_music.jpg", alt:'belmont music school'}
+              .color
+            .university
               %img{src:"../images/200_left.png", alt:'Price $200'}
-            %img{src:"../images/rca_studio_b.png", alt:'RCA studio B'}
-            .color
-          #wpln
-            .price
-              %img{src:"../images/180.png", alt:'Price $180'}
-            %img{src:"../images/wpln.jpg", alt:'WPLN'}
-            .color
-          .community_chest
-            %img{src:"../images/community_chest_left.png", alt:'Community chest'}
-          #belmont
-            .price
-              %img{src:"../images/180.png", alt:'Price $180'}
-            %img{src:"../images/belmont_music.jpg", alt:'belmont music school'}
-            .color
-          .university
-            %img{src:"../images/200_left.png", alt:'Price $200'}
-            %img{src:"../images/trevecca.jpg", alt:'Trevecca university'}
-          #donut
-            .price
-              %img{src:"../images/160.png", alt:'Price $160'}
-            %img{src:"../images/donut_den.jpg", alt:'donut den'}
-            .color
-          #smoke
-            .price
-              %img{src:"../images/140.png", alt:'Price $140'}
-            %img{src:"../images/smoke_shop.jpg", alt:'uptowns smoke shop'}
-            .color
-          .utility
-            %img{src:"../images/electric_company.png", alt:'electric company'}
-          #bluebird
-            .price
-              %img{src:"../images/140.png", alt:'Price $140'}
-            %img{src:"../images/bluebird_cafe.jpg", alt:'parthenon'}
-            .color
-        #center
-          %img{src:"../images/board_center.png", alt:'nashopoly logo'}
-        .right.vert_locations
-          #union
-            .color
-            %img{src:"../images/union_station.jpg", alt:'union station'}
-            .price
-              %img{src:"../images/300.png", alt:'Price $300'}
-          #frist
-            .color
-            %img{src:"../images/frist.jpg", alt:'frist art center'}
-            .price
-              %img{src:"../images/300.png", alt:'Price $300'}
-          .community_chest
-            %img{src:"../images/community_chest_right.png", alt:'Community chest'}
-          #ryman
-            .color
-            %img{src:"../images/ryman.jpg", alt:'ryman auditorium'}
-            .price
-              %img{src:"../images/320.png", alt:'Price $320'}
-          .university
-            %img{src:"../images/lipscomb.jpg", alt:'Lipscomb university'}
-            %img{src:"../images/200_right.png", alt:'Price 200'}
-          .chance
-            %img{src:"../images/chance_right.jpg", alt:'chance'}
-          #hermitage
-            .color
-            %img{src:"../images/hermitage.jpg", alt:'hermitage'}
-            .price
-              %img{src:"../images/360.png", alt:'Price $360'}
-          .tax
-
-          #plantation
-            .color
-            %img{src:"../images/belle_meade_plantation.jpg", alt:'belle meade plantation'}
-            .price
-              %img{src:"../images/400.png", alt:'Price $400'}
-        .clear
-      #bottom_row
-        .left.corner
-          %img{src:'../images/just_visiting.jpg', alt:'just visiting'}
-        .horiz_locations
-          #mere_bulles
-            .color
-            %img{src:"../images/mere_bulles.jpg", alt:'mere bulles'}
-            .price
-              %img{src:"../images/120.png", alt:'Price $120'}
-          #percy_warner
-            .color
-            %img{src:"../images/percey_warner.jpg", alt:'percy warner park'}
-            .price
-              %img{src:"../images/100.png", alt:'Price $100'}
-          .chance
-            %img{src:"../images/chance_bottom.jpg", alt:'chance'}
-          #radnor
-            .color
-            %img{src:"../images/radnor.jpg", alt:'radnor lake'}
-            .price
-              %img{src:"../images/100.png", alt:'Price $100'}
-          .university
-            %img{src:"../images/vanderbilt.jpg", alt:'Vanderbilt university'}
-            %img{src:"../images/200_bottom.png", alt:'Price $200'}
-          .tax
-            %img
-            %p
-          #zoo
-            .color
-            %img{src:"../images/zoo.jpg", alt:'zoo'}
-            .price
-              %img{src:"../images/60.png", alt:'Price $60'}
-          .community_chest
-            %img{src:"../images/community_chest.png", alt:'Community chest'}
-          #bobbys
-            .color
-            %img{src:"../images/bobbys_dairy_dip.jpg", alt:'parthenon'}
-            .price
-              %img{src:"../images/60.png", alt:'Price $60'}
-        .right.corner
-          %img{src:'../images/go.jpg', alt:'go'}
-        .clear
+              %img{src:"../images/trevecca.jpg", alt:'Trevecca university'}
+            #donut
+              .price
+                %img{src:"../images/160.png", alt:'Price $160'}
+              %img{src:"../images/donut_den.jpg", alt:'donut den'}
+              .color
+            #smoke
+              .price
+                %img{src:"../images/140.png", alt:'Price $140'}
+              %img{src:"../images/smoke_shop.jpg", alt:'uptowns smoke shop'}
+              .color
+            .utility
+              %img{src:"../images/electric_company.png", alt:'electric company'}
+            #bluebird
+              .price
+                %img{src:"../images/140.png", alt:'Price $140'}
+              %img{src:"../images/bluebird_cafe.jpg", alt:'parthenon'}
+              .color
+          #center
+            %img{src:"../images/board_center.png", alt:'nashopoly logo'}
+          .right.vert_locations
+            #union
+              .color
+              %img{src:"../images/union_station.jpg", alt:'union station'}
+              .price
+                %img{src:"../images/300.png", alt:'Price $300'}
+            #frist
+              .color
+              %img{src:"../images/frist.jpg", alt:'frist art center'}
+              .price
+                %img{src:"../images/300.png", alt:'Price $300'}
+            .community_chest
+              %img{src:"../images/community_chest_right.png", alt:'Community chest'}
+            #ryman
+              .color
+              %img{src:"../images/ryman.jpg", alt:'ryman auditorium'}
+              .price
+                %img{src:"../images/320.png", alt:'Price $320'}
+            .university
+              %img{src:"../images/lipscomb.jpg", alt:'Lipscomb university'}
+              %img{src:"../images/200_right.png", alt:'Price 200'}
+            .chance
+              %img{src:"../images/chance_right.jpg", alt:'chance'}
+            #hermitage
+              .color
+              %img{src:"../images/hermitage.jpg", alt:'hermitage'}
+              .price
+                %img{src:"../images/360.png", alt:'Price $360'}
+            .tax
+              %img{src:"../images/luxury_tax.png", alt:'luxury tax'}
+            #plantation
+              .color
+              %img{src:"../images/belle_meade_plantation.jpg", alt:'belle meade plantation'}
+              .price
+                %img{src:"../images/400.png", alt:'Price $400'}
+          .clear
+        #bottom_row
+          .left.corner
+            %img{src:'../images/just_visiting.jpg', alt:'just visiting'}
+          .horiz_locations
+            #mere_bulles
+              .color
+              %img{src:"../images/mere_bulles.jpg", alt:'mere bulles'}
+              .price
+                %img{src:"../images/120.png", alt:'Price $120'}
+            #percy_warner
+              .color
+              %img{src:"../images/percey_warner.jpg", alt:'percy warner park'}
+              .price
+                %img{src:"../images/100.png", alt:'Price $100'}
+            .chance
+              %img{src:"../images/chance_bottom.jpg", alt:'chance'}
+            #radnor
+              .color
+              %img{src:"../images/radnor.jpg", alt:'radnor lake'}
+              .price
+                %img{src:"../images/100.png", alt:'Price $100'}
+            .university
+              %img{src:"../images/vanderbilt.jpg", alt:'Vanderbilt university'}
+              %img{src:"../images/200_bottom.png", alt:'Price $200'}
+            .tax
+              %p INCOME
+              %p TAX
+              %img{src:"../images/diamond.png", alt:'diamond shape'}
+              %p PAY 10%
+              %p OR $200
+            #zoo
+              .color
+              %img{src:"../images/zoo.jpg", alt:'zoo'}
+              .price
+                %img{src:"../images/60.png", alt:'Price $60'}
+            .community_chest
+              %img{src:"../images/community_chest.png", alt:'Community chest'}
+            #bobbys
+              .color
+              %img{src:"../images/bobbys_dairy_dip.jpg", alt:'parthenon'}
+              .price
+                %img{src:"../images/60.png", alt:'Price $60'}
+          .right.corner
+            %img{src:'../images/go.jpg', alt:'go'}
+          .clear
+    %footer
+      #image_holder
+        %img{src:'../images/nashopoly_logo_small.png', alt:'Nashopoly logo'}
+      #wrapper1
+        %navigation#nav1
+          %ul
+            %li
+              %a{href:"../index.html"}HOME
+            %li
+              %a{href:"board.html"}BOARD
+        %navigation#nav2
+          %ul
+            %li
+              %a{href:"cards.html"}CARDS
+            %li
+              %a{href:"pieces.html"}PIECES
+            %li
+              %a{href:"faq.html"}FAQS
+            %li
+              %a{href:"contact.html"}CONTACT
+      .clear
+    %p#copywrite (c) 2013 WAG PRODUCTIONS

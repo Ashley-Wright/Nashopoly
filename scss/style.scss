@@ -2,13 +2,13 @@
 @import 'fonts';
 @import 'functions';
 @import 'header';
-@import 'footer';
 
 #main
 {
   width: 1024px;
   margin: auto;
-  // background-color: blue;
+  // background-image: src="images/nashville_index.jpg";
+  font-family: Roboto+Slab;
 }
 
 .clear
@@ -22,5 +22,6 @@
 @import 'cards';
 @import 'faq';
 @import 'contact';
+@import 'footer';
 
 

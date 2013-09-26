@@ -1,0 +1,120 @@
+header
+{
+  width: 1024px;
+  height: 220px;
+  background-color: rgb(22, 54, 72);
+  margin: 120px auto 0 auto;
+  #image_holder
+  {
+    height: 20px;
+    img
+    {
+      width: 730px;
+      position: relative;
+      top: -50px;
+      height: 350px;
+      left: 140px;
+      z-index: 0;
+    }
+  }
+  #wrapper1
+  {
+    width: 1024px;
+    height: 30px;
+    background-color: rgb(22, 54, 72);
+  }
+  #wrapper2
+  {
+    width: 1024px;
+    height: 3px;
+    background-color: rgb(116, 109, 83);
+  }
+  #wrapper3
+  {
+    width: 1024px;
+    height: 3px;
+    background-color: rgb(116, 109, 83);
+  }
+  #wrapper4
+  {
+    width: 1024px;
+    height: 30px;
+    background-color: rgb(22, 54, 72);
+  }
+  #nav1
+  {
+    width: 200px;
+    height: 170px;
+    float: left;
+    ul
+    {
+      padding-left: 0;
+      li
+      {
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        margin-left: 30px;
+        border-radius: 6px;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
+        a
+        {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 3px;
+          text-shadow: 1px 1px black;
+        }
+      }
+    }
+  }
+  #nav2
+  {
+    width: 200px;
+    height: 170px;
+    float: right;
+    ul
+    {
+      padding-left: 0;
+      li
+      {
+        margin: 15px;
+        list-style-type: none;
+        height: 35px;
+        width: 145px;
+        border: 1px solid rgb(110, 39, 20);
+        text-align: center;
+        border-radius: 6px;
+        z-index: 1;
+        &:hover
+          {
+            background-color: rgb(110, 39, 20);
+            box-shadow: 1px 1px rgb(185, 177, 145);
+          }
+        a
+        {
+          font-family: 'Poiret One', cursive;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 30px;
+          color: rgb(185, 177, 145);
+          padding: 3px;
+          text-shadow: 1px 1px black;
+        }
+      }
+    }
+  }
+}
+
+
+
+
