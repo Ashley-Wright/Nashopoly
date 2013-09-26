@@ -118,10 +118,10 @@ header
 #contact
 {
   margin-top: 60px;
-  background-image: url(../images/nashville2.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
+  // background-image: url(../images/nashville2.jpg);
+  // background-repeat: no-repeat;
+  // background-position: top center;
+  // background-size: 100% auto;
   // opacity: 0.5;
 
   h1
@@ -144,9 +144,10 @@ header
       // background-color: blue;
       margin: 0 28px;
 
+
       img
       {
-        width: 200px;
+        height: 300px;
       }
 
       h3
@@ -165,6 +166,20 @@ header
   form
   {
     padding-left: 23px;
+
+    p
+    {
+      input
+      {
+        opacity: 0.5;
+      }
+    }
+
+    textarea
+    {
+      opacity: 0.5;
+    }
+
 
     p:nth-of-type(4)
     {
