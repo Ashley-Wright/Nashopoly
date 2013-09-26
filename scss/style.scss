@@ -21,6 +21,14 @@ body
   clear:both;
 }
 
+footer
+{
+	p{
+		text-align:center;
+		color:white;
+	}
+}
+
 @import 'home';
 @import 'board';
 @import 'pieces';
