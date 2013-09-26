@@ -682,20 +682,21 @@ div#nav {
   width: 1024px; }
 
 .pieces_right_section {
-  width: 1004px;
+  width: 984px;
   height: 300px;
   background-color: #00a89d;
   color: white;
   padding-top: 30px;
-  padding-left: 20px; }
-  .pieces_right_section .description {
-    display: inline-block;
-    width: 500px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .pieces_right_section h2 {
+    width: 400px;
+    border: solid 1px white;
     float: right; }
-    .pieces_right_section .description h2 {
-      width: 400px; }
-    .pieces_right_section .description p {
-      width: 400px; }
+  .pieces_right_section p {
+    width: 400px;
+    border: solid 1px white;
+    float: right; }
 
 .pieces_left_section {
   width: 1004px;
@@ -705,9 +706,11 @@ div#nav {
   padding-top: 30px;
   padding-left: 20px; }
   .pieces_left_section h2 {
-    width: 400px; }
+    width: 400px;
+    border: solid 1px white; }
   .pieces_left_section p {
-    width: 400px; }
+    width: 400px;
+    border: solid 1px white; }
 
 footer {
   width: 1024px;
@@ -888,7 +891,6 @@ footer #image_container {
         margin: 0;
         padding: 0 10px; }
 
-<<<<<<< HEAD
 div#content {
   width: 1024px;
   margin: 0px auto; }
@@ -925,7 +927,7 @@ footer {
       footer ul li a {
         color: white;
         font-family: "Patua+One"; }
-=======
+
 #contact
 .person {
   width: 340px;
@@ -934,4 +936,3 @@ footer {
   #contact
   .person img {
     width: 200px; }
->>>>>>> 5340b0284786a466f4aa21fb07dc819d708cd2e4
