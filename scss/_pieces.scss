@@ -186,7 +186,7 @@ div#main
 
 	img
 	{
-		float: left;
+		// float: right;
 		width: 200px;
 		padding-left: 120px;
 		padding-top: 30px;
@@ -196,7 +196,7 @@ div#main
 {
 	width:1004px;
 	height:250px;
-	background-color:$green;
+	background-color:$teal;
 	color:white;
 	padding-top:30px;
 	padding-left:20px;
@@ -205,7 +205,7 @@ div#main
 	{
 		border:solid 1px white;
 		width: 450px;
-		float: left;
+		// float: left;
 		padding: 10px 10px 10px 60px;
 
 		h2
@@ -219,7 +219,7 @@ div#main
 	{
 		width: 400px;
 		border:solid 1px white;
-		float: right;
+		// float: right;
 		padding: 20px 120px 10px 10px;
 	}
 
@@ -353,5 +353,29 @@ p#copywrite
   text-align: center;
 }
 }
+
+}
+
+.pieces_section
+{
+
+  width: 1000px;
+  margin:0px 20px 40px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding:10px;
+
+
+    .description
+    {
+      width: 600px;
+      float:left;
+      font-family: 'Poiret One', cursive;
+      color: white;
+    }
+
+    img
+    {
+      float:right;
+    }
 
 }

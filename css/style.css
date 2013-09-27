@@ -103,6 +103,13 @@ footer p {
   text-align: center;
   color: white; }
 
+#video_container {
+  width: 500px;
+  margin: 100px auto 50px auto; }
+  #video_container iframe {
+    border: outset 10px #f22a39;
+    box-shadow: 0px 10px 20px black; }
+
 header {
   width: 1024px;
   height: 220px;
@@ -1016,28 +1023,25 @@ div#main {
         border: solid 1px white;
         float: right; }
     .pieces_right_section h2 img {
-      float: left;
       width: 200px;
       padding-left: 120px;
       padding-top: 30px; }
   .pieces_right_section .pieces_left_section {
     width: 1004px;
     height: 250px;
-    background-color: #7ac943;
+    background-color: #00a89d;
     color: white;
     padding-top: 30px;
     padding-left: 20px; }
     .pieces_right_section .pieces_left_section .description {
       border: solid 1px white;
       width: 450px;
-      float: left;
       padding: 10px 10px 10px 60px; }
       .pieces_right_section .pieces_left_section .description h2 {
         margin: 0; }
     .pieces_right_section .pieces_left_section img {
       width: 400px;
       border: solid 1px white;
-      float: right;
       padding: 20px 120px 10px 10px; }
     .pieces_right_section .pieces_left_section img#guitar {
       height: 180px; }
@@ -1130,6 +1134,19 @@ div#main {
       position: relative;
       top: 12px;
       text-align: center; }
+
+.pieces_section {
+  width: 1000px;
+  margin: 0px 20px 40px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px; }
+  .pieces_section .description {
+    width: 600px;
+    float: left;
+    font-family: 'Poiret One', cursive;
+    color: white; }
+  .pieces_section img {
+    float: right; }
 
 header {
   width: 1024px;
