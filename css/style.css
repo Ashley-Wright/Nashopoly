@@ -1608,6 +1608,9 @@ header {
       padding: 0px;
       width: 280px;
       margin: 0 28px; }
+      #contact ul li:nth-of-type(2) {
+        position: relative;
+        right: 50px; }
       #contact ul li img {
         height: 300px; }
       #contact ul li h3 {

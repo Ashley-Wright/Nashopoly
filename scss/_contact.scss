@@ -143,6 +143,11 @@ header
       // float: left;
       // background-color: blue;
       margin: 0 28px;
+      &:nth-of-type(2)
+      {
+        position: relative;
+        right: 50px;
+      }
 
 
       img
