@@ -26,10 +26,11 @@ footer
 	p{
 		text-align:center;
 		color:white;
+    position: relative;
+    top: 150px;
 	}
 }
 
-<<<<<<< HEAD
 #video_container
 {
 	width:500px;
@@ -41,9 +42,6 @@ footer
 		box-shadow:0px 10px 20px black;
 	}
 }
-
-=======
->>>>>>> e3b74cfdab4fef6fb8b27b688e3a5108eb0df7a6
 
 @import 'home';
 @import 'board';
